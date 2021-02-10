@@ -28,6 +28,8 @@ var tache3 = creerBrancheDeTache(fonctionnalite5, "t_6613-certicode-plus-stripe"
 var fonctionnalite6 = creerBrancheDeFonctionnalite("f_gestion_cookies");
 var tache4 = creerBrancheDeTache(fonctionnalite6, "6385_gestion-cookies-mode-connecte");
 var anomalie3 = creerBrancheAnomalie(integration, "a_6983-iard-vignette-principale");
+var fonctionnalite7 = creerBrancheDeFonctionnalite("f_C+Amelioration-Enrolement");
+var tache5 = creerBrancheDeTache(fonctionnalite7, "t_6917-certicode-plus-code-otp-sms");
 
 
 
