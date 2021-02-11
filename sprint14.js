@@ -46,5 +46,6 @@ fonctionnalite6.merge(tache4);
 // Merge branche sprint
 brancheSprint.merge(fonctionnalite3);
 brancheSprint.merge(fonctionnalite4);
+brancheSprint.merge(fonctionnalite6);
 
 // FUSION aprés DEMO
