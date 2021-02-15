@@ -40,6 +40,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s03");
 // MERGES --------------------
 fonctionnalite3.merge(tache1);
 fonctionnalite6.merge(tache4);
+fonctionnalite5.merge(tache3);
 
 
 
@@ -49,5 +50,6 @@ brancheSprint.merge(fonctionnalite4);
 brancheSprint.merge(fonctionnalite6);
 brancheSprint.merge(anomalie3);
 brancheSprint.merge(ano5705);
+brancheSprint.merge(fonctionnalite5);
 
 // FUSION aprés DEMO
