@@ -53,3 +53,9 @@ brancheSprint.merge(ano5705);
 brancheSprint.merge(fonctionnalite5);
 
 // FUSION aprés DEMO
+creerMerge(integration, ano5705);
+creerMerge(integration, fonctionnalite3);
+creerMerge(integration, fonctionnalite4);
+creerMerge(integration, fonctionnalite5);
+creerMerge(integration, anomalie3);
+
