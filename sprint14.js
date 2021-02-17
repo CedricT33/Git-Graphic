@@ -59,4 +59,4 @@ creerMerge(integration, fonctionnalite3);
 creerMerge(integration, fonctionnalite4);
 creerMerge(integration, fonctionnalite5);
 creerMerge(integration, anomalie3);
-
+integration.commit("V21.01.00.910 et 911"); // tag
