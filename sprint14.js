@@ -51,6 +51,7 @@ brancheSprint.merge(fonctionnalite6);
 brancheSprint.merge(anomalie3);
 brancheSprint.merge(ano5705);
 brancheSprint.merge(fonctionnalite5);
+brancheSprint.commit("V21.01.00.230"); // tag
 
 // FUSION aprés DEMO
 creerMerge(integration, ano5705);
