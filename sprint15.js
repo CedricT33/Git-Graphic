@@ -13,6 +13,7 @@ var ano6782 = creerBrancheAnomalie(fonctionnalite1, "a_6782 (Simplification Noti
 var ano6786 = creerBrancheAnomalie(fonctionnalite1, "a_6786 (Simplification Notifs)");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_tu_chrome_headless");
 
+var ano7290 = creerBrancheAnomalie(integration, "a_7290-Bic_repetition");
 
 // Branche SPRINT
 
