@@ -14,6 +14,7 @@ var ano6786 = creerBrancheAnomalie(fonctionnalite1, "a_6786 (Simplification Noti
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_tu_chrome_headless");
 
 var ano7290 = creerBrancheAnomalie(integration, "a_7290-Bic_repetition");
+var ano7294 = creerBrancheAnomalie(integration, "a_7294-Stripes_inactives_agregateur");
 
 // Branche SPRINT
 
