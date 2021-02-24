@@ -21,3 +21,4 @@ var ano7108 = creerBrancheAnomalie(integration, "a_7108_service_indisponible_das
 // MERGES --------------------
 creerMerge(integration, ano7140);
 creerMerge(integration, ano7290);
+integration.commit("V21.01.00.912 et 913"); // tag
