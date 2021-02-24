@@ -17,13 +17,6 @@ var ano7294 = creerBrancheAnomalie(integration, "a_7294-Stripes_inactives_agrega
 var ano7140 = creerBrancheAnomalie(integration, "a_7140_ouverture_notification");
 var ano7108 = creerBrancheAnomalie(integration, "a_7108_service_indisponible_dashboard");
 
-// Branche SPRINT
-
 
 // MERGES --------------------
-
-
-// Merge branche sprint
-
-
-// FUSION aprés DEMO
+creerMerge(integration, ano7140);
