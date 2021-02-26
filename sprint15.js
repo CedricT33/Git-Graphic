@@ -16,6 +16,7 @@ var ano7290 = creerBrancheAnomalie(integration, "a_7290-Bic_repetition");
 var ano7294 = creerBrancheAnomalie(integration, "a_7294-Stripes_inactives_agregateur");
 var ano7140 = creerBrancheAnomalie(integration, "a_7140_ouverture_notification");
 var ano7108 = creerBrancheAnomalie(integration, "a_7108_service_indisponible_dashboard");
+var ano7503 = creerBrancheAnomalie(integration, "a_7503_popin_cvs");
 
 
 // MERGES --------------------
