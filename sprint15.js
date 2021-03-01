@@ -17,8 +17,6 @@ var ano7294 = creerBrancheAnomalie(integration, "a_7294-Stripes_inactives_agrega
 var ano7140 = creerBrancheAnomalie(integration, "a_7140_ouverture_notification");
 var ano7108 = creerBrancheAnomalie(integration, "a_7108_service_indisponible_dashboard");
 var ano7503 = creerBrancheAnomalie(integration, "a_7503_popin_cvs");
-var fonctionnalite3 = creerBrancheDeFonctionnalite("f_lbpf");
-var tache1 = creerBrancheDeTache(fonctionnalite3, "t_6963-lbpf-ajout-url-debranchement-dans-gcp-et-service");
 
 
 // MERGES --------------------
