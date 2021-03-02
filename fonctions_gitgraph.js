@@ -46,6 +46,17 @@ function creerBrancheMaster(sprint) {
     return master;
 }
 
+function creerBrancheMasterQH7(sprint) {
+    var master = sprint.branch({
+        name: "[QH7] master",
+        style: {
+            color: ""
+        }
+    });
+    master.commit("start");
+    return master;
+}
+
 function creerBrancheIntegration(nom) {
     var integration = master.branch({
         name: nom,
