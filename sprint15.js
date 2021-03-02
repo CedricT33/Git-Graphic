@@ -23,3 +23,24 @@ var ano7503 = creerBrancheAnomalie(integration, "a_7503_popin_cvs");
 creerMerge(integration, ano7140);
 creerMerge(integration, ano7290);
 integration.commit("V21.01.00.912 et 913"); // tag
+
+
+
+//-------------------------QH7---------------------------//
+
+
+// On instancie le graph dans le conteneur.
+var sprint15b = creerGitGraph("graph-container-15b");
+
+// Branche MASTER
+var masterQH7 = creerBrancheMasterQH7(sprint15b);
+
+var integrationQH7 = masterQH7.branch("integration_0_10");
+integrationQH7.commit("start");
+
+// Branches FONCTIONNALITE et TACHES
+
+
+// MERGES --------------------
+
+
