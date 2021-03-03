@@ -19,6 +19,8 @@ var ano7108 = creerBrancheAnomalie(integration, "a_7108_service_indisponible_das
 var ano7503 = creerBrancheAnomalie(integration, "a_7503_popin_cvs");
 var ano7556 = creerBrancheAnomalie(integration, "a_7556-perso-carte-chevron-back-ko");
 
+var fonctionnalite3 = creerBrancheDeFonctionnalite("f_gestion_cookies");
+var tache1 = creerBrancheDeTache(fonctionnalite3, "t_7212-tags-cookies-et-stripe-certicode-plus-accueil-non-connecte)");
 
 // MERGES --------------------
 creerMerge(integration, ano7140);
