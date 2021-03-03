@@ -24,6 +24,7 @@ var ano7556 = creerBrancheAnomalie(integration, "a_7556-perso-carte-chevron-back
 creerMerge(integration, ano7140);
 creerMerge(integration, ano7290);
 integration.commit("V21.01.00.912 et 913"); // tag
+creerMerge(integration, ano7556);
 
 
 
