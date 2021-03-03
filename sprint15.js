@@ -42,6 +42,7 @@ var integrationQH7 = masterQH7.branch("integration_0_10");
 integrationQH7.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
+var tache6963 = creerBrancheDeTache(integrationQH7, "t6963-modification-gcp-et-service-token-lbpf");
 
 
 // MERGES --------------------
