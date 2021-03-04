@@ -18,6 +18,7 @@ var ano7140 = creerBrancheAnomalie(integration, "a_7140_ouverture_notification")
 var ano7108 = creerBrancheAnomalie(integration, "a_7108_service_indisponible_dashboard");
 var ano7503 = creerBrancheAnomalie(integration, "a_7503_popin_cvs");
 var ano7556 = creerBrancheAnomalie(integration, "a_7556-perso-carte-chevron-back-ko");
+var ano7534 = creerBrancheAnomalie(integration, "a_7534_popin_indispo_dsp2");
 
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_gestion_cookies");
 var tache1 = creerBrancheDeTache(fonctionnalite3, "t_7212-tags-cookies-et-stripe-certicode-plus-accueil-non-connecte)");
