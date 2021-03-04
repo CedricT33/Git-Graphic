@@ -26,6 +26,7 @@ var tache1 = creerBrancheDeTache(fonctionnalite3, "t_7212-tags-cookies-et-stripe
 creerMerge(integration, ano7140);
 creerMerge(integration, ano7290);
 integration.commit("V21.01.00.912 et 913"); // tag
+creerMerge(integration, ano7503);
 creerMerge(integration, ano7556);
 
 
