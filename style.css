@@ -113,7 +113,6 @@ li, li a {
 }
 
 [id^="graph-container-"] {
-    height: calc(100vh - 107px);
     width: calc(100vw - 8em);
     overflow: auto;
 }
