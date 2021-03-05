@@ -19,12 +19,13 @@ var ano7108 = creerBrancheAnomalie(integration, "a_7108_service_indisponible_das
 var ano7503 = creerBrancheAnomalie(integration, "a_7503_popin_cvs");
 var ano7556 = creerBrancheAnomalie(integration, "a_7556-perso-carte-chevron-back-ko");
 var ano7534 = creerBrancheAnomalie(integration, "a_7534_popin_indispo_dsp2");
-
+var ano7699 = creerBrancheAnomalie(integration, "a_7699_af_plus_90_dashboard");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_gestion_cookies");
 var tache1 = creerBrancheDeTache(fonctionnalite3, "t_7212-tags-cookies-et-stripe-certicode-plus-accueil-non-connecte");
-
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_IARD");
 var tache2 = creerBrancheDeTache(fonctionnalite4, "t_6007-whitelisting");
+
+
 
 // MERGES --------------------
 creerMerge(integration, ano7140);
