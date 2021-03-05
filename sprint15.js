@@ -50,5 +50,5 @@ var tache6963 = creerBrancheDeTache(integrationQH7, "t6963-modification-gcp-et-s
 
 
 // MERGES --------------------
-
+creerMerge(integrationQH7, tache6963);
 
