@@ -11,6 +11,7 @@ integration.commit("start");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
 var ano6782 = creerBrancheAnomalie(fonctionnalite1, "a_6782 (Simplification Notifs)");
 var ano6786 = creerBrancheAnomalie(fonctionnalite1, "a_6786 (Simplification Notifs)");
+var ano6786_6782 = creerBrancheAnomalie(fonctionnalite1, "a_6786_6782 (Simplification Notifs)");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_tu_chrome_headless");
 var ano7290 = creerBrancheAnomalie(integration, "a_7290-Bic_repetition");
 var ano7294 = creerBrancheAnomalie(integration, "a_7294-Stripes_inactives_agregateur");
