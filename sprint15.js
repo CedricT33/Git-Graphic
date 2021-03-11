@@ -27,6 +27,8 @@ var fonctionnalite3 = creerBrancheDeFonctionnalite("f_gestion_cookies");
 var tache1 = creerBrancheDeTache(fonctionnalite3, "t_7212-tags-cookies-et-stripe-certicode-plus-accueil-non-connecte");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_IARD");
 var tache2 = creerBrancheDeTache(fonctionnalite4, "t_6007-whitelisting");
+var fonctionnalite4 = creerBrancheDeFonctionnalite("f_LBPF");
+var tache2 = creerBrancheDeTache(fonctionnalite4, "t_7431-lbpf-evenement");
 
 
 
