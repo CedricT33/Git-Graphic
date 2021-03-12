@@ -29,6 +29,8 @@ var fonctionnalite4 = creerBrancheDeFonctionnalite("f_IARD");
 var tache2 = creerBrancheDeTache(fonctionnalite4, "t_6007-whitelisting");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_LBPF");
 var tache3 = creerBrancheDeTache(fonctionnalite5, "t_7431-lbpf-evenement");
+var fonctionnalite6 = creerBrancheDeFonctionnalite("f_C+");
+var tache4 = creerBrancheDeTache(fonctionnalite6, "t_7814-tag-popin-selfcare");
 
 
 
