@@ -50,6 +50,7 @@ creerMerge(ano6786_6782, ano6786);
 creerMerge(ano6786_6782, ano6782);
 creerMerge(fonctionnalite1, ano6786_6782);
 creerMerge(fonctionnalite3, tache1);
+creerMerge(fonctionnalite4, tache2);
 
 
 
