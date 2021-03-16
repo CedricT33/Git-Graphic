@@ -31,6 +31,7 @@ var fonctionnalite5 = creerBrancheDeFonctionnalite("f_LBPF");
 var tache3 = creerBrancheDeTache(fonctionnalite5, "t_7431-lbpf-evenement");
 var fonctionnalite6 = creerBrancheDeFonctionnalite("f_C+");
 var tache4 = creerBrancheDeTache(fonctionnalite6, "t_7814-tag-popin-selfcare");
+var ano7887=creerBrancheAnomalie(integration, "a_picto_c_plus_non_login_7887");
 
 
 
