@@ -45,6 +45,7 @@ creerMerge(integration, ano7556);
 integration.commit("V21.01.00.914 et 915"); // tag
 creerMerge(integration, ano7534);
 creerMerge(integration, ano7699);
+creerMerge(integration, ano7918);
 creerMerge(integration, ano7847);
 creerMerge(integration, ano7108);
 integration.commit("V21.01.00.916 et 917"); // tag
