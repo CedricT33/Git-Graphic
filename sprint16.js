@@ -13,6 +13,9 @@ var tache1 = creerBrancheDeTache(fonctionnalite1, "t_6917-certicode-plus-code-ot
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_C+");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "t_7814-tag-popin-selfcare");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_gestion_cookies");
+var fonctionnalite4 = creerBrancheDeFonctionnalite("f_LBPF");
+var tache3 = creerBrancheDeTache(fonctionnalite4, "t_7431-lbpf-evenement");
+var tache4 = creerBrancheDeTache(fonctionnalite4, "t_6963-generer-token-lbpf (5296)");
 
 
 // Branche SPRINT
