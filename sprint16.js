@@ -12,6 +12,7 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_C+Amelioration-Enrolement"
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_6917-certicode-plus-code-otp-sms");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_C+");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "t_7814-tag-popin-selfcare");
+var fonctionnalite3 = creerBrancheDeFonctionnalite("f_gestion_cookies");
 
 
 // Branche SPRINT
