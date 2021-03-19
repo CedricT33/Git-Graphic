@@ -16,7 +16,7 @@ var fonctionnalite3 = creerBrancheDeFonctionnalite("f_gestion_cookies");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_LBPF");
 var tache3 = creerBrancheDeTache(fonctionnalite4, "t_7431-lbpf-evenement");
 var tache4 = creerBrancheDeTache(fonctionnalite4, "t_6963-generer-token-lbpf (5296)");
-var tache5 = creerBrancheDeTache(integration, "t_stripe_titre_mentions_legales_7872 dans f_IARD");
+var tache5 = creerBrancheDeTache(integration, "t_stripe_titre_mentions_legales_7872");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_IARD");
 
 
