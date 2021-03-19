@@ -14,8 +14,12 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_C+");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "t_7814-tag-popin-selfcare");
 
 
+// Branche SPRINT
+var brancheSprint = creerBrancheDeSprint("twenty_r01_s01");
+
+
 // MERGES --------------------
 
 
 
-// FUSION --------------------
+// FUSION APRES DEMO --------------------
