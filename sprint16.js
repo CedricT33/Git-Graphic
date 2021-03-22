@@ -18,6 +18,8 @@ var tache3 = creerBrancheDeTache(fonctionnalite4, "t_7431-lbpf-evenement");
 var tache4 = creerBrancheDeTache(fonctionnalite4, "t_6963-generer-token-lbpf (5296)");
 var tache5 = creerBrancheDeTache(integration, "t_stripe_titre_mentions_legales_7872");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_IARD");
+var fonctionnalite6 = creerBrancheDeFonctionnalite("f_smartblette");
+var tache6 = creerBrancheDeTache(fonctionnalite6, "t_7470-smartblette-gestion-des-tokens");
 
 
 // Branche SPRINT
