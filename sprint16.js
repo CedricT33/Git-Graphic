@@ -20,7 +20,7 @@ var tache5 = creerBrancheDeTache(integration, "t_stripe_titre_mentions_legales_7
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_IARD");
 var fonctionnalite6 = creerBrancheDeFonctionnalite("f_smartblette");
 var tache6 = creerBrancheDeTache(fonctionnalite6, "t_7470-smartblette-gestion-des-tokens");
-var tache6 = creerBrancheDeTache(fonctionnalite6, "us_4330-smartblette-adaptation-du-moteur-de-sensi-relance");
+var tache7 = creerBrancheDeTache(fonctionnalite6, "us_4330-smartblette-adaptation-du-moteur-de-sensi-relance");
 
 
 // Branche SPRINT
