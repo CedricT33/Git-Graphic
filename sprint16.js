@@ -24,6 +24,7 @@ var tache7 = creerBrancheDeTache(fonctionnalite6, "us_4330-smartblette-adaptatio
 var tache8 = creerBrancheDeTache(fonctionnalite6, "t_6671-adaptation-notifications-tablette");
 var fonctionnalite7 = creerBrancheDeFonctionnalite("f-mandat-prelevement");
 var tache9 = creerBrancheDeTache(fonctionnalite7, "t-8023-prelevement-template-de-la-page-principale");
+var fonctionnalite8 = creerBrancheDeFonctionnalite("f_simplification_notifs_21_2");
 
 
 // Branche SPRINT
@@ -33,6 +34,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s01");
 // MERGES --------------------
 creerMerge(fonctionnalite5, tache5);
 creerMerge(fonctionnalite4, tache4);
+creerMerge(fonctionnalite8, tache8);
 
 
 // FUSION APRES DEMO --------------------
