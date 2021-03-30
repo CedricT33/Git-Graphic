@@ -22,6 +22,8 @@ var fonctionnalite6 = creerBrancheDeFonctionnalite("f_smartblette");
 var tache6 = creerBrancheDeTache(fonctionnalite6, "t_7470-smartblette-gestion-des-tokens");
 var tache7 = creerBrancheDeTache(fonctionnalite6, "us_4330-smartblette-adaptation-du-moteur-de-sensi-relance");
 var tache8 = creerBrancheDeTache(fonctionnalite6, "t_6671-adaptation-notifications-tablette");
+var fonctionnalite7 = creerBrancheDeFonctionnalite("f-mandat-prelevement");
+var tache9 = creerBrancheDeTache(fonctionnalite7, "t-8023-prelevement-template-de-la-page-principale");
 
 
 // Branche SPRINT
