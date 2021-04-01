@@ -42,4 +42,13 @@ creerMerge(fonctionnalite6, tache7);
 creerMerge(fonctionnalite6, tache6);
 creerMerge(fonctionnalite6, tache8);
 
+brancheSprint.merge(fonctionnalite1);
+brancheSprint.merge(fonctionnalite2);
+brancheSprint.merge(fonctionnalite3);
+brancheSprint.merge(fonctionnalite4);
+brancheSprint.merge(fonctionnalite5);
+brancheSprint.merge(fonctionnalite6);
+brancheSprint.merge(fonctionnalite8);
+
+
 // FUSION APRES DEMO --------------------
