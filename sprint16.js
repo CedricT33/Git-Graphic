@@ -28,7 +28,7 @@ var tache9 = creerBrancheDeTache(fonctionnalite8, "t-8023-prelevement-template-d
 
 
 // Branche SPRINT
-var brancheSprint = creerBrancheDeSprint("twenty_r01_s01");
+var brancheSprint = creerBrancheDeSprint("twenty_r01_s01 (21.2.0.215)");
 
 
 // MERGES --------------------
