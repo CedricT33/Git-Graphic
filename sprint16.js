@@ -25,6 +25,7 @@ var tache8 = creerBrancheDeTache(fonctionnalite6, "t_6671-adaptation-notificatio
 var fonctionnalite7 = creerBrancheDeFonctionnalite("f_simplification_notifs_21_2");
 var fonctionnalite8 = creerBrancheDeFonctionnalite("f-mandat-prelevement");
 var tache9 = creerBrancheDeTache(fonctionnalite8, "t-8023-prelevement-template-de-la-page-principale");
+var ano7887 = creerBrancheAnomalie(integration, "a_picto_c_plus_non_login_7887");
 
 
 // Branche SPRINT
