@@ -14,7 +14,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_C+_twenty");
 var tache2 = creerBrancheDeTache(fonctionnalite1, "(t_8494-rationalisation-des-stripes");
 
 // Branche SPRINT
-var brancheSprint = creerBrancheDeSprint("twenty_r01_s01 (21.2.0.215)");
+var brancheSprint = creerBrancheDeSprint("twenty_r01_s02 (21.2.0.215)");
 
 
 // MERGES --------------------
