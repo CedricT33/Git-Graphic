@@ -1,1 +1,21 @@
+// On instancie le graph dans le conteneur.
+var sprint17 = creerGitGraph("graph-container-17");
 
+// Branche MASTER
+var master = creerBrancheMaster(sprint17);
+
+var integration = master.branch("integration_systemteam_r21_2");
+integration.commit("start");
+
+// Branches FONCTIONNALITE, TACHES ET ANOS
+var fonctionnalite1 = creerBrancheDeFonctionnalite("f_gestion_cookies");
+var tache1 = creerBrancheDeTache(fonctionnalite1, "t-6396-gestion-cookies-mode-non-connecte");
+
+// Branche SPRINT
+var brancheSprint = creerBrancheDeSprint("twenty_r01_s01 (21.2.0.215)");
+
+
+// MERGES --------------------
+
+
+// FUSION APRES DEMO --------------------
