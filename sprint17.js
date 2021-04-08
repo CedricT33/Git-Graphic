@@ -1,5 +1,5 @@
 // On instancie le graph dans le conteneur.
-var sprint17 = creerGitGraph("graph-container-17");
+var sprint17 = creerGitGraph("graph-container-16");
 
 // Branche MASTER
 var master = creerBrancheMaster(sprint17);
