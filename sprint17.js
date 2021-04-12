@@ -41,4 +41,4 @@ var integrationQH5 = masterQH5.branch("integration_08_39_00.xxx");
 integrationQH5.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
-var tache7899 = creerBrancheDeTache(integrationQH7, "t_7899_solde_OP");
+var tache7899 = creerBrancheDeTache(integrationQH5, "t_7899_solde_OP");
