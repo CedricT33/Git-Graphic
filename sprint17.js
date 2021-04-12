@@ -16,7 +16,7 @@ var tache2 = creerBrancheDeTache(fonctionnalite2, "t_8494-rationalisation-des-st
 
 
 // Branche SPRINT
-var brancheSprint = creerBrancheDeSprint("twenty_r01_s02 (21.2.0.215)");
+var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
 
 
 // MERGES --------------------
