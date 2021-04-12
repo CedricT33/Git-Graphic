@@ -26,3 +26,18 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
 
 
 // FUSION APRES DEMO --------------------
+
+//-------------------------QH5---------------------------//
+
+
+// On instancie le graph dans le conteneur.
+var sprint17b = creerGitGraph("graph-container-17b");
+
+// Branche MASTER
+var masterQH5 = creerBrancheMasterQH5(sprint17b);
+
+var integrationQH5 = masterQH5.branch("integration_08_39_00.xxx");
+integrationQH5.commit("start");
+
+// Branches FONCTIONNALITE et TACHES
+var tache7899 = creerBrancheDeTache(integrationQH7, "t_7899_solde_OP");
