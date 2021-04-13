@@ -17,7 +17,7 @@ var tache4 = creerBrancheDeTache(fonctionnalite2, "t_8573-certicode-plus-renomma
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_mandat_prelevement");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_LBPF");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_simplification_notifs_21_2");
-
+var tache5 = creerBrancheDeTache(integration, "t_7325-smartblette-maj-app-profil");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
