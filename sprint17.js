@@ -30,7 +30,8 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
 creerMerge(fonctionnalite1, tache1);
 creerMerge(fonctionnalite1, tache3);
 creerMerge(integration, fonctionnalite5);
-
+creerMerge(fonctionnalite1, integration);
+creerMerge(anomalie1, integration);
 // FUSION APRES DEMO --------------------
 
 //-------------------------QH5---------------------------//
