@@ -22,6 +22,8 @@ var tache7 = creerBrancheDeTache(fonctionnalite4, "t_7656-retour-stripe-credit-r
 var anomalie2 = creerBrancheAnomalie(fonctionnalite4, "a_9143-LBPF-iframe-affichage");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_simplification_notifs_21_2");
 var anomalie1 = creerBrancheAnomalie(integration, "a_7325-smartblette-maj-app-profil");
+var fonctionnalite6 = creerBrancheDeFonctionnalite("f_AccueilNonConnecte");
+var anomalie3 = creerBrancheAnomalie(fonctionnalite6, "a_9070-MesOperationsC+-Tag");
 
 
 // Branche SPRINT
@@ -31,11 +33,9 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache1);
 creerMerge(fonctionnalite1, tache3);
-creerMerge(fonctionnalite2, tache4);
 creerMerge(integration, fonctionnalite5);
+creerMerge(fonctionnalite1, integration);
 creerMerge(integration, anomalie1);
-
-
 // FUSION APRES DEMO --------------------
 
 //-------------------------QH5---------------------------//
