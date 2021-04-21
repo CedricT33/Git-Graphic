@@ -35,7 +35,6 @@ creerMerge(fonctionnalite4, tache7);
 creerMerge(fonctionnalite1, tache1);
 creerMerge(fonctionnalite1, tache3);
 creerMerge(integration, fonctionnalite5);
-creerMerge(fonctionnalite1, integration);
 creerMerge(integration, anomalie1);
 // FUSION APRES DEMO --------------------
 
