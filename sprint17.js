@@ -54,3 +54,5 @@ integrationQH5.commit("start");
 // Branches FONCTIONNALITE et TACHES
 var tache7899 = creerBrancheDeTache(integrationQH5, "t_7899_solde_OP");
 var tache6490 = creerBrancheDeTache(integrationQH5, "t_6490_suppression_projet_satin");
+var tache8721 = creerBrancheDeTache(integrationQH5, "t_8721_alerte_splunk_compte_contrat");
+
