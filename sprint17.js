@@ -14,6 +14,7 @@ var tache3 = creerBrancheDeTache(tache1, "t-7318-cookies-refonte-css-mode-connec
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_C+_twenty");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "t_8494-rationalisation-des-stripes");
 var tache4 = creerBrancheDeTache(fonctionnalite2, "t_8573-certicode-plus-renommage-stripes");
+var anomalie9020 = creerBrancheAnomalie(fonctionnalite2, "a_9020-affichage-C+");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f-mandat-prelevement");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_LBPF");
 var tache5 = creerBrancheDeTache(fonctionnalite4, "t_8408-lbpf-changement-urls");
