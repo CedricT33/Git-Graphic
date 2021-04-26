@@ -42,6 +42,7 @@ creerMerge(integration, fonctionnalite5);
 creerMerge(integration, anomalie1);
 creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(brancheSprint, fonctionnalite2);
+creerMerge(brancheSprint, fonctionnalite4);
 
 
 // FUSION APRES DEMO --------------------
