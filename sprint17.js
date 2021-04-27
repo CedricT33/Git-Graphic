@@ -11,7 +11,7 @@ integration.commit("start");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_gestion_cookies");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t-6396-gestion-cookies-mode-non-connecte");
 var tache3 = creerBrancheDeTache(tache1, "t-7318-cookies-refonte-css-mode-connecte");
-var tache8 = creerBrancheAnomalie(tache1, "a_9260-cookie-mauvaise-retour-aide-connecte");
+var tache8 = creerBrancheAnomalie(fonctionnalite1, "a_9260-cookie-mauvaise-retour-aide-connecte");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_C+_twenty");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "t_8494-rationalisation-des-stripes");
 var tache4 = creerBrancheDeTache(fonctionnalite2, "t_8573-certicode-plus-renommage-stripes");
