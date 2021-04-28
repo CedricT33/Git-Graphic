@@ -51,6 +51,12 @@ creerMerge(brancheSprint, fonctionnalite4);
 
 
 // FUSION APRES DEMO --------------------
+creerMerge(integration, fonctionnalite1);
+creerMerge(integration, fonctionnalite2);
+creerMerge(integration, fonctionnalite4);
+creerMerge(integration, fonctionnalite6);
+integration.commit("V21.02.00.904 à 905"); // tag
+
 
 //-------------------------QH5---------------------------//
 
