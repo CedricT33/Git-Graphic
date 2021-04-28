@@ -36,6 +36,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
 creerMerge(fonctionnalite2, tache2);
 creerMerge(fonctionnalite2, tache4);
 creerMerge(fonctionnalite4, tache5);
+creerMerge(fonctionnalite4, tache6);
 creerMerge(fonctionnalite4, tache7);
 creerMerge(fonctionnalite4, anomalie2);
 creerMerge(fonctionnalite1, tache1);
