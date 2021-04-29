@@ -11,6 +11,7 @@ integration.commit("start");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_C+_twenty");
 var anomalie9020 = creerBrancheAnomalie(fonctionnalite1, "a_9020-affichage-C+");
 var anomalie7325 = creerBrancheAnomalie(integration, "a_7325-smartblette-maj-app-profil");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_simplification_notifs_21_2");
 
 
 // Branche SPRINT
