@@ -12,6 +12,8 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_C+_twenty");
 var anomalie9020 = creerBrancheAnomalie(fonctionnalite1, "a_9020-affichage-C+");
 var anomalie7325 = creerBrancheAnomalie(integration, "a_7325-smartblette-maj-app-profil");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_simplification_notifs");
+var anomalie9123 = creerBrancheAnomalie(fonctionnalite2, "a_9123-notif-AMM-back-faceID");
+var anomalie9132 = creerBrancheAnomalie(fonctionnalite2, "a_9132-notif-AMM-sans-code");
 
 
 // Branche SPRINT
