@@ -75,3 +75,6 @@ var tache7899 = creerBrancheDeTache(integrationQH5, "t_7899_solde_OP");
 var tache6490 = creerBrancheDeTache(integrationQH5, "t_6490_projet_satin");
 var tache8721 = creerBrancheDeTache(integrationQH5, "t_8721_alerte_splunk_compte_contrat");
 
+// MERGES --------------------
+creerMerge(integrationQH5, tache6490);
+
