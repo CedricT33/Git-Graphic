@@ -10,6 +10,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_C+_twenty");
 var anomalie9020 = creerBrancheAnomalie(fonctionnalite1, "a_9020-affichage-C+");
+var anomalie10182 = creerBrancheAnomalie(fonctionnalite1, "a_10182-aff-dashboard-code-oublie");
 var anomalie10198 = creerBrancheAnomalie(fonctionnalite1, "a_10198-aff-dashboard-code-oublie");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_9324_conformite_mpin_perimer");
 var anomalie7325 = creerBrancheAnomalie(integration, "a_7325-smartblette-maj-app-profil");
