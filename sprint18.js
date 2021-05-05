@@ -13,10 +13,12 @@ var anomalie9020 = creerBrancheAnomalie(fonctionnalite1, "a_9020-affichage-C+");
 var anomalie10182 = creerBrancheAnomalie(fonctionnalite1, "a_10182-aff-dashboard-code-oublie");
 var anomalie10198 = creerBrancheAnomalie(fonctionnalite1, "a_10198-aff-dashboard-code-oublie");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_9324_conformite_mpin_perimer");
+var tache2 = creerBrancheDeTache(fonctionnalite1, "t_10214-ajout-certicode+-parametres");
 var anomalie7325 = creerBrancheAnomalie(integration, "a_7325-smartblette-maj-app-profil");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_simplification_notifs");
 var anomalie9123 = creerBrancheAnomalie(fonctionnalite2, "a_9123-notif-AMM-back-faceID");
 var anomalie9132 = creerBrancheAnomalie(fonctionnalite2, "a_9132-notif-AMM-sans-code");
+var anomalie8594 = creerBrancheAnomalie(integration, "a_8594-blocage-fin-de-parcours-AF");
 
 
 // Branche SPRINT
