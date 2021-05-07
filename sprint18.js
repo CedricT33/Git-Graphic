@@ -28,6 +28,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s03");
 
 // MERGES --------------------
 creerMerge(fonctionnalite1, anomalie9020);
+creerMerge(integration, anomalie8594);
 
 
 // FUSION APRES DEMO --------------------
