@@ -48,6 +48,7 @@ integrationQH5.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
 var tache8697 = creerBrancheDeTache(integrationQH5, "t_8697_notification_ajout_beneficiaire");
+var tache7899 = creerBrancheDeTache(integrationQH5, "t_7899_solde_OP");
 
 
 // MERGES --------------------
