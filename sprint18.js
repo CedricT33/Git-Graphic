@@ -56,4 +56,4 @@ var ano5368 = creerBrancheDeTache(integrationQH5, "release/a_5368");
 
 
 // MERGES --------------------
-
+creerMerge(tache8697, ano5368);
