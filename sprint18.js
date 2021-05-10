@@ -29,6 +29,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s03");
 // MERGES --------------------
 creerMerge(fonctionnalite1, anomalie9020);
 creerMerge(integration, anomalie8594);
+integration.commit("V21.02.00.906 et 907"); // tag
 
 
 // FUSION APRES DEMO --------------------
