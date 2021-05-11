@@ -33,6 +33,7 @@ integration.commit("V21.02.00.906 et 907"); // tag
 creerMerge(brancheSprint, anomalie7325);
 
 
+
 // FUSION APRES DEMO --------------------
 
 
@@ -51,9 +52,12 @@ integrationQH5.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
 var tache8697 = creerBrancheDeTache(integrationQH5, "t_8697_notification_ajout_beneficiaire");
-var tache7899 = creerBrancheDeTache(integrationQH5, "t_7899_solde_OP");
+var tache7899 = creerBrancheDeTache(integrationQH5, "release/a_9461");
 var ano5368 = creerBrancheDeTache(integrationQH5, "release/a_5368");
+var brancheMergeQH5 = creerBrancheDeMerge(integrationQH5, "release/twenty_20_2_sprint3");
 
 
 // MERGES --------------------
 creerMerge(tache8697, ano5368);
+creerMerge(integrationQH5, tache8697);
+
