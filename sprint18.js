@@ -55,7 +55,7 @@ integrationQH5.commit("start");
 var tache8697 = creerBrancheDeTache(integrationQH5, "t_8697_notification_ajout_beneficiaire");
 var tache7899 = creerBrancheDeTache(integrationQH5, "release/a_9461");
 var ano5368 = creerBrancheDeTache(integrationQH5, "release/a_5368");
-var brancheMergeQH5 = creerBrancheDeMerge(integrationQH5, "release/twenty_20_2_sprint3");
+var brancheMergeQH5 = creerBrancheDeMerge(integrationQH5, "release/twenty_20_2_sprint_3");
 
 
 // MERGES --------------------
