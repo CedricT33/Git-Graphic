@@ -60,4 +60,5 @@ var brancheMergeQH5 = creerBrancheDeMerge(integrationQH5, "release/twenty_20_2_s
 // MERGES --------------------
 creerMerge(tache8697, ano5368);
 creerMerge(brancheMergeQH5, tache8697);
+creerMerge(brancheMergeQH5, tache7899);
 
