@@ -32,7 +32,7 @@ creerMerge(fonctionnalite1, tache2);
 creerMerge(integration, anomalie8594);
 integration.commit("V21.02.00.906 et 907"); // tag
 creerMerge(brancheSprint, anomalie7325);
-
+creerMerge(fonctionnalite2, anomalie9132);
 
 
 // FUSION APRES DEMO --------------------
