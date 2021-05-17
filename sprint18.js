@@ -35,6 +35,8 @@ creerMerge(fonctionnalite2, anomalie9132);
 creerMerge(integration, anomalie8594);
 integration.commit("V21.02.00.906 et 907"); // tag
 creerMerge(brancheSprint, anomalie7325);
+creerMerge(brancheSprint, fonctionnalite2);
+creerMerge(brancheSprint, fonctionnalite1);
 
 
 
