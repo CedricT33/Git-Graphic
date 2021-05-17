@@ -10,8 +10,6 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_C+_twenty");
 var anomalie9020 = creerBrancheAnomalie(fonctionnalite1, "a_9020-affichage-C+");
-var anomalie10182 = creerBrancheAnomalie(fonctionnalite1, "a_10182-aff-dashboard-code-oublie");
-var anomalie10198 = creerBrancheAnomalie(fonctionnalite1, "a_10198-aff-dashboard-code-oublie");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_9324_conformite_mpin_perimer");
 var tache2 = creerBrancheDeTache(fonctionnalite1, "t_10214-ajout-certicode+-parametres");
 var anomalie9481 = creerBrancheAnomalie(fonctionnalite1, "a_9481-couleur-icon-C+");
