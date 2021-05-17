@@ -29,10 +29,13 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s03");
 // MERGES --------------------
 creerMerge(fonctionnalite1, anomalie9020);
 creerMerge(fonctionnalite1, tache2);
+creerMerge(fonctionnalite1, tache1);
+creerMerge(fonctionnalite1, anomalie9481);
+creerMerge(fonctionnalite2, anomalie9132);
 creerMerge(integration, anomalie8594);
 integration.commit("V21.02.00.906 et 907"); // tag
 creerMerge(brancheSprint, anomalie7325);
-creerMerge(fonctionnalite2, anomalie9132);
+
 
 
 // FUSION APRES DEMO --------------------
