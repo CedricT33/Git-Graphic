@@ -35,6 +35,8 @@ integration.commit("V21.02.00.906 et 907"); // tag
 creerMerge(brancheSprint, anomalie7325);
 creerMerge(brancheSprint, fonctionnalite2);
 creerMerge(brancheSprint, fonctionnalite1);
+creerMerge(integration, anomalie7325);
+creerMerge(integration, fonctionnalite1);
 
 
 
@@ -65,4 +67,6 @@ var brancheMergeQH5 = creerBrancheDeMerge(integrationQH5, "release/twenty_20_2_s
 creerMerge(tache8697, ano5368);
 creerMerge(brancheMergeQH5, tache8697);
 creerMerge(brancheMergeQH5, tache7899);
+creerMerge(integrationQH5, ano5368);
+creerMerge(integrationQH5, tache7899);
 
