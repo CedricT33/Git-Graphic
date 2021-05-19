@@ -37,6 +37,7 @@ creerMerge(brancheSprint, fonctionnalite2);
 creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(integration, anomalie7325);
 creerMerge(integration, fonctionnalite1);
+integration.commit("V21.02.00.908 et 909"); // tag
 
 
 
@@ -53,7 +54,7 @@ var sprint18b = creerGitGraph("graph-container-18b");
 // Branche MASTER
 var masterQH5 = creerBrancheMasterQH5(sprint18b);
 
-var integrationQH5 = masterQH5.branch("integration_08_39_00.xxx");
+var integrationQH5 = masterQH5.branch("integration_08_40_00.xxx");
 integrationQH5.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
