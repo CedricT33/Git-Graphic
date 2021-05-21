@@ -1,0 +1,19 @@
+// On instancie le graph dans le conteneur.
+var sprint19 = creerGitGraph("graph-container-19");
+
+// Branche MASTER
+var master = creerBrancheMaster(sprint19);
+
+var integration = master.branch("integration_systemteam_r21_2");
+integration.commit("start");
+
+// Branches FONCTIONNALITE, TACHES ET ANOS
+//var fonctionnalite1 = creerBrancheDeFonctionnalite("f_XXXX");
+//var tache1 = creerBrancheDeTache(fonctionnalite1, "t_XXXX");
+//var anomalieXXXX = creerBrancheAnomalie(integration, "a_XXXX");
+
+
+
+// MERGES --------------------
+//creerMerge(integration, anomalieXXXX);
+
