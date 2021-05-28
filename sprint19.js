@@ -13,6 +13,8 @@ integration.commit("start");
 //var anomalieXXXX = creerBrancheAnomalie(integration, "a_XXXX");
 var anomalie10852 = creerBrancheAnomalie(integration, "a_10852_parcours_modif_mpin");
 var anomalie9849 = creerBrancheAnomalie(integration, "a_9849_scroll-iFrame");
+var anomalie11085 = creerBrancheAnomalie(integration, "a_11085");
+var anomalie10870 = creerBrancheAnomalie(integration, "a_10870");
 
 
 
