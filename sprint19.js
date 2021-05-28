@@ -15,6 +15,9 @@ var anomalie10852 = creerBrancheAnomalie(integration, "a_10852_parcours_modif_mp
 var anomalie9849 = creerBrancheAnomalie(integration, "a_9849_scroll-iFrame");
 var anomalie11085 = creerBrancheAnomalie(integration, "a_11085");
 var anomalie10870 = creerBrancheAnomalie(integration, "a_10870");
+var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
+var anomalie9123 = creerBrancheAnomalie(fonctionnalite1, "a_9123-notif-AMM-back-faceID");
+var anomalie9132 = creerBrancheAnomalie(fonctionnalite1, "a_9132-notif-AMM-sans-code");
 
 
 
