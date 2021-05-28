@@ -11,6 +11,7 @@ integration.commit("start");
 //var fonctionnalite1 = creerBrancheDeFonctionnalite("f_XXXX");
 //var tache1 = creerBrancheDeTache(fonctionnalite1, "t_XXXX");
 //var anomalieXXXX = creerBrancheAnomalie(integration, "a_XXXX");
+var anomalie10852 = creerBrancheAnomalie(integration, "a_10852_parcours_modif_mpin");
 
 
 
