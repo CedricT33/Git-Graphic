@@ -21,4 +21,5 @@ var anomalie9132 = creerBrancheAnomalie(fonctionnalite1, "a_9132-notif-AMM-sans-
 
 // MERGES --------------------
 creerMerge(integration, anomalie10870);
+integration.commit("V21.02.00.912 et 913"); // tag
 
