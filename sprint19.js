@@ -14,13 +14,13 @@ var anomalie9849 = creerBrancheAnomalie(integration, "a_9849_scroll-iFrame");
 var anomalie11085 = creerBrancheAnomalie(integration, "a_11085");
 var anomalie10870 = creerBrancheAnomalie(integration, "a_10870");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
-var anomalie9123 = creerBrancheAnomalie(fonctionnalite1, "a_9123-notif-AMM-back-faceID");
 var anomalie9132 = creerBrancheAnomalie(fonctionnalite1, "a_9132-notif-AMM-sans-code");
+var anomalie9123 = creerBrancheAnomalie(fonctionnalite1, "a_9123-notif-AMM-back-faceID");
 var anomalie10938 = creerBrancheAnomalie(integration, "a_10938-url-cookie");
 
 
 // MERGES --------------------
 creerMerge(integration, anomalie10870);
 integration.commit("V21.02.00.912 et 913"); // tag
-creerMerge(fonctionnalite1, anomalie9123);
 creerMerge(fonctionnalite1, anomalie9132);
+creerMerge(fonctionnalite1, anomalie9123);
