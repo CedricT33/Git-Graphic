@@ -22,5 +22,5 @@ var anomalie10938 = creerBrancheAnomalie(integration, "a_10938-url-cookie");
 // MERGES --------------------
 creerMerge(integration, anomalie10870);
 integration.commit("V21.02.00.912 et 913"); // tag
-creerMerge(fonctionnalite2, anomalie9123);
-creerMerge(fonctionnalite2, anomalie9132);
+creerMerge(fonctionnalite1, anomalie9123);
+creerMerge(fonctionnalite1, anomalie9132);
