@@ -26,3 +26,26 @@ creerMerge(integration, anomalie10852);
 integration.commit("V21.02.00.914 et 915"); // tag
 creerMerge(fonctionnalite1, anomalie9132);
 creerMerge(fonctionnalite1, anomalie9123);
+
+
+
+//-------------------------QH5---------------------------//
+
+
+// On instancie le graph dans le conteneur.
+var sprint19b = creerGitGraph("graph-container-19b");
+
+// Branche MASTER
+var masterQH5 = creerBrancheMasterQH5(sprint19b);
+
+var releaseQH5 = masterQH5.branch("release/08_40_00.xxx");
+releaseQH5.commit("start");
+var integrationQH5 = creerBrancheDeMerge(releaseQH5, "integration_08_40_00.xxx");
+integrationQH5.commit("start");
+
+// Branches FONCTIONNALITE et TACHES
+var tache11490 = creerBrancheDeTache(integrationQH5, "t_11490_modification_contrat_interface_cmp");
+
+
+// MERGES --------------------
+
