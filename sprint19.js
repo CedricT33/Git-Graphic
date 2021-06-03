@@ -49,5 +49,6 @@ var tache11490 = creerBrancheDeTache(integrationQH5, "t_11490_modification_contr
 // MERGES --------------------
 creerMerge(integrationQH5, tache11490);
 creerMerge(releaseQH5, integrationQH5);
+releaseQH5.commit("V08_40_00.006"); // tag
 
 
