@@ -17,6 +17,7 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
 var anomalie9132 = creerBrancheAnomalie(fonctionnalite1, "a_9132-notif-AMM-sans-code");
 var anomalie9123 = creerBrancheAnomalie(fonctionnalite1, "a_9123-notif-AMM-back-faceID");
 var anomalie10938 = creerBrancheAnomalie(integration, "a_10938-url-cookie");
+var anomalie11580 = creerBrancheAnomalie(integration, "a_11580-c+-enrolement");
 
 
 // MERGES --------------------
