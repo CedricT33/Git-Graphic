@@ -19,6 +19,8 @@ var anomalie10938 = creerBrancheAnomalie(integration, "a_10938-url-cookie");
 var anomalie11580 = creerBrancheAnomalie(integration, "a_11580-c+-enrolement");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache1 = creerBrancheDeTache(fonctionnalite2, "t_7331-table-aem-hash");
+var fonctionnalite3 = creerBrancheDeFonctionnalite("f_notifs");
+var tache2 = creerBrancheDeTache(fonctionnalite3, "t_9387-tag-pdm-ecran-notif-smartblette");
 
 
 // MERGES --------------------
@@ -30,7 +32,6 @@ creerMerge(integration, anomalie11085);
 creerMerge(fonctionnalite1, anomalie9132);
 creerMerge(fonctionnalite1, anomalie9123);
 creerMerge(integration, anomalie10938);
-
 
 
 //-------------------------QH5---------------------------//
