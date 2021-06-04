@@ -8,7 +8,6 @@ var integration = master.branch("integration_systemteam_r21_2");
 integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
-//var tache1 = creerBrancheDeTache(fonctionnalite1, "t_XXXX");
 var anomalie10852 = creerBrancheAnomalie(integration, "a_10852_parcours_modif_mpin");
 var anomalie9849 = creerBrancheAnomalie(integration, "a_9849_scroll-iFrame");
 var anomalie11085 = creerBrancheAnomalie(integration, "a_11085");
@@ -18,6 +17,8 @@ var anomalie9132 = creerBrancheAnomalie(fonctionnalite1, "a_9132-notif-AMM-sans-
 var anomalie9123 = creerBrancheAnomalie(fonctionnalite1, "a_9123-notif-AMM-back-faceID");
 var anomalie10938 = creerBrancheAnomalie(integration, "a_10938-url-cookie");
 var anomalie11580 = creerBrancheAnomalie(integration, "a_11580-c+-enrolement");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
+var tache1 = creerBrancheDeTache(fonctionnalite2, "t_7331-table-aem-hash");
 
 
 // MERGES --------------------
