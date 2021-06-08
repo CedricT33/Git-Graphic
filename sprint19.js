@@ -22,6 +22,7 @@ var tache1 = creerBrancheDeTache(fonctionnalite2, "t_7331-table-aem-hash");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_notifs");
 var tache2 = creerBrancheDeTache(fonctionnalite3, "t_9387-tag-pdm-ecran-notif-smartblette");
 var anomalie11544 = creerBrancheAnomalie(integration, "a_11544-CSS-iframe-IARD");
+var anomalie11558 = creerBrancheAnomalie(integration, "a_11558_maj_table_aem");
 
 // MERGES --------------------
 creerMerge(integration, anomalie10870);
@@ -32,9 +33,11 @@ creerMerge(integration, anomalie11085);
 creerMerge(integration, anomalie9849);
 creerMerge(fonctionnalite1, anomalie9132);
 creerMerge(fonctionnalite1, anomalie9123);
+creerMerge(integration, fonctionnalite1);
 creerMerge(integration, anomalie10938);
 creerMerge(integration, anomalie11580);
 creerMerge(integration, anomalie11544);
+creerMerge(integration, anomalie11558);
 
 
 //-------------------------QH5---------------------------//
