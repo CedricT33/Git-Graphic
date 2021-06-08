@@ -34,6 +34,7 @@ creerMerge(fonctionnalite1, anomalie9132);
 creerMerge(fonctionnalite1, anomalie9123);
 creerMerge(integration, anomalie10938);
 creerMerge(integration, anomalie11580);
+creerMerge(integration, anomalie11544);
 
 
 //-------------------------QH5---------------------------//
