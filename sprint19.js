@@ -62,4 +62,10 @@ creerMerge(integrationQH5, tache11490);
 creerMerge(releaseQH5, integrationQH5);
 releaseQH5.commit("V08_40_00.006"); // tag
 
+var releaseQH5Bis = creerBrancheDeMerge(releaseQH5, "release/08_41_00.xxx");
+var integrationQH5Bis = creerBrancheDeMerge(releaseQH5Bis, "integration_08_41_00.xxx");
+var tache11862 = creerBrancheDeTache(integrationQH5Bis, "t_11862-notifs-sensibles-suppression-controle-champs");
+creerMerge(integrationQH5Bis, tache11862);
+creerMerge(releaseQH5Bis, integrationQH5Bis);
+releaseQH5Bis.commit("V08_41_00.001"); // tag
 
