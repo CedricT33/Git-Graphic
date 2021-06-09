@@ -38,6 +38,7 @@ creerMerge(integration, anomalie10938);
 creerMerge(integration, anomalie11580);
 creerMerge(integration, anomalie11544);
 creerMerge(integration, anomalie11558);
+integration.commit("V21.02.00.918 et 919"); // tag
 
 
 //-------------------------QH5---------------------------//
