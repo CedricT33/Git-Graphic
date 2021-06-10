@@ -25,6 +25,7 @@ var anomalie11544 = creerBrancheAnomalie(integration, "a_11544-CSS-iframe-IARD")
 var anomalie11558 = creerBrancheAnomalie(integration, "a_11558_maj_table_aem");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_refonte_nav");
 var tache3 = creerBrancheDeTache(fonctionnalite4, "t_9561-refonte-nav-fusion-accueil-comptes");
+var tache4 = creerBrancheDeTache(fonctionnalite4, "t_9366-accueil-vignette-comptes-agregateur");
 
 // MERGES --------------------
 creerMerge(integration, anomalie10870);
