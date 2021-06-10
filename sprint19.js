@@ -15,6 +15,7 @@ var anomalie10870 = creerBrancheAnomalie(integration, "a_10870");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
 var anomalie9132 = creerBrancheAnomalie(fonctionnalite1, "a_9132-notif-AMM-sans-code");
 var anomalie9123 = creerBrancheAnomalie(fonctionnalite1, "a_9123-notif-AMM-back-faceID");
+var anomalie11852 = creerBrancheAnomalie(fonctionnalite1, "a_11852_split_template_notif");
 var anomalie10938 = creerBrancheAnomalie(integration, "a_10938-url-cookie");
 var anomalie11580 = creerBrancheAnomalie(integration, "a_11580-c+-enrolement");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
@@ -26,7 +27,6 @@ var anomalie11558 = creerBrancheAnomalie(integration, "a_11558_maj_table_aem");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_refonte_nav");
 var tache3 = creerBrancheDeTache(fonctionnalite4, "t_9561-refonte-nav-fusion-accueil-comptes");
 var tache4 = creerBrancheDeTache(fonctionnalite4, "t_9366-accueil-vignette-comptes-agregateur");
-var anomalie11852 = creerBrancheAnomalie(fonctionnalite1, "a_11852_split_template_notif");
 
 // MERGES --------------------
 creerMerge(integration, anomalie10870);
