@@ -27,6 +27,9 @@ var anomalie11558 = creerBrancheAnomalie(integration, "a_11558_maj_table_aem");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_refonte_nav");
 var tache3 = creerBrancheDeTache(fonctionnalite4, "t_9561-refonte-nav-fusion-accueil-comptes");
 var tache4 = creerBrancheDeTache(fonctionnalite4, "t_9366-accueil-vignette-comptes-agregateur");
+var anomalie4648 = creerBrancheAnomalie(integration, "a_4648-splashscreen");
+var anomalie11605 = creerBrancheAnomalie(integration, "a_11605");
+var anomalie9849 = creerBrancheAnomalie(integration, "a_9849_scroll-iFrame");
 
 // MERGES --------------------
 creerMerge(integration, anomalie10870);
@@ -42,6 +45,7 @@ creerMerge(integration, anomalie10938);
 creerMerge(integration, anomalie11580);
 creerMerge(integration, anomalie11544);
 creerMerge(integration, anomalie11558);
+creerMerge(integration, anomalie9849);
 integration.commit("V21.02.00.918 et 919"); // tag
 creerMerge(fonctionnalite1, anomalie11852);
 
