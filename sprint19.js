@@ -30,6 +30,8 @@ var tache4 = creerBrancheDeTache(fonctionnalite4, "t_9366-accueil-vignette-compt
 var anomalie4648 = creerBrancheAnomalie(integration, "a_4648-splashscreen");
 var anomalie11605 = creerBrancheAnomalie(integration, "a_11605");
 var anomalie9849 = creerBrancheAnomalie(integration, "a_9849_scroll-iFrame");
+var anomalie12296 = creerBrancheAnomalie(integration, "a-12296-lbpf-erreur-technique");
+
 
 // MERGES --------------------
 creerMerge(integration, anomalie10870);
