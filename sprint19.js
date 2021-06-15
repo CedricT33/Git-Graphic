@@ -32,6 +32,7 @@ var anomalie11605 = creerBrancheAnomalie(integration, "a_11605");
 var anomalie9849 = creerBrancheAnomalie(integration, "a_9849_scroll-iFrame");
 var anomalie12296 = creerBrancheAnomalie(integration, "a-12296-lbpf-erreur-technique");
 var anomalie9160 = creerBrancheAnomalie(integration, "a_9160-affichage-credit-renouvelable");
+var anomalie11621 = creerBrancheAnomalie(integration, "a_11621_mdp_notif");
 
 // MERGES --------------------
 creerMerge(integration, anomalie10870);
@@ -55,6 +56,7 @@ creerMerge(integration, anomalie11605);
 creerMerge(integration, anomalie4648);
 creerMerge(integration, anomalie9160);
 creerMerge(integration, fonctionnalite1);
+creerMerge(integration, anomalie11621);
 
 
 //-------------------------QH5---------------------------//
