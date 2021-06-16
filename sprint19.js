@@ -32,6 +32,7 @@ var anomalie11605 = creerBrancheAnomalie(integration, "a_11605");
 var anomalie9849 = creerBrancheAnomalie(integration, "a_9849_scroll-iFrame");
 var anomalie12296 = creerBrancheAnomalie(integration, "a-12296-lbpf-erreur-technique");
 var anomalie9160 = creerBrancheAnomalie(integration, "a_9160-affichage-credit-renouvelable");
+var anomalie9174 = creerBrancheAnomalie(integration, "a_9174-lbpf-mauvais-affichage-credit-renouvelable");
 var anomalie11621 = creerBrancheAnomalie(integration, "a_11621_mdp_notif");
 
 // MERGES --------------------
