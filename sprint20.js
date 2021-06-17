@@ -1,0 +1,20 @@
+// On instancie le graph dans le conteneur.
+var sprint20 = creerGitGraph("graph-container-20");
+
+// Branche MASTER
+var master = creerBrancheMaster(sprint20);
+
+var integration = master.branch("integration_systemteam_r21_3");
+integration.commit("start");
+
+// Branches FONCTIONNALITE, TACHES ET ANOS
+var anomalie9174 = creerBrancheAnomalie(integration, "a_9174-lbpf-mauvais-affichage-credit-renouvelable");
+var fonctionnalite1 = creerBrancheDeFonctionnalite("f_migration_aem");
+var tache1 = creerBrancheDeTache(fonctionnalite1, "t_7331-table-aem-hash");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_refonte_nav");
+var tache3 = creerBrancheDeTache(fonctionnalite2, "t_9366-accueil-vignette-comptes-agregateur");
+
+// MERGES --------------------
+//creerMerge(integration, fonctionnaliteXXX);
+//integration.commit("V21.03.00.XXX et XXX"); // tag
+
