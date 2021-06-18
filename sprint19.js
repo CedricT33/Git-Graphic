@@ -34,6 +34,7 @@ var anomalie12296 = creerBrancheAnomalie(integration, "a-12296-lbpf-erreur-techn
 var anomalie9160 = creerBrancheAnomalie(integration, "a_9160-affichage-credit-renouvelable");
 var anomalie9174 = creerBrancheAnomalie(integration, "a_9174-lbpf-mauvais-affichage-credit-renouvelable");
 var anomalie11621 = creerBrancheAnomalie(integration, "a_11621_mdp_notif");
+var anomalie12691 = creerBrancheAnomalie(integration, "a_12691");
 
 // MERGES --------------------
 creerMerge(integration, anomalie10870);
@@ -62,6 +63,8 @@ integration.commit("V21.02.00.920 et 921"); // tag
 creerMerge(integration, fonctionnalite3);
 creerMerge(integration, anomalie12296);
 integration.commit("V21.02.00.922 et 923"); // tag
+creerMerge(fonctionnalite1, anomalie12691);
+creerMerge(integration, fonctionnalite1);
 
 
 //-------------------------QH5---------------------------//
