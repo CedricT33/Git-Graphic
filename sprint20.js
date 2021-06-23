@@ -13,6 +13,8 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_7331-table-aem-hash");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_refonte_nav");
 var tache3 = creerBrancheDeTache(fonctionnalite2, "t_9366-accueil-vignette-comptes-agregateur");
+var tache4 = creerBrancheDeTache(fonctionnalite2, "t_12259_mise_a_jour_stripes");
+
 
 // MERGES --------------------
 //creerMerge(integration, fonctionnaliteXXX);
