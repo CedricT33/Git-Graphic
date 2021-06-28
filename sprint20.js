@@ -16,6 +16,9 @@ var tache3 = creerBrancheDeTache(fonctionnalite2, "t_9366-accueil-vignette-compt
 var tache4 = creerBrancheDeTache(fonctionnalite2, "t_12259_mise_a_jour_stripes");
 
 
+// Branche SPRINT
+var brancheSprint = creerBrancheDeSprint("twenty_r03_s01");
+
 // MERGES --------------------
 //creerMerge(integration, fonctionnaliteXXX);
 //integration.commit("V21.03.00.XXX et XXX"); // tag
