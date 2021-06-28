@@ -15,6 +15,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_refonte_nav");
 var tache3 = creerBrancheDeTache(fonctionnalite2, "t_9366-accueil-vignette-comptes-agregateur");
 var tache4 = creerBrancheDeTache(fonctionnalite2, "t_12259_mise_a_jour_stripes");
 var tache5 = creerBrancheDeTache(fonctionnalite2, "t_12238-ajout-de-wu (12236)");
+var tache6 = creerBrancheDeTache(fonctionnalite2, "t_12893-changement-icone-parametres-raccourcis");
 
 
 // Branche SPRINT
