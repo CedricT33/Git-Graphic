@@ -23,9 +23,9 @@ var tache7 = creerBrancheDeTache(fonctionnalite2, "t_8469_menu_cartes_footer");
 var brancheSprint = creerBrancheDeSprint("twenty_r03_s01");
 
 // MERGES --------------------
+creerMerge(fonctionnalite2, tache3);
 creerMerge(fonctionnalite2, tache5);
 creerMerge(fonctionnalite2, tache7);
 creerMerge(fonctionnalite2, tache6);
-creerMerge(fonctionnalite2, tache3);
 //integration.commit("V21.03.00.XXX et XXX"); // tag
 
