@@ -12,6 +12,7 @@ var anomalie9174 = creerBrancheAnomalie(integration, "a_9174-lbpf-mauvais-affich
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_7331-table-aem-hash");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_refonte_nav");
+var tache3 = creerBrancheDeTache(fonctionnalite2, "t_13104_suppression_polling");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_certicode_plus");
 var tache2 = creerBrancheDeTache(fonctionnalite3, "t_11965-mise-en-avant-operations-certicode-plus");
 
