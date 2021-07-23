@@ -16,6 +16,7 @@ var tache3 = creerBrancheDeTache(fonctionnalite2, "t_13104_suppression_polling")
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_certicode_plus");
 var tache2 = creerBrancheDeTache(fonctionnalite3, "t_11965-mise-en-avant-operations-certicode-plus");
 var tache4 = creerBrancheDeTache(integration, "t_7224-migration-aem");
+var tache2 = creerBrancheDeTache(fonctionnalite2, "t_10000_integration_personnalisation");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r03_s02");
