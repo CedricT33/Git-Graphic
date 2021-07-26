@@ -25,5 +25,6 @@ var brancheSprint = creerBrancheDeSprint("twenty_r03_s02");
 // MERGES --------------------
 creerMerge(fonctionnalite2, tache3);
 creerMerge(fonctionnalite2, tache5);
+creerMerge(fonctionnalite3, tache2);
 creerMerge(brancheSprint, fonctionnalite2);
 //integration.commit("V21.03.00.xxx et xxx"); // tag
