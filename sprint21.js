@@ -27,4 +27,5 @@ creerMerge(fonctionnalite2, tache3);
 creerMerge(fonctionnalite2, tache5);
 creerMerge(fonctionnalite3, tache2);
 creerMerge(brancheSprint, fonctionnalite2);
+creerMerge(brancheSprint, fonctionnalite3);
 //integration.commit("V21.03.00.xxx et xxx"); // tag
