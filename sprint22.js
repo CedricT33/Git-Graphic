@@ -16,6 +16,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_refonte_nav");
 var tache3 = creerBrancheDeTache(fonctionnalite2, "f_lwei_fusion_refonte_nav");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_certicode_plus");
 var tache4 = creerBrancheDeTache(fonctionnalite3, "t_12828_certicode_code_personnel_oublie");
+var tache5 = creerBrancheDeTache(fonctionnalite2, "t_13326_ajout_footer_carte");
 
 
 
