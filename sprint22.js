@@ -14,9 +14,9 @@ var tache1 = creerBrancheDeTache(fonctionnalite1, "t_7331-table-aem-hash");
 var tache2 = creerBrancheDeTache(fonctionnalite1, "t_7224-migration-aem");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_refonte_nav");
 var tache3 = creerBrancheDeTache(fonctionnalite2, "f_lwei_fusion_refonte_nav");
+var tache5 = creerBrancheDeTache(fonctionnalite2, "t_13326_ajout_footer_carte");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_certicode_plus");
 var tache4 = creerBrancheDeTache(fonctionnalite3, "t_12828_certicode_code_personnel_oublie");
-var tache5 = creerBrancheDeTache(fonctionnalite2, "t_13326_ajout_footer_carte");
 
 
 
