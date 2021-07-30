@@ -72,6 +72,7 @@ header {
 
 .swiper-container {
     padding-top: 3em;
+    overflow: overlay;
 }
 
 .swiper-slide {
