@@ -20,7 +20,6 @@ var tache4 = creerBrancheDeTache(fonctionnalite3, "t_12828_certicode_code_person
 var anomalie12335 = creerBrancheAnomalie(integration, "a_12335_notifs_21_3");
 
 
-
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r03_s03");
 
