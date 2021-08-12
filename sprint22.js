@@ -19,6 +19,7 @@ var tache6= creerBrancheDeTache(fonctionnalite2, "t_13558_retours_agregateur");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_certicode_plus");
 var tache4 = creerBrancheDeTache(fonctionnalite3, "t_12828_certicode_code_personnel_oublie");
 var anomalie12335 = creerBrancheAnomalie(integration, "a_12335_notifs_21_3");
+var anomalie13666 = creerBrancheAnomalie(fonctionnalite2, "a_13666_bouton_deconnexion");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r03_s03");
