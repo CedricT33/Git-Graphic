@@ -20,6 +20,7 @@ var anomalie13666 = creerBrancheAnomalie(fonctionnalite2, "a_13666_bouton_deconn
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_certicode_plus");
 var tache4 = creerBrancheDeTache(fonctionnalite3, "t_12828_certicode_code_personnel_oublie");
 var anomalie12335 = creerBrancheAnomalie(integration, "a_12335_notifs_21_3");
+var anomalie13679 = creerBrancheAnomalie(integration, "a_13679-loader-infini-op-vlider-touch-id");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r03_s03");
