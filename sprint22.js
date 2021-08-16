@@ -26,11 +26,18 @@ var anomalie13679 = creerBrancheAnomalie(integration, "a_13679-loader-infini-op-
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r03_s03");
 
+// MERGES --------------------
+//creerMerge(fonctionnalitex, tachex);
+creerMerge(fonctionnalite3, tache4);
+creerMerge(fonctionnalite2, tache5);
+creerMerge(fonctionnalite2, tache6);
+//integration.commit("V21.03.00.9xx et 9xx"); // tag
+
 //-------------------------QH8---------------------------//
 
 
 // On instancie le graph dans le conteneur.
-var sprint20b = creerGitGraph("graph-container-20b");
+var sprint22b = creerGitGraph("graph-container-22b");
 
 // Branche MASTER
 var masterQH8 = creerBrancheMasterQH8(sprint22b);
@@ -42,9 +49,3 @@ var integrationQH8 = creerBrancheDeMerge(releaseQH8, "integration_0_3");
 // Branches FONCTIONNALITE et TACHES
 var tacheQH8_1 = creerBrancheDeTache(integrationQH8, "t_9910");
 
-// MERGES --------------------
-//creerMerge(fonctionnalitex, tachex);
-creerMerge(fonctionnalite3, tache4);
-creerMerge(fonctionnalite2, tache5);
-creerMerge(fonctionnalite2, tache6);
-//integration.commit("V21.03.00.9xx et 9xx"); // tag
