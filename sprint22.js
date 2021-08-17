@@ -34,7 +34,10 @@ creerMerge(fonctionnalite2, tache6);
 creerMerge(fonctionnalite2, anomalie13666);
 creerMerge(brancheSprint, fonctionnalite2);
 creerMerge(brancheSprint, fonctionnalite3);
-//integration.commit("V21.03.00.9xx et 9xx"); // tag
+creerMerge(integration, fonctionnalite2);
+creerMerge(integration, fonctionnalite3);
+creerMerge(integration, anomalie12335);
+integration.commit("V21.03.00.904 et 905"); // tag
 
 //-------------------------QH8---------------------------//
 
