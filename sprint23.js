@@ -12,7 +12,7 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_refonte_nav");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "f_lwei_fusion_refonte_nav");
 var tache2 = creerBrancheDeTache(fonctionnalite1, "t_9910_adaptation_purge");
 var anomalie13679 = creerBrancheAnomalie(integration, "a_13679-loader-infini-op-vlider-touch-id");
-var tache3 = creerBrancheDeTache(integration, "t_14319_package_pour_IARD");
+var tache3 = creerBrancheDeTache(integration, "t_14319_package_pour_IARD (ne pas fusionner)");
 
 
 // MERGES --------------------
