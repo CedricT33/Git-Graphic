@@ -8,9 +8,10 @@ var integration = master.branch("integration_systemteam_r21_3");
 integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
-//var anomaliexxx = creerBrancheAnomalie(xxx, "a_xxx");
-//var fonctionnalitexxx = creerBrancheDeFonctionnalite("f_xxx");
-//var tachexxx = creerBrancheDeTache(fonctionnalitexxx, "t_xxx");
+var fonctionnalite1 = creerBrancheDeFonctionnalite("f_refonte_nav");
+var tache1 = creerBrancheDeTache(fonctionnalite1, "f_lwei_fusion_refonte_nav");
+var tache2 = creerBrancheDeTache(fonctionnalite1, "t_9910_adaptation_purge");
+var anomalie13679 = creerBrancheAnomalie(integration, "a_13679-loader-infini-op-vlider-touch-id");
 
 
 // MERGES --------------------
