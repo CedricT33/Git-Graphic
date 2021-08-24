@@ -16,6 +16,7 @@ var anomalie13679 = creerBrancheAnomalie(integration, "a_13679-loader-infini-op-
 var tache3 = creerBrancheDeTache(integration, "t_14319_package_pour_IARD (ne pas fusionner)");
 var anomalie12604 = creerBrancheAnomalie(integration, "a_12604-tags-rationnalisation-stripes-certicode_plus");
 var anomalie14072 = creerBrancheAnomalie(integration, "a_14072-apparition-furtive-du-header (+ 13012)");
+var anomalie12335 = creerBrancheAnomalie(integration, "a_12335_notifs_21_3");
 
 
 // MERGES --------------------
@@ -26,3 +27,4 @@ creerMerge(integration, anomalie13679);
 creerMerge(integration, anomalie12604);
 creerMerge(f_refonte_nav, tache2);
 integration.commit("V21.03.00.906 et 907"); // tag
+creerMerge(integration, anomalie12335);
