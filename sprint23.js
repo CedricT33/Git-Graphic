@@ -15,7 +15,7 @@ var anomalie14429 = creerBrancheAnomalie(fonctionnalite1, "a_14429-tags-refonte-
 var anomalie13679 = creerBrancheAnomalie(integration, "a_13679-loader-infini-op-vlider-touch-id");
 var tache3 = creerBrancheDeTache(integration, "t_14319_package_pour_IARD (ne pas fusionner)");
 var anomalie12604 = creerBrancheAnomalie(integration, "a_12604-tags-rationnalisation-stripes-certicode_plus");
-var anomalie14072 = creerBrancheAnomalie(integration, "a_14072-apparition-furtive-du-header");
+var anomalie14072 = creerBrancheAnomalie(integration, "a_14072-apparition-furtive-du-header (+ 13012)");
 
 
 // MERGES --------------------
