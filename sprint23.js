@@ -26,5 +26,5 @@ creerMerge(fonctionnalite1, anomalie14429);
 creerMerge(integration, fonctionnalite1);
 creerMerge(integration, anomalie13679);
 creerMerge(integration, anomalie12604);
-integration.commit("V21.03.00.906 et 907"); // tag
 creerMerge(integration, anomalie12335);
+integration.commit("V21.03.00.906 et 907"); // tag
