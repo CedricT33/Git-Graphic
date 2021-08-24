@@ -19,5 +19,6 @@ var anomalie14072 = creerBrancheAnomalie(integration, "a_14072-apparition-furtiv
 
 
 // MERGES --------------------
+creerMerge(fonctionnalite1, tache2);
 creerMerge(integration, anomalie12604);
 //integration.commit("V21.03.00.9xx et 9xx"); // tag
