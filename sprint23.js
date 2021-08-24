@@ -25,4 +25,4 @@ creerMerge(fonctionnalite1, anomalie14429);
 creerMerge(integration, anomalie13679);
 creerMerge(integration, anomalie12604);
 creerMerge(f_refonte_nav, tache2);
-//integration.commit("V21.03.00.9xx et 9xx"); // tag
+integration.commit("V21.03.00.906 et 907"); // tag
