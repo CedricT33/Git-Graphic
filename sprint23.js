@@ -23,8 +23,8 @@ var anomalie12335 = creerBrancheAnomalie(integration, "a_12335_notifs_21_3");
 creerMerge(fonctionnalite1, tache1);
 creerMerge(fonctionnalite1, tache2);
 creerMerge(fonctionnalite1, anomalie14429);
+creerMerge(integration, fonctionnalite1);
 creerMerge(integration, anomalie13679);
 creerMerge(integration, anomalie12604);
-creerMerge(f_refonte_nav, tache2);
 integration.commit("V21.03.00.906 et 907"); // tag
 creerMerge(integration, anomalie12335);
