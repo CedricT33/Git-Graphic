@@ -45,7 +45,6 @@ header {
 
 .swiper-pagination {
     position: absolute;
-    display: flex;
     align-items: center;
     left: 49%;
     top: 40%;
