@@ -31,3 +31,28 @@ creerMerge(integration, anomalie12604);
 creerMerge(integration, anomalie12335);
 integration.commit("V21.03.00.906 et 907"); // tag
 creerMerge(integration, anomalie14040);
+
+
+
+
+//-------------------------QH5---------------------------//
+
+
+// On instancie le graph dans le conteneur.
+var sprint23b = creerGitGraph("graph-container-23b");
+
+// Branche MASTER
+var masterQH5 = creerBrancheMasterQH5(sprint23b);
+
+var releaseQH5 = masterQH5.branch("release/08_43_00.xxx");
+releaseQH5.commit("start");
+var integrationQH5 = creerBrancheDeMerge(releaseQH5, "integration_08_43_00.xxx");
+
+// Branches FONCTIONNALITE et TACHES
+var tache8721 = creerBrancheDeTache(integrationQH5, "t_8721_alerte_splunk_compte_contrat");
+
+
+// MERGES --------------------
+//creerMerge(integrationQH5, tache8721);
+//creerMerge(releaseQH5, integrationQH5);
+//releaseQH5.commit("V08_43_00.000"); // tag
