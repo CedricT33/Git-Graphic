@@ -19,6 +19,7 @@ var anomalie14072 = creerBrancheAnomalie(integration, "a_14072-apparition-furtiv
 var anomalie12335 = creerBrancheAnomalie(integration, "a_12335_notifs_21_3");
 var anomalie14040 = creerBrancheAnomalie(integration, "a_14040-route-raccourci-profil");
 var anomalie14419 = creerBrancheAnomalie(integration, "a_14419_split_notifs");
+var anomalie14585 = creerBrancheAnomalie(integration, "a_14585-bulle-footer-donnees-perso");
 
 
 // MERGES --------------------
