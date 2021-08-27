@@ -54,6 +54,6 @@ var tache8721 = creerBrancheDeTache(integrationQH5, "t_8721_alerte_splunk_compte
 
 
 // MERGES --------------------
-//creerMerge(integrationQH5, tache8721);
-//creerMerge(releaseQH5, integrationQH5);
+creerMerge(integrationQH5, tache8721);
+creerMerge(releaseQH5, integrationQH5);
 //releaseQH5.commit("V08_43_00.000"); // tag
