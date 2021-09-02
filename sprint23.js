@@ -24,6 +24,7 @@ var anomalie13652 = creerBrancheAnomalie(integration, "a_13652-absence-loader-po
 var anomalie14651 = creerBrancheAnomalie(integration, "a_14651-parcours_mise_en_avant_time_out");
 var anomalie12960 = creerBrancheAnomalie(integration, "a_12960_notifs_cryptees");
 var anomalie12637 = creerBrancheAnomalie(integration, "a_12637_majeurs_proteges_redirection_notifications");
+var tache12490 = creerBrancheDeTache(integration, "t_12490_clean_code_notifs");
 
 
 
