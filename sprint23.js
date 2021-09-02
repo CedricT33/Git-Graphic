@@ -23,7 +23,7 @@ var anomalie14585 = creerBrancheAnomalie(integration, "a_14585-bulle-footer-donn
 var anomalie13652 = creerBrancheAnomalie(integration, "a_13652-absence-loader-popin-certicode-dashboard");
 var anomalie14651 = creerBrancheAnomalie(integration, "a_14651-parcours_mise_en_avant_time_out");
 var anomalie12960 = creerBrancheAnomalie(integration, "a_12960_notifs_cryptees");
-var anomalie12366 = creerBrancheAnomalie(integration, "a_12366-retour-page-parametres-notifications");
+var anomalie12637 = creerBrancheAnomalie(integration, "a_12637_majeurs_proteges_redirection_notifications");
 
 
 
