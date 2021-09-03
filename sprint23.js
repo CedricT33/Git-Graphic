@@ -25,6 +25,7 @@ var anomalie14651 = creerBrancheAnomalie(integration, "a_14651-parcours_mise_en_
 var anomalie12960 = creerBrancheAnomalie(integration, "a_12960_notifs_cryptees");
 var anomalie12637 = creerBrancheAnomalie(integration, "a_12637_majeurs_proteges_redirection_notifications");
 var tache12490 = creerBrancheDeTache(integration, "t_12490_clean_code_notifs");
+var anomalie14644 = creerBrancheAnomalie(integration, "a_14644-retour-racine-menus-footer");
 
 
 
