@@ -27,6 +27,7 @@ var anomalie12637 = creerBrancheAnomalie(integration, "a_12637_majeurs_proteges_
 var tache12490 = creerBrancheDeTache(integration, "t_12490_clean_code_notifs");
 var anomalie14644 = creerBrancheAnomalie(integration, "a_14644-retour-racine-menus-footer");
 var anomalie7922 = creerBrancheAnomalie(integration, "a_7922-certicode-plus-reseau-indispo");
+var anomalie15024 = creerBrancheAnomalie(integration, "a_15024-retrait-parcours-mise-en-avant-Certicode-sur-desktop");
 
 
 
@@ -49,6 +50,7 @@ integration.commit("V21.03.00.912 et 913"); // tag
 creerMerge(integration, anomalie13652);
 creerMerge(integration, anomalie12960);
 creerMerge(integration, anomalie12637);
+creerMerge(integration, anomalie15024);
 
 //-------------------------QH5---------------------------//
 
