@@ -83,3 +83,6 @@ creerMerge(integrationQH5, tache8721);
 creerMerge(releaseQH5, integrationQH5);
 releaseQH5.commit("V08_43_00.000"); // tag
 releaseQH5.commit("V08_43_00.002 (revert alerte BEM)"); // tag
+
+var release8721 = creerBrancheDeMerge(releaseQH5, "release/t_8721");
+release8721.commit("V08_44_00.200"); // tag
