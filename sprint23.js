@@ -29,6 +29,7 @@ var anomalie14644 = creerBrancheAnomalie(integration, "a_14644-retour-racine-men
 var anomalie7922 = creerBrancheAnomalie(integration, "a_7922-certicode-plus-reseau-indispo (+ 15025)");
 var anomalie15024 = creerBrancheAnomalie(integration, "a_15024-retrait-parcours-mise-en-avant-Certicode-sur-desktop");
 var anomalie15004 = creerBrancheAnomalie(integration, "a_15004-dashboard-popin-le-service-synchronisation-non-conforme");
+var anomalie14939 = creerBrancheAnomalie(integration, "a_14939_bulle_syndication_contacts");
 
 
 // MERGES --------------------
@@ -55,6 +56,11 @@ creerMerge(integration, tache12490);
 creerMerge(integration, anomalie14644);
 creerMerge(integration, anomalie7922);
 creerMerge(integration, anomalie15004);
+
+
+
+
+
 //-------------------------QH5---------------------------//
 
 
