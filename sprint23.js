@@ -31,6 +31,7 @@ var anomalie15024 = creerBrancheAnomalie(integration, "a_15024-retrait-parcours-
 var anomalie15004 = creerBrancheAnomalie(integration, "a_15004-dashboard-popin-le-service-synchronisation-non-conforme");
 var anomalie14939 = creerBrancheAnomalie(integration, "a_14939_bulle_syndication_contacts");
 var anomalie15084 = creerBrancheAnomalie(integration, "a_15084-appel-purge-retour-dashboard");
+var tache7224 = creerBrancheDeTache(integration, "t_7224-migration-aem");
 
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache1);
