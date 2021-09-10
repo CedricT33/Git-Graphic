@@ -59,6 +59,7 @@ creerMerge(integration, anomalie7922);
 creerMerge(integration, anomalie15004);
 creerMerge(integration, anomalie15084);
 integration.commit("V21.03.00.914 et 915"); // tag
+creerMerge(integration, anomalie14939);
 
 
 
