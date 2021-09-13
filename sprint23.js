@@ -32,6 +32,13 @@ var anomalie15004 = creerBrancheAnomalie(integration, "a_15004-dashboard-popin-l
 var anomalie14939 = creerBrancheAnomalie(integration, "a_14939_bulle_syndication_contacts");
 var anomalie15084 = creerBrancheAnomalie(integration, "a_15084-appel-purge-retour-dashboard");
 var tache7224 = creerBrancheDeTache(integration, "t_7224-migration-aem");
+var tache4 = creerBrancheDeTache(integration, "template_texte_contestation");
+var tache8979 = creerBrancheDeTache(integration, "t_8979_parcours_opposition_carte");
+var tache8999 = creerBrancheDeTache(integration, "t_8999_contestation_operation_carte");
+var tache5 = creerBrancheDeTache(tache8999, "t_8999_8979");
+
+
+
 
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache1);
@@ -60,6 +67,9 @@ creerMerge(integration, anomalie15004);
 creerMerge(integration, anomalie15084);
 integration.commit("V21.03.00.914 et 915"); // tag
 creerMerge(integration, anomalie14939);
+creerMerge(tache8979, tache4);
+creerMerge(tache5, tache8979);
+
 
 
 
