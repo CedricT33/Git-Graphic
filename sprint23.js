@@ -36,6 +36,7 @@ var tache4 = creerBrancheDeTache(integration, "template_texte_contestation");
 var tache8979 = creerBrancheDeTache(integration, "t_8979_parcours_opposition_carte");
 var tache8999 = creerBrancheDeTache(integration, "t_8999_contestation_operation_carte");
 var tache5 = creerBrancheDeTache(tache8999, "t_8999_8979");
+var anomalie5526 = creerBrancheAnomalie(integration, "a_5526 (tags fingerprint)");
 
 
 
