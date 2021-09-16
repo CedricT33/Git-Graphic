@@ -10,6 +10,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_formulaire_contestations_monetiques");
 var tache8999 = creerBrancheDeTache(integration, "t_8999_contestation_operation_carte");
+var tache8979 = creerBrancheDeTache(integration, "t_8979_parcours_opposition_carte");
 var anomalie5526 = creerBrancheAnomalie(integration, "a_5526_modification_tags");
 
 
