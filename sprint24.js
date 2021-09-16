@@ -13,6 +13,8 @@ var tache8999 = creerBrancheDeTache(integration, "t_8999_contestation_operation_
 var anomalie5526 = creerBrancheAnomalie(integration, "a_5526_modification_tags");
 
 
+// Branche SPRINT
+var brancheSprint = creerBrancheDeSprint("twenty_r04_s03");
 
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache8999);
