@@ -16,7 +16,7 @@ var tache14533 = creerBrancheDeTache(integration, "t-14533-spay-debut-de-parcour
 
 
 // Branche SPRINT
-var brancheSprint = creerBrancheDeSprint("twenty_r04_s03");
+var brancheSprint = creerBrancheDeSprint("twenty_r04_s01");
 
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache8999);
