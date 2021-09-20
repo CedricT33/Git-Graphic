@@ -13,6 +13,8 @@ var tache8999 = creerBrancheDeTache(integration, "t_8999_contestation_operation_
 var tache8979 = creerBrancheDeTache(integration, "t_8979_parcours_opposition_carte");
 var anomalie5526 = creerBrancheAnomalie(integration, "a_5526_modification_tags");
 var tache14533 = creerBrancheDeTache(integration, "t-14533-spay-debut-de-parcours-app");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_spay");
+var tache = creerBrancheDeTache(fonctionnalite2, "t_1150_spay_nouveaux_point_entrees");
 
 
 // Branche SPRINT
