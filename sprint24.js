@@ -13,8 +13,9 @@ var tache8999 = creerBrancheDeTache(integration, "t_8999_contestation_operation_
 var tache8979 = creerBrancheDeTache(integration, "t_8979_parcours_opposition_carte");
 var anomalie5526 = creerBrancheAnomalie(integration, "a_5526_modification_tags");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_spay");
-var tache = creerBrancheDeTache(fonctionnalite2, "t_1150_spay_nouveaux_point_entrees");
+var tache1150 = creerBrancheDeTache(fonctionnalite2, "t_1150_spay_nouveaux_point_entrees");
 var tache14533 = creerBrancheDeTache(integration, "t-14533-spay-debut-de-parcours-app");
+var brancheIntermediaire = creerBrancheDeTache(fonctionnalite2, "14533_1150_intermediaire");
 
 
 // Branche SPRINT
@@ -23,7 +24,8 @@ var brancheSprint = creerBrancheDeSprint("twenty_r04_s01");
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache8999);
 creerMerge(integration, anomalie5526);
-
+creerMerge(tache14533, brancheIntermediaire);
+creerMerge(brancheIntermediaire, tache1150);
 
 
 
