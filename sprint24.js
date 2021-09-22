@@ -16,7 +16,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_spay");
 var tache1150 = creerBrancheDeTache(fonctionnalite2, "t_1150_spay_nouveaux_point_entrees");
 var tache14533 = creerBrancheDeTache(integration, "t-14533-spay-debut-de-parcours-app");
 var brancheIntermediaire = creerBrancheDeTache(fonctionnalite2, "14533_1150_intermediaire");
-
+var tache12584 = creerBrancheDeTache(inttegration, "12584-cleanCodeCompte");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s01");
