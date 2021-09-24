@@ -25,7 +25,8 @@ var brancheSprint = creerBrancheDeSprint("twenty_r04_s01");
 creerMerge(fonctionnalite1, tache8999);
 creerMerge(integration, anomalie5526);
 creerMerge(tache14533, brancheIntermediaire);
-creerMerge(brancheIntermediaire, tache1150);
+creerMerge(tache8979, fonctionnalite1);
+
 
 
 
