@@ -16,6 +16,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_spay");
 var tache1150 = creerBrancheDeTache(fonctionnalite2, "t_1150_spay_nouveaux_point_entrees");
 var tache14533 = creerBrancheDeTache(integration, "t-14533-spay-debut-de-parcours-app");
 var tache12584 = creerBrancheDeTache(integration, "12584_cleanCodeCompte");
+var anomalie12604 = creerBrancheAnomalie(integration, "a_12604_Tag_CerticodePlus");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s01");
@@ -26,6 +27,7 @@ creerMerge(integration, anomalie5526);
 creerMerge(fonctionnalite1, tache8979);
 creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(brancheSprint, tache12584);
+creerMerge(brancheSprint, anomalie12604);
 
 
 
