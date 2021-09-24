@@ -15,7 +15,6 @@ var anomalie5526 = creerBrancheAnomalie(integration, "a_5526_modification_tags")
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_spay");
 var tache1150 = creerBrancheDeTache(fonctionnalite2, "t_1150_spay_nouveaux_point_entrees");
 var tache14533 = creerBrancheDeTache(integration, "t-14533-spay-debut-de-parcours-app");
-var brancheIntermediaire = creerBrancheDeTache(fonctionnalite2, "14533_1150_intermediaire");
 var tache12584 = creerBrancheDeTache(integration, "t_12584_cleanCodeCompte");
 
 // Branche SPRINT
@@ -24,10 +23,8 @@ var brancheSprint = creerBrancheDeSprint("twenty_r04_s01");
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache8999);
 creerMerge(integration, anomalie5526);
-creerMerge(tache14533, brancheIntermediaire);
 creerMerge(fonctionnalite1, tache8979);
 creerMerge(fonctionnalite1, brancheSprint);
-creerMerge(brancheIntermediaire, tache1150);
 
 
 
