@@ -26,7 +26,8 @@ creerMerge(fonctionnalite1, tache8999);
 creerMerge(integration, anomalie5526);
 creerMerge(tache14533, brancheIntermediaire);
 creerMerge(fonctionnalite1, tache8979);
-creerMerge(brancheSprint, fonctionnalite1);
+creerMerge(fonctionnalite1, brancheSprint);
+creerMerge(brancheIntermediaire, tache1150);
 
 
 
