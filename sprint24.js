@@ -20,7 +20,6 @@ var anomalie12604 = creerBrancheAnomalie(integration, "a_12604_Tag_CerticodePlus
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache7331 = creerBrancheDeTache(fonctionnalite3, "t_7331-table-aem-hash");
 var tache7224 = creerBrancheDeTache(fonctionnalite3, "t_7224-migration-aem");
-var tache14533_11150 = creerBrancheDeTache(fonctionnalite2, "628-q4q-samsungpay-fusion-14533-11150");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s01");
@@ -33,6 +32,7 @@ creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(brancheSprint, tache12584);
 creerMerge(brancheSprint, anomalie12604);
 creerMerge(fonctionnalite2, tache14533);
+var tache14533_11150 = creerBrancheDeTache(fonctionnalite2, "628-q4q-samsungpay-fusion-14533-11150");
 
 
 
