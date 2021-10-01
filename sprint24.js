@@ -17,6 +17,7 @@ var tache1150 = creerBrancheDeTache(fonctionnalite2, "t_1150_spay_nouveaux_point
 var tache14533 = creerBrancheDeTache(integration, "t-14533-spay-debut-de-parcours-app");
 creerMerge(fonctionnalite2, tache14533);
 var tache14533_11150 = creerBrancheDeTache(fonctionnalite2, "628-q4q-samsungpay-fusion-14533-11150");
+creerMerge(tache14533_11150, tache1150);
 var tache12584 = creerBrancheDeTache(integration, "12584_cleanCodeCompte");
 var anomalie12604 = creerBrancheAnomalie(integration, "a_12604_Tag_CerticodePlus");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_migration_aem");
