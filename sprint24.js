@@ -34,6 +34,18 @@ creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(brancheSprint, tache12584);
 creerMerge(brancheSprint, anomalie12604);
 
+// On instancie le graph dans le conteneur.
+var sprint24b = creerGitGraph("graph-container-24b");
+
+// Branche MASTER
+var masterQH7 = creerBrancheMasterQH7(sprint24b);
+
+var releaseQH7 = masterQH7.branch("release/21_10_00.xxx");
+releaseQH5.commit("start");
+var integrationQH5 = creerBrancheDeMerge(releaseQH5, "integration_21_10.xxx");
+
+// Branches FONCTIONNALITE et TACHES
+var fonctionnalite = creerBrancheFonctionnalite(integrationQH5, "f_11264_spay_eligiblite");
 
 
 
