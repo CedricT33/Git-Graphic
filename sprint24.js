@@ -45,7 +45,7 @@ releaseQH5.commit("start");
 var integrationQH5 = creerBrancheDeMerge(releaseQH5, "integration_21_10.xxx");
 
 // Branches FONCTIONNALITE et TACHES
-var fonctionnalite = creerBrancheFonctionnalite(integrationQH5, "f_11264_spay_eligiblite");
+var fonctionnalite = creerBrancheFonctionnalite("f_11264_spay_eligiblite");
 
 
 
