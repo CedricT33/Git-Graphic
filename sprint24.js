@@ -34,6 +34,7 @@ creerMerge(fonctionnalite1, tache8979);
 creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(brancheSprint, tache12584);
 creerMerge(brancheSprint, anomalie12604);
+creerMerge(brancheSprint, tache14533_11150);
 
 // On instancie le graph dans le conteneur.
 var sprint24b = creerGitGraph("graph-container-24b");
