@@ -8,6 +8,7 @@ var integration = master.branch("integration_systemteam_r21_4");
 integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
+var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_s1");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_formulaire_contestations_monetiques");
 var tache8999 = creerBrancheDeTache(integration, "t_8999_contestation_operation_carte");
 var tache8979 = creerBrancheDeTache(integration, "t_8979_parcours_opposition_carte");
@@ -31,7 +32,6 @@ var brancheSprint = creerBrancheDeSprint("twenty_r04_s01");
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache8999);
 creerMerge(integration, anomalie5526);
-var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_s1");
 creerMerge(fonctionnalite1, tache8979);
 creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(brancheSprint, tache12584);
