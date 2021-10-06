@@ -26,3 +26,19 @@ var brancheSprint = creerBrancheDeSprint("twenty_r04_s02");
 
 //integration.commit("V21.04.00.9XX et 9XX"); // tag
 
+
+//-------------------------QH7---------------------------//
+
+// On instancie le graph dans le conteneur.
+var sprint25b = creerGitGraph("graph-container-25b");
+
+// Branche MASTER
+var masterQH7 = creerBrancheMasterQH7(sprint25b);
+
+var releaseQH7 = masterQH7.branch("release/21_10_00.xxx");
+releaseQH7.commit("start");
+var integrationQH7 = creerBrancheDeMerge(releaseQH7, "integration_21_10.xxx");
+
+// Branches FONCTIONNALITE et TACHES
+var fonctionnalite = creerBrancheFonctionnalite("f_11264_spay_eligiblite");
+
