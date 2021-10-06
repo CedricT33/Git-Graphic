@@ -42,6 +42,7 @@ creerMerge(brancheMerge, fonctionnalite1);
 creerMerge(brancheMerge, fonctionnalite2);
 creerMerge(brancheMerge, tache12584);
 creerMerge(brancheMerge, anomalie12604);
+creerMerge(integration, brancheMerge);
 integration.commit("V21.04.00.900 et 901"); // tag
 
 
