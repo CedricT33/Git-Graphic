@@ -8,6 +8,7 @@ var integration = master.branch("integration_systemteam_r21_4");
 integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
+var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_s1");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_formulaire_contestations_monetiques");
 var tache8999 = creerBrancheDeTache(integration, "t_8999_contestation_operation_carte");
 var tache8979 = creerBrancheDeTache(integration, "t_8979_parcours_opposition_carte");
@@ -36,6 +37,12 @@ creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(brancheSprint, tache12584);
 creerMerge(brancheSprint, anomalie12604);
 creerMerge(brancheSprint, tache14533_11150);
+// FUSION --------------------
+creerMerge(brancheMerge, fonctionnalite1);
+creerMerge(brancheMerge, fonctionnalite2);
+creerMerge(brancheMerge, tache12584);
+creerMerge(brancheMerge, anomalie12604);
+integration.commit("V21.04.00.900 et 901"); // tag
 
 
 //-------------------------QH7---------------------------//
@@ -53,9 +60,3 @@ var integrationQH7 = creerBrancheDeMerge(releaseQH7, "integration_21_10.xxx");
 // Branches FONCTIONNALITE et TACHES
 var fonctionnalite = creerBrancheFonctionnalite("f_11264_spay_eligiblite");
 
-
-
-
-
-
-//integration.commit("V21.04.00.900 et 901"); // tag
