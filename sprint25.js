@@ -41,6 +41,6 @@ var masterQH7 = creerBrancheMasterQH7(sprint25b);
 var releaseQH7 = masterQH7.branch("release/21_10_00.xxx");
 releaseQH7.commit("start");
 var integrationQH7 = creerBrancheDeMerge(releaseQH7, "integration_21_10.xxx");
-var tache11264QH7 = creerBrancheDeTache(integrationQH7, "t_11264_controle_acces_spay");
+var tache11264QH7 = creerBrancheDeTache(integrationQH7, "f_11264_spay_eligiblite");
 
 
