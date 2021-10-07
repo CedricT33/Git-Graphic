@@ -12,7 +12,7 @@ integration.commit("start");
 
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_spay");
 var tache15935 = creerBrancheDeTache(fonctionnalite1, "t_spay_menu_gerer_controle_eligibilite_carte (15935)");
-var ano_15888 = = creerBrancheAnomalie(fonctionnalite1, "a_15888_spay_affichage_anc");
+var ano_15888 = creerBrancheAnomalie(fonctionnalite1, "a_15888_spay_affichage_anc");
 var tache11289 = creerBrancheDeTache(fonctionnalite1, "t_11289-titulaire-carte");
 var fonctionnalite3 = creerBrancheFonctionnalite("f_11264_spay_eligiblite");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
