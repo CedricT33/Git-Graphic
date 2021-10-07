@@ -11,7 +11,7 @@ integration.commit("start");
 //var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_s2");
 
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_spay");
-
+var fonctionnalite3 = creerBrancheFonctionnalite("f_11264_spay_eligiblite");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache7331 = creerBrancheDeTache(fonctionnalite2, "t_7331-table-aem-hash");
 var tache7224 = creerBrancheDeTache(fonctionnalite2, "t_7224-migration-aem");
@@ -39,7 +39,4 @@ var masterQH7 = creerBrancheMasterQH7(sprint25b);
 var releaseQH7 = masterQH7.branch("release/21_10_00.xxx");
 releaseQH7.commit("start");
 var integrationQH7 = creerBrancheDeMerge(releaseQH7, "integration_21_10.xxx");
-
-// Branches FONCTIONNALITE et TACHES
-var fonctionnalite = creerBrancheFonctionnalite("f_11264_spay_eligiblite");
 
