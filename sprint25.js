@@ -19,6 +19,7 @@ var ano_15905 = creerBrancheAnomalie(fonctionnalite1, "a_15905_spay_profile_vide
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache7331 = creerBrancheDeTache(fonctionnalite2, "t_7331-table-aem-hash");
 var tache7224 = creerBrancheDeTache(fonctionnalite2, "t_7224-migration-aem");
+var tache15785 = creerBrancheDeTache(fonctionnalite2, "t_15785-mentions-legales-via-aem");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s02");
