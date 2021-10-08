@@ -15,10 +15,10 @@ var tache15935 = creerBrancheDeTache(fonctionnalite1, "t_spay_menu_gerer_control
 var ano_15888 = creerBrancheAnomalie(fonctionnalite1, "a_15888_spay_affichage_anc");
 var tache11289 = creerBrancheDeTache(fonctionnalite1, "t_11289-titulaire-carte");
 var tache11264 = creerBrancheDeTache(fonctionnalite1, "t_11264_controle_acces_spay");
+var ano_15905 = creerBrancheAnomalie(fonctionnalite1, "a_15905_spay_profile_vide");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache7331 = creerBrancheDeTache(fonctionnalite2, "t_7331-table-aem-hash");
 var tache7224 = creerBrancheDeTache(fonctionnalite2, "t_7224-migration-aem");
-var ano_15905 = creerBrancheAnomalie(fonctionnalite1, "a_15905_spay_profile_vide");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s02");
