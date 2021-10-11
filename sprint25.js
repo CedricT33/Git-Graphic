@@ -20,8 +20,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache7331 = creerBrancheDeTache(fonctionnalite2, "t_7331-table-aem-hash");
 var tache7224 = creerBrancheDeTache(fonctionnalite2, "t_7224-migration-aem");
 var tache15785 = creerBrancheDeTache(fonctionnalite2, "t_15785-mentions-legales-via-aem");
-var fonctionnalite3 = creerBrancheDeFonctionnalite("f_contestations_monetiques");
-var tache15666 = creerBrancheDeTache(fonctionnalite3, "t_contestation_operation_opposition_carte (15666)");
+var tache15666 = creerBrancheDeTache(fonctionnalite2, "t_15666_AEM_contestation_monetique");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s02");
