@@ -14,8 +14,8 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_spay");
 var tache15935 = creerBrancheDeTache(fonctionnalite1, "t_spay_menu_gerer_controle_eligibilite_carte (15935)");
 var ano_15888 = creerBrancheAnomalie(fonctionnalite1, "a_15888_spay_affichage_anc");
 var tache11289 = creerBrancheDeTache(fonctionnalite1, "t_11289-titulaire-carte");
-var tache11264 = creerBrancheDeTache(fonctionnalite1, "t_11264_controle_acces_spay");
 var ano_15905 = creerBrancheAnomalie(fonctionnalite1, "a_15905_spay_profile_vide");
+var tache11264 = creerBrancheDeTache(fonctionnalite1, "t_11264_controle_acces_spay");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache7331 = creerBrancheDeTache(fonctionnalite2, "t_7331-table-aem-hash");
 var tache7224 = creerBrancheDeTache(fonctionnalite2, "t_7224-migration-aem");
@@ -47,6 +47,6 @@ var releaseQH7 = masterQH7.branch("release/21_10_00.xxx");
 releaseQH7.commit("start");
 var integrationQH7 = creerBrancheDeMerge(releaseQH7, "integration_21_10.xxx");
 var tache11264QH7 = creerBrancheDeTache(integrationQH7, "f_11264_spay_eligiblite");
-var integrationQH7 = creerBrancheDeMerge(integrationQH7, tache11264QH7);
+creerMerge(integrationQH7, tache11264QH7);
 
 
