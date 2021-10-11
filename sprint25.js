@@ -28,6 +28,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r04_s02");
 //creerMerge(fonctionnaliteX, tacheX);
 creerMerge(fonctionnalite1, ano_15888);
 creerMerge(fonctionnalite1, ano_15905);
+creerMerge(fonctionnalite1, tache11264);
 
 // FUSION --------------------
 
@@ -46,5 +47,6 @@ var releaseQH7 = masterQH7.branch("release/21_10_00.xxx");
 releaseQH7.commit("start");
 var integrationQH7 = creerBrancheDeMerge(releaseQH7, "integration_21_10.xxx");
 var tache11264QH7 = creerBrancheDeTache(integrationQH7, "f_11264_spay_eligiblite");
+var integrationQH7 = creerBrancheDeMerge(integrationQH7, tache11264QH7);
 
 
