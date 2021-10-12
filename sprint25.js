@@ -48,6 +48,7 @@ var masterQH7 = creerBrancheMasterQH7(sprint25b);
 var releaseQH7 = masterQH7.branch("release/21_11_00.xxx");
 releaseQH7.commit("start");
 var integrationQH7 = creerBrancheDeMerge(releaseQH7, "integration_21_11.xxx");
+var tache2968QH7 = creerBrancheDeTache(integrationQH7, "f_migration_mono-repo");
 var tache11264QH7 = creerBrancheDeTache(integrationQH7, "f_11264_spay_eligiblite");
 creerMerge(integrationQH7, tache11264QH7);
 
