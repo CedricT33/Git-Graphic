@@ -55,6 +55,7 @@ releaseQH7.commit("start");
 var integrationQH7 = creerBrancheDeMerge(releaseQH7, "integration_21_11.xxx");
 var tache11264QH7 = creerBrancheDeTache(integrationQH7, "f_11264_spay_eligiblite");
 var tache2968QH7 = creerBrancheDeTache(integrationQH7, "f_migration_mono-repo");
+var tache14503QH7 = creerBrancheDeTache(integrationQH7, "t_14503_spay_mpin_perime");
 creerMerge(integrationQH7, tache11264QH7);
 
 
