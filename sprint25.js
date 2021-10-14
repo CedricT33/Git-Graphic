@@ -38,7 +38,7 @@ creerMerge(fonctionnalite2, tache7224);
 creerMerge(fonctionnalite2, tache15785);
 creerMerge(fonctionnalite2, tache15666);
 creerMerge(fonctionnalite2, tache16228);
-
+creerMerge(fonctionnalite1, tache11289);
 
 // FUSION --------------------
 
