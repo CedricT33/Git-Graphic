@@ -16,13 +16,13 @@ var ano_15888 = creerBrancheAnomalie(fonctionnalite1, "a_15888_spay_affichage_an
 var tache11289 = creerBrancheDeTache(fonctionnalite1, "t_11289-titulaire-carte");
 var ano_15905 = creerBrancheAnomalie(fonctionnalite1, "a_15905_spay_profile_vide");
 var tache11264 = creerBrancheDeTache(fonctionnalite1, "t_11264_controle_acces_spay");
+var tache14503 = creerBrancheDeTache(fonctionnalite1, "t_14503_spay_mpin_perime");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache7331 = creerBrancheDeTache(fonctionnalite2, "t_7331-table-aem-hash");
 var tache7224 = creerBrancheDeTache(fonctionnalite2, "t_7224-migration-aem");
 var tache15785 = creerBrancheDeTache(fonctionnalite2, "t_15785-mentions-legales-via-aem");
 var tache15666 = creerBrancheDeTache(fonctionnalite2, "t_15666_AEM_contestation_monetique");
 var tache16228 = creerBrancheDeTache(fonctionnalite2, "t_16228_confirmation_enrolement");
-var tache14503 = creerBrancheDeTache(fonctionnalite1, "t_14503_spay_mpin_perime");
 var tache15463 = creerBrancheDeTache(integration, "t_15463_notifs_connexion_invite");
 
 // Branche SPRINT
