@@ -42,7 +42,7 @@ creerMerge(fonctionnalite2, tache15666);
 creerMerge(fonctionnalite2, tache16228);
 creerMerge(fonctionnalite1, tache11289);
 creerMerge(fonctionnalite1, tache14503);
-creerMerge(fonctionnalite1, tache11264);
+creerMerge(fonctionnalite1, tache11115);
 creerMerge(brancheSprint, fonctionnalite2);
 creerMerge(brancheSprint, fonctionnalite1);
 
