@@ -18,6 +18,10 @@ var ano_15905 = creerBrancheAnomalie(fonctionnalite1, "a_15905_spay_profile_vide
 var tache11264 = creerBrancheDeTache(fonctionnalite1, "t_11264_controle_acces_spay");
 var tache14503 = creerBrancheDeTache(fonctionnalite1, "t_14503_spay_mpin_perime");
 var tache11115 = creerBrancheDeTache(fonctionnalite1, "t_11115_spay_operation_engageante");
+
+// Branche SPRINT
+var brancheSprint = creerBrancheDeSprint("twenty_r04_s02");
+
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_migration_aem");
 var tache7331 = creerBrancheDeTache(fonctionnalite2, "t_7331-table-aem-hash");
 var tache7224 = creerBrancheDeTache(fonctionnalite2, "t_7224-migration-aem");
@@ -26,8 +30,6 @@ var tache15666 = creerBrancheDeTache(fonctionnalite2, "t_15666_AEM_contestation_
 var tache16228 = creerBrancheDeTache(fonctionnalite2, "t_16228_confirmation_enrolement");
 var tache15463 = creerBrancheAnomalie(integration, "t_15463_notifs_connexion_invite");
 
-// Branche SPRINT
-var brancheSprint = creerBrancheDeSprint("twenty_r04_s02");
 
 // MERGES --------------------
 //creerMerge(fonctionnaliteX, tacheX);
