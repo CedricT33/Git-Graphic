@@ -47,7 +47,6 @@ creerMerge(fonctionnalite1, tache14503);
 creerMerge(fonctionnalite1, tache11115);
 creerMerge(brancheSprint, fonctionnalite2);
 creerMerge(brancheSprint, fonctionnalite1);
-
 // Rajout après fusion sur la branche de sprint : activité Android et comparaison de dates Table de Forcage
 var anoTableForcage = creerBrancheAnomalie(fonctionnalite2, "a_table_forcage_activity");
 creerMerge(fonctionnalite2, anoTableForcage);
@@ -55,6 +54,8 @@ creerMerge(brancheSprint, fonctionnalite2);
 
 
 // FUSION --------------------
+creerMerge(integration, fonctionnalite1);
+creerMerge(integration, fonctionnalite2);
 
 //integration.commit("V21.04.00.9XX et 9XX"); // tag
 
