@@ -13,6 +13,8 @@ integration.commit("start");
 //var tacheX = creerBrancheDeTache(fonctionnaliteX, "t_X");
 //var ano_X = creerBrancheAnomalie(fonctionnaliteX, "a_X");
 
+var tache15463 = creerBrancheAnomalie(integration, "t_15463_notifs_connexion_invite");
+
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s03");
 
