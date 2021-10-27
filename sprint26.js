@@ -14,6 +14,7 @@ integration.commit("start");
 //var ano_X = creerBrancheAnomalie(fonctionnaliteX, "a_X");
 
 var tache15463 = creerBrancheAnomalie(integration, "t_15463_notifs_connexion_invite");
+var tacheTestAem = creerBrancheDeMerge(integration, "ajout_page_test_aem");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s03");
