@@ -16,6 +16,7 @@ integration.commit("start");
 var tache15463 = creerBrancheAnomalie(integration, "t_15463_notifs_connexion_invite");
 var tacheTestAem = creerBrancheDeMerge(integration, "ajout_page_test_aem");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_ux_ui");
+var tache16160 = creerBrancheDeTache(fonctionnalite1, "t_16160_total_des_avoirs");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_moteur_sensi_relance");
 var tache16349 = creerBrancheAnomalie(fonctionnalite2, "t_16349_ajout_popin_sensi_laf");
 var tache15463 = creerBrancheAnomalie(integration, "t_16638");
