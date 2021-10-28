@@ -17,7 +17,7 @@ var tache15463 = creerBrancheAnomalie(integration, "t_15463_notifs_connexion_inv
 var tacheTestAem = creerBrancheDeMerge(integration, "ajout_page_test_aem");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_ux_ui");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_moteur_sensi_relance");
-var tache16349 = creerBrancheAnomalie(integration, "t_16349_ajout_popin_sensi_laf");
+var tache16349 = creerBrancheAnomalie(fonctionnalite2, "t_16349_ajout_popin_sensi_laf");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s03");
