@@ -19,7 +19,7 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_ux_ui");
 var tache16160 = creerBrancheDeTache(fonctionnalite1, "t_16160_total_des_avoirs");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_moteur_sensi_relance");
 var tache16349 = creerBrancheDeTache(fonctionnalite2, "t_16349_ajout_popin_sensi_laf");
-var tache15463 = creerBrancheAnomalie(integration, "t_16638");
+var tache15463 = creerBrancheDeTache(integration, "t_16638");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s03");
