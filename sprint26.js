@@ -30,6 +30,8 @@ var brancheSprint = creerBrancheDeSprint("twenty_r04_s03");
 // MERGES --------------------
 //creerMerge(fonctionnaliteX, tacheX);
 creerMerge(fonctionnalite2, tache16349);
+creerMerge(brancheSprint, fonctionnalite3);
+creerMerge(brancheSprint, fonctionnalite2);
 
 
 // FUSION --------------------
