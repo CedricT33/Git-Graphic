@@ -23,6 +23,8 @@ var tache16638 = creerBrancheDeTache(integration, "t_16638");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_13526_Apple_pay_uniformisation");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_spay (16931)");
 var tache1708 = creerBrancheDeTache(fonctionnalite4, "t_1708_spay_modification");
+var fonctionnalite5 = creerBrancheDeFonctionnalite("f_migration_aem");
+var tache16679 = creerBrancheDeTache(fonctionnalite5, "t_16679-url-de-contribution-html");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s03");
