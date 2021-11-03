@@ -22,6 +22,7 @@ var tache16349 = creerBrancheDeTache(fonctionnalite2, "t_16349_ajout_popin_sensi
 var tache16638 = creerBrancheDeTache(integration, "t_16638");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_13526_Apple_pay_uniformisation");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_spay (16931)");
+var tache1708 = creerBrancheDeTache(fonctionnalite4, "t_1708_spay_modification");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r04_s03");
@@ -34,6 +35,7 @@ creerMerge(brancheSprint, fonctionnalite4);
 creerMerge(brancheSprint, fonctionnalite3);
 creerMerge(brancheSprint, tache16638);
 creerMerge(brancheSprint, fonctionnalite2);
+creerMerge(fonctionnalite4, tache1708);
 
 
 
