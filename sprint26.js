@@ -19,7 +19,7 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_ux_ui");
 var tache16160 = creerBrancheDeTache(fonctionnalite1, "t_16160_total_des_avoirs");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_moteur_sensi_relance");
 var tache16349 = creerBrancheDeTache(fonctionnalite2, "t_16349_ajout_popin_sensi_laf");
-var tache15463 = creerBrancheDeTache(integration, "t_16638");
+var tache16638 = creerBrancheDeTache(integration, "t_16638");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_13526_Apple_pay_uniformisation");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_spay (16931)");
 
@@ -32,6 +32,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r04_s03");
 creerMerge(fonctionnalite2, tache16349);
 creerMerge(brancheSprint, fonctionnalite4);
 creerMerge(brancheSprint, fonctionnalite3);
+creerMerge(brancheSprint, tache16638);
 creerMerge(brancheSprint, fonctionnalite2);
 
 
