@@ -39,7 +39,7 @@ creerMerge(brancheSprint, fonctionnalite3);
 creerMerge(brancheSprint, tache16638);
 creerMerge(brancheSprint, fonctionnalite2);
 creerMerge(fonctionnalite5, tache16679);
-
+creerMerge(brancheSprint, fonctionnalite5);
 
 // FUSION --------------------
 
