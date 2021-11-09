@@ -50,7 +50,7 @@ var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_s3");
 creerMerge(brancheMerge, tache15463);
 creerMerge(brancheMerge, tacheTestAem);
 //creerMerge(brancheMerge, fonctionnalite1);
-//creerMerge(brancheMerge, fonctionnalite2);
+creerMerge(brancheMerge, fonctionnalite2);
 //creerMerge(brancheMerge, tache16638);
 //creerMerge(brancheMerge, fonctionnalite3);
 //creerMerge(brancheMerge, fonctionnalite4);
