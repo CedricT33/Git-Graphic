@@ -42,11 +42,17 @@ creerMerge(brancheSprint, fonctionnalite2);
 creerMerge(fonctionnalite5, tache16679);
 creerMerge(fonctionnalite5, ano17002);
 creerMerge(fonctionnalite1, tache16160);
-
 creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(brancheSprint, fonctionnalite5);
 
 // FUSION --------------------
+//creerMerge(integration, tache15463);
+//creerMerge(integration, fonctionnalite1);
+//creerMerge(integration, fonctionnalite2);
+//creerMerge(integration, tache16638);
+//creerMerge(integration, fonctionnalite3);
+//creerMerge(integration, fonctionnalite4);
+//creerMerge(integration, fonctionnalite5);
 
 //integration.commit("V21.04.00.9XX et 9XX"); // tag
 
