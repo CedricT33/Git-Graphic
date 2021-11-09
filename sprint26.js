@@ -13,6 +13,7 @@ integration.commit("start");
 //var tacheX = creerBrancheDeTache(fonctionnaliteX, "t_X");
 //var ano_X = creerBrancheAnomalie(fonctionnaliteX, "a_X");
 
+var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_s3");
 var tache15463 = creerBrancheAnomalie(integration, "t_15463_notifs_connexion_invite");
 var tacheTestAem = creerBrancheDeMerge(integration, "ajout_page_test_aem");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_ux_ui");
@@ -46,7 +47,6 @@ creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(brancheSprint, fonctionnalite5);
 
 // FUSION --------------------
-var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_s3");
 creerMerge(brancheMerge, tache15463);
 creerMerge(brancheMerge, tacheTestAem);
 //creerMerge(brancheMerge, fonctionnalite1);
