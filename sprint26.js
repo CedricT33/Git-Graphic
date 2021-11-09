@@ -51,10 +51,10 @@ creerMerge(brancheMerge, tache15463);
 creerMerge(brancheMerge, tacheTestAem);
 //creerMerge(brancheMerge, fonctionnalite1);
 creerMerge(brancheMerge, fonctionnalite2);
-//creerMerge(brancheMerge, tache16638);
-//creerMerge(brancheMerge, fonctionnalite3);
-//creerMerge(brancheMerge, fonctionnalite4);
-//creerMerge(brancheMerge, fonctionnalite5);
+creerMerge(brancheMerge, tache16638);
+creerMerge(brancheMerge, fonctionnalite3);
+creerMerge(brancheMerge, fonctionnalite4);
+creerMerge(brancheMerge, fonctionnalite5);
 
 //integration.commit("V21.04.00.9XX et 9XX"); // tag
 
