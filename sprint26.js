@@ -48,6 +48,7 @@ creerMerge(brancheSprint, fonctionnalite5);
 // FUSION --------------------
 var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_s3");
 creerMerge(brancheMerge, tache15463);
+creerMerge(brancheMerge, tacheTestAem);
 //creerMerge(brancheMerge, fonctionnalite1);
 //creerMerge(brancheMerge, fonctionnalite2);
 //creerMerge(brancheMerge, tache16638);
