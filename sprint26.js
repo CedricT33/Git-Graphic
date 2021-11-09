@@ -46,13 +46,14 @@ creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(brancheSprint, fonctionnalite5);
 
 // FUSION --------------------
-//creerMerge(integration, tache15463);
-//creerMerge(integration, fonctionnalite1);
-//creerMerge(integration, fonctionnalite2);
-//creerMerge(integration, tache16638);
-//creerMerge(integration, fonctionnalite3);
-//creerMerge(integration, fonctionnalite4);
-//creerMerge(integration, fonctionnalite5);
+var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_s3");
+creerMerge(brancheMerge, tache15463);
+//creerMerge(brancheMerge, fonctionnalite1);
+//creerMerge(brancheMerge, fonctionnalite2);
+//creerMerge(brancheMerge, tache16638);
+//creerMerge(brancheMerge, fonctionnalite3);
+//creerMerge(brancheMerge, fonctionnalite4);
+//creerMerge(brancheMerge, fonctionnalite5);
 
 //integration.commit("V21.04.00.9XX et 9XX"); // tag
 
