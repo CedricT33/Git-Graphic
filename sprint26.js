@@ -56,7 +56,7 @@ creerMerge(brancheMerge, fonctionnalite3);
 creerMerge(brancheMerge, fonctionnalite4);
 creerMerge(brancheMerge, fonctionnalite5);
 
-//integration.commit("V21.04.00.9XX et 9XX"); // tag
+integration.commit("V21.04.00.914 et 915"); // tag
 
 
 //-------------------------QH7---------------------------//
