@@ -20,6 +20,7 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
+var ano17346 = creerBrancheAnomalie(integration, "a_17346_total_avoirs");
 
 
 // Branche SPRINT
