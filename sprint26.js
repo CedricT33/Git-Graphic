@@ -56,6 +56,8 @@ creerMerge(brancheMerge, fonctionnalite3);
 creerMerge(brancheMerge, fonctionnalite4);
 creerMerge(brancheMerge, fonctionnalite5);
 
+creerMerge(integration, brancheMerge);
+
 integration.commit("V21.04.00.914 et 915"); // tag
 
 
