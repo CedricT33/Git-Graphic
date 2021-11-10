@@ -22,7 +22,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var ano17346 = creerBrancheAnomalie(integration, "a_17346_total_avoirs");
 var ano16933 = creerBrancheAnomalie(integration, "a_16933-spay-saisie-faux-mpins");
-
+var ano16771 = creerBrancheAnomalie(integration, "a_16771-spay-numeros-de-tel-ko");
 
 // Branche SPRINT
 
