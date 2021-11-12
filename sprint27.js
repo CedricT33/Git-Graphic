@@ -31,6 +31,6 @@ var ano16896 = creerBrancheAnomalie(integration, "a_16896-spay-bouton-deconnexio
 // MERGES --------------------
 creerMerge(integration, ano16933);
 creerMerge(integration, ano16771);
-
+creerMerge(integration, ano16896);
 // FUSION --------------------
 
