@@ -32,5 +32,6 @@ var ano16903 = creerBrancheAnomalie(integration, "a_16903-spay-header-non-centre
 creerMerge(integration, ano16933);
 creerMerge(integration, ano16771);
 creerMerge(integration, ano16896);
+creerMerge(integration, ano16903);
 // FUSION --------------------
 
