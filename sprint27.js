@@ -25,6 +25,7 @@ var ano16933 = creerBrancheAnomalie(integration, "a_16933-spay-saisie-faux-mpins
 var ano16771 = creerBrancheAnomalie(integration, "a_16771-spay-numeros-de-tel-ko");
 var ano16896 = creerBrancheAnomalie(integration, "a_16896-spay-bouton-deconnexion");
 var ano16903 = creerBrancheAnomalie(integration, "a_16903-spay-header-non-centre");
+var ano16829 = creerBrancheAnomalie(integration, "a_16829-spay-non-expiration-session");
 // Branche SPRINT
 
 
@@ -33,5 +34,6 @@ creerMerge(integration, ano16933);
 creerMerge(integration, ano16771);
 creerMerge(integration, ano16896);
 creerMerge(integration, ano16903);
+//creerMerge(integration, ano16829);
 // FUSION --------------------
 
