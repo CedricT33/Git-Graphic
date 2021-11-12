@@ -23,6 +23,7 @@ integration.commit("start");
 var ano17346 = creerBrancheAnomalie(integration, "a_17346_total_avoirs");
 var ano16933 = creerBrancheAnomalie(integration, "a_16933-spay-saisie-faux-mpins");
 var ano16771 = creerBrancheAnomalie(integration, "a_16771-spay-numeros-de-tel-ko");
+var ano16896 = creerBrancheAnomalie(integration, "a_16896-spay-bouton-deconnexion");
 
 // Branche SPRINT
 
