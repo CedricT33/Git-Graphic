@@ -27,6 +27,7 @@ var ano16896 = creerBrancheAnomalie(integration, "a_16896-spay-bouton-deconnexio
 var ano16903 = creerBrancheAnomalie(integration, "a_16903-spay-header-non-centre");
 var ano16829 = creerBrancheAnomalie(integration, "a_16829-spay-non-expiration-session");
 var ano17332 = creerBrancheAnomalie(integration, "a_17332-parcours-spay-ccs");
+var tache16374 = creerBrancheDeTache(integration, "t_16374-spay-clean-code-poc");
 // Branche SPRINT
 
 
