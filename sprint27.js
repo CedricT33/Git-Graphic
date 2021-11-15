@@ -26,6 +26,7 @@ var ano16771 = creerBrancheAnomalie(integration, "a_16771-spay-numeros-de-tel-ko
 var ano16896 = creerBrancheAnomalie(integration, "a_16896-spay-bouton-deconnexion");
 var ano16903 = creerBrancheAnomalie(integration, "a_16903-spay-header-non-centre");
 var ano16829 = creerBrancheAnomalie(integration, "a_16829-spay-non-expiration-session");
+var ano17332 = creerBrancheAnomalie(integration, "a_17332-parcours-spay-ccs");
 // Branche SPRINT
 
 
