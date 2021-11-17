@@ -5,7 +5,7 @@
 //var brancheSprint = creerBrancheDeSprint("twenty_rXX_sXX");
 //var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_sX");
 //creerMerge(fonctionnaliteX, tacheX);
-//integration.commit("V21.04.00.914 et 915"); // tag
+//integration.commit("V21.04.00.9XX et 9XX"); // tag
 //---------------------------------
 
 // On instancie le graph dans le conteneur.
@@ -32,8 +32,6 @@ var tache16374 = creerBrancheDeTache(integration, "t_16374-spay-clean-code-poc")
 var ano17644 = creerBrancheAnomalie(integration, "a_17644-spay-time-out-5min");
 var ano17604 = creerBrancheAnomalie(integration, "a_17604-xpay-numeros-de-tel-ko");
 
-// Branche SPRINT
-
 
 // MERGES --------------------
 creerMerge(integration, ano17346);
@@ -46,5 +44,4 @@ creerMerge(integration, ano17332);
 creerMerge(integration, tache16374);
 creerMerge(integration, ano17644);
 creerMerge(integration, ano17604);
-// FUSION --------------------
-
+integration.commit("V21.04.00.920 et 921"); // tag
