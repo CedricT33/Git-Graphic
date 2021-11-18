@@ -32,6 +32,8 @@ var tache16374 = creerBrancheDeTache(integration, "t_16374-spay-clean-code-poc")
 var ano17644 = creerBrancheAnomalie(integration, "a_17644-spay-time-out-5min");
 var ano17604 = creerBrancheAnomalie(integration, "a_17604-xpay-numeros-de-tel-ko");
 var ano17597 = creerBrancheAnomalie(integration, "a_17597");
+var ano18060 = creerBrancheAnomalie(integration, "a_18060");
+
 
 
 // MERGES --------------------
