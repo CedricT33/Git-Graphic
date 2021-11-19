@@ -32,6 +32,7 @@ var tache16374 = creerBrancheDeTache(integration, "t_16374-spay-clean-code-poc")
 var ano17644 = creerBrancheAnomalie(integration, "a_17644-spay-time-out-5min");
 var ano17604 = creerBrancheAnomalie(integration, "a_17604-xpay-numeros-de-tel-ko");
 var ano17597 = creerBrancheAnomalie(integration, "a_17597");
+var ano16521 = creerBrancheAnomalie(integration, "a_16521_modification_plafond_carte");
 var ano18060 = creerBrancheAnomalie(integration, "a_18060");
 
 
@@ -49,3 +50,4 @@ creerMerge(integration, ano17644);
 creerMerge(integration, ano17604);
 integration.commit("V21.04.00.920 et 921"); // tag
 creerMerge(integration, ano17597);
+creerMerge(integration, ano16521);
