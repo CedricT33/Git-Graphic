@@ -40,6 +40,7 @@ var ano17688 = creerBrancheAnomalie(integration, "a_17688");
 var ano17954 = creerBrancheAnomalie(integration, "a_17954-tnr-virement-service-indisponible");
 var ano18224 = creerBrancheAnomalie(integration, "a_18224_mise_en_avant_c+");
 var ano18329 = creerBrancheAnomalie(integration, "a_18329_total_des_avoirs");
+var ano17029 = creerBrancheAnomalie(integration, "a_17029-certicode-plus-multitap");
 
 
 
