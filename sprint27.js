@@ -35,6 +35,7 @@ var ano17597 = creerBrancheAnomalie(integration, "a_17597");
 var ano16521 = creerBrancheAnomalie(integration, "a_16521_modification_plafond_carte");
 var ano18060 = creerBrancheAnomalie(integration, "a_18060");
 var ano17539 = creerBrancheAnomalie(integration, "a_17539-virement-instantane-ko");
+var ano17539 = creerBrancheAnomalie(integration, "a_18203_total_des_avoirs");
 
 
 
