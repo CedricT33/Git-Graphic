@@ -62,4 +62,5 @@ creerMerge(integration, ano18060);
 creerMerge(integration, ano17539);
 creerMerge(integration, ano17954);
 creerMerge(integration, ano18203);
+creerMerge(integration, ano17688);
 creerMerge(integration, ano17029);
