@@ -37,6 +37,7 @@ var ano18060 = creerBrancheAnomalie(integration, "a_18060");
 var ano17539 = creerBrancheAnomalie(integration, "a_17539-virement-instantane-ko");
 var ano18203 = creerBrancheAnomalie(integration, "a_18203_total_des_avoirs");
 var ano17688 = creerBrancheAnomalie(integration, "a_17688");
+var ano17954 = creerBrancheAnomalie(integration, "a_17954-tnr-virement-service-indisponible");
 
 
 
@@ -56,3 +57,4 @@ creerMerge(integration, ano17597);
 creerMerge(integration, ano16521);
 creerMerge(integration, ano18060);
 creerMerge(integration, ano17539);
+creerMerge(integration, ano17954);
