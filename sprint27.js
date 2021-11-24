@@ -68,3 +68,4 @@ creerMerge(integration, ano17029);
 creerMerge(integration, ano17651);
 creerMerge(integration, ano18224);
 creerMerge(integration, ano18329);
+integration.commit("V21.04.00.924 et 925"); // tag
