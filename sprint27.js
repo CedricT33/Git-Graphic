@@ -41,6 +41,7 @@ var ano17954 = creerBrancheAnomalie(integration, "a_17954-tnr-virement-service-i
 var ano18224 = creerBrancheAnomalie(integration, "a_18224_mise_en_avant_c+");
 var ano18329 = creerBrancheAnomalie(integration, "a_18329_total_des_avoirs");
 var ano17029 = creerBrancheAnomalie(integration, "a_17029-certicode-plus-multitap");
+var ano17651 = creerBrancheAnomalie(integration, "a_17651");
 
 
 
@@ -64,5 +65,6 @@ creerMerge(integration, ano17954);
 creerMerge(integration, ano18203);
 creerMerge(integration, ano17688);
 creerMerge(integration, ano17029);
+creerMerge(integration, ano17651);
 creerMerge(integration, ano18224);
 creerMerge(integration, ano18329);
