@@ -44,6 +44,7 @@ var ano17029 = creerBrancheAnomalie(integration, "a_17029-certicode-plus-multita
 var ano17651 = creerBrancheAnomalie(integration, "a_17651");
 var ano6010 = creerBrancheAnomalie(integration, "a_6010-apple-pay-bouton-call-ko");
 var ano16528 = creerBrancheAnomalie(integration, "a_16528");
+var ano18490 = creerBrancheAnomalie(integration, "a_18490-tnr-virement-virement-interne");
 
 
 
@@ -73,3 +74,4 @@ creerMerge(integration, ano18329);
 creerMerge(integration, ano6010);
 integration.commit("V21.04.00.924 et 925"); // tag
 creerMerge(integration, ano16528);
+creerMerge(integration, ano18490);
