@@ -47,6 +47,7 @@ var ano16528 = creerBrancheAnomalie(integration, "a_16528");
 var ano18490 = creerBrancheAnomalie(integration, "a_18490-tnr-virement-virement-interne");
 var ano18453 = creerBrancheAnomalie(integration, "a_18453_notifs_c+_mode_invite");
 var ano18539 = creerBrancheAnomalie(integration, "a_18539");
+var ano18754 = creerBrancheAnomalie(integration, "t_18754_asterisque_total_des_avoirs");
 
 
 // MERGES --------------------
@@ -78,3 +79,4 @@ creerMerge(integration, ano16528);
 creerMerge(integration, ano18490);
 integration.commit("V21.04.00.926 et 927"); // tag
 creerMerge(integration, ano18359);
+creerMerge(integration, ano18754);
