@@ -46,7 +46,7 @@ var ano6010 = creerBrancheAnomalie(integration, "a_6010-apple-pay-bouton-call-ko
 var ano16528 = creerBrancheAnomalie(integration, "a_16528");
 var ano18490 = creerBrancheAnomalie(integration, "a_18490-tnr-virement-virement-interne");
 var ano18453 = creerBrancheAnomalie(integration, "a_18453_notifs_c+_mode_invite");
-
+var ano18539 = creerBrancheAnomalie(integration, "a_18539");
 
 
 // MERGES --------------------
