@@ -80,3 +80,4 @@ creerMerge(integration, ano18490);
 integration.commit("V21.04.00.926 et 927"); // tag
 creerMerge(integration, ano18539);
 creerMerge(integration, ano18754);
+creerMerge(integration, ano18453);
