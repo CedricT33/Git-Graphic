@@ -50,7 +50,8 @@ var ano16528 = creerBrancheAnomalie(integration, "a_16528");
 var ano18490 = creerBrancheAnomalie(integration, "a_18490-tnr-virement-virement-interne");
 var ano18453 = creerBrancheAnomalie(integration, "a_18453_notifs_c+_mode_invite");
 var ano18539 = creerBrancheAnomalie(integration, "a_18539");
-var ano18754 = creerBrancheAnomalie(integration, "t_18754_asterisque_total_des_avoirs");
+var tache18754 = creerBrancheDeTache(integration, "t_18754_asterisque_total_des_avoirs");
+var ano18737 = creerBrancheAnomalie(integration, "a_18737_virements-ios-clavier-alpha");
 
 
 // MERGES --------------------
@@ -82,5 +83,5 @@ creerMerge(integration, ano16528);
 creerMerge(integration, ano18490);
 integration.commit("V21.04.00.926 et 927"); // tag
 creerMerge(integration, ano18539);
-creerMerge(integration, ano18754);
+creerMerge(integration, tache18754);
 creerMerge(integration, ano18453);
