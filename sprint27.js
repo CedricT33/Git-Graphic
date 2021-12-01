@@ -15,11 +15,11 @@ var sprint27 = creerGitGraph("graph-container-27");
 // Branche MASTER & INTEGRATION
 var master = creerBrancheMaster(sprint27);
 
+var integration22 = master.branch("integration_22_1");
+integration22.commit("start");
+
 var integration = master.branch("integration_systemteam_r21_4");
 integration.commit("start");
-
-var integration22 = master.branch("integration_systemteam_r22_1");
-integration22.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
