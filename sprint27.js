@@ -53,6 +53,7 @@ var ano18539 = creerBrancheAnomalie(integration, "a_18539");
 var tache18754 = creerBrancheDeTache(integration, "t_18754_asterisque_total_des_avoirs");
 var ano18737 = creerBrancheAnomalie(integration, "a_18737_virements-ios-clavier-alpha");
 var ano18818 = creerBrancheAnomalie(integration, "a_18818-texte-absent-pop-in-annulation-op-engageante");
+var ano18811 = creerBrancheAnomalie(integration, "a_18811_Accessibilite_total_des_avoirs");
 
 
 // MERGES --------------------
