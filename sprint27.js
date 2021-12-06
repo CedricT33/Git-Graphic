@@ -55,6 +55,7 @@ var ano18737 = creerBrancheAnomalie(integration, "a_18737_virements-ios-clavier-
 var ano18818 = creerBrancheAnomalie(integration, "a_18818-texte-absent-pop-in-annulation-op-engageante");
 var ano18811 = creerBrancheAnomalie(integration, "a_18811_Accessibilite_total_des_avoirs");
 var t2792 = creerBrancheAnomalie(integration, "t_2792 (refacto)");
+var ano19230 = creerBrancheAnomalie(integration, "a_19203");
 
 // MERGES --------------------
 creerMerge(integration, ano17346);
@@ -90,3 +91,4 @@ creerMerge(integration, ano18453);
 creerMerge(integration, ano18818);
 integration.commit("V21.04.00.930 et 931"); // tag
 creerMerge(integration22, ano18737);
+creerMerge(integration, a19203);
