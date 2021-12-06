@@ -89,3 +89,4 @@ creerMerge(integration, tache18754);
 creerMerge(integration, ano18453);
 creerMerge(integration, ano18818);
 integration.commit("V21.04.00.930 et 931"); // tag
+creerMerge(integration22, ano18737);
