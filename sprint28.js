@@ -22,6 +22,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_rubrique_offre");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_19054-creation-de-la-rubrique-offres");
+var tache3 = creerBrancheDeTache(fonctionnalite1, "t_19054-rubrique-offres-menu-gerer");
 var tache2 = creerBrancheDeTache(integration, "t_17355-Mise_en_conformite_dsp2");
 var ano17495 = creerBrancheAnomalie(integration, "a_17495");
 var ano18811 = creerBrancheAnomalie(integration, "a_18811");
