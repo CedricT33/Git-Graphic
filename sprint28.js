@@ -25,6 +25,6 @@ var tache1 = creerBrancheDeTache(fonctionnalite1, "t_19054-creation-de-la-rubriq
 var tache2 = creerBrancheDeTache(integration, "t_17355-Mise_en_conformite_dsp2");
 var ano17495 = creerBrancheAnomalie(integration, "a_17495");
 var ano18811 = creerBrancheAnomalie(integration, "a_18811");
-var ano2792 = creerBrancheAnomalie(integration, "t_2792");
+var ano2792 = creerBrancheDeTache(integration, "t_2792-RefactoCarte");
 
 // MERGES --------------------
