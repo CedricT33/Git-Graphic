@@ -29,3 +29,4 @@ var ano18811 = creerBrancheAnomalie(integration, "a_18811");
 var ano2792 = creerBrancheDeTache(integration, "t_2792-RefactoCarte");
 
 // MERGES --------------------
+creerMerge(integration, ano17495);
