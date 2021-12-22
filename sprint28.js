@@ -27,6 +27,8 @@ var tache4 = creerBrancheDeTache(fonctionnalite1, "t_18597_rubrique_offres_nivea
 var tache2 = creerBrancheDeTache(integration, "t_17355-Mise_en_conformite_dsp2");
 var ano17495 = creerBrancheAnomalie(integration, "a_17495");
 var ano18811 = creerBrancheAnomalie(integration, "a_18811");
+var ano18811 = creerBrancheAnomalie(integration, "a_20207");
+var ano18811 = creerBrancheAnomalie(integration, "a_20293");
 var ano2792 = creerBrancheDeTache(integration, "t_2792-RefactoCarte");
 
 // MERGES --------------------
