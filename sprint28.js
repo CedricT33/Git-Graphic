@@ -35,6 +35,7 @@ var ano2792 = creerBrancheDeTache(integration, "t_2792-RefactoCarte");
 
 // MERGES --------------------
 creerMerge(integration, ano17495);
+creerMerge(fonctionnalite_temp, tache1);
 creerMerge(fonctionnalite_temp, tache3);
 creerMerge(fonctionnalite_temp, tache5);
 creerMerge(fonctionnalite_temp, tache4);
