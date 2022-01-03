@@ -21,6 +21,7 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_rubrique_offre");
+var fonctionnalite_temp= creerBrancheDeTache(fonctionnalite1, "f_rubrique_offres_sprint1_semaine1");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_19054-creation-de-la-rubrique-offres");
 var tache3 = creerBrancheDeTache(fonctionnalite1, "t_19054-rubrique-offres-menu-gerer");
 var tache5 = creerBrancheDeTache(fonctionnalite1, "t_18468-rubrique-offres-niveau-1");
@@ -34,3 +35,7 @@ var ano2792 = creerBrancheDeTache(integration, "t_2792-RefactoCarte");
 
 // MERGES --------------------
 creerMerge(integration, ano17495);
+creerMerge(fonctionnalite_temp, tache3);
+creerMerge(fonctionnalite_temp, tache4);
+creerMerge(fonctionnalite_temp, tache5);
+
