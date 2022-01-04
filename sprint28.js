@@ -32,6 +32,7 @@ var ano18811 = creerBrancheAnomalie(integration, "a_18811");
 var ano18811 = creerBrancheAnomalie(integration, "a_20207");
 var ano18811 = creerBrancheAnomalie(integration, "a_20293");
 var ano2792 = creerBrancheDeTache(integration, "t_2792-RefactoCarte");
+var ano18588 = creerBrancheAnomalie(integration, "a_18588");
 
 // MERGES --------------------
 creerMerge(integration, ano17495);
@@ -39,4 +40,5 @@ creerMerge(fonctionnalite_temp, tache1);
 creerMerge(fonctionnalite_temp, tache3);
 creerMerge(fonctionnalite_temp, tache5);
 creerMerge(fonctionnalite_temp, tache4);
+creerMerge(integration, ano18588);
 
