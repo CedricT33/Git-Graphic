@@ -42,4 +42,5 @@ creerMerge(fonctionnalite_temp, tache5);
 creerMerge(fonctionnalite_temp, tache4);
 creerMerge(integration, ano18588);
 creerMerge(fonctionnalite1, tache1);
+creerMerge(fonctionnalite1, tache3);
 
