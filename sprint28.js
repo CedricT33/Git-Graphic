@@ -38,6 +38,10 @@ var ano20072 = creerBrancheAnomalie(integration, "a_20072");
 var ano20207 = creerBrancheAnomalie(integration, "a_20207");
 var ano20293 = creerBrancheAnomalie(integration, "a_20293");
 
+
+// BRANCHE DE DEMO
+var brancheSprint = creerBrancheDeSprint("twenty_22_1_S1");
+
 // MERGES --------------------
 creerMerge(integration, ano17495);
 creerMerge(fonctionnalite_temp, tache1);
@@ -51,4 +55,5 @@ creerMerge(fonctionnalite1, tache5);
 creerMerge(fonctionnalite1, tache4);
 creerMerge(integration, ano20207);
 creerMerge(integration, ano20293);
+creerMerge(brancheSprint, fonctionnalite1);
 
