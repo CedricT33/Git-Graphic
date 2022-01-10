@@ -57,3 +57,7 @@ creerMerge(integration, ano20207);
 creerMerge(integration, ano20293);
 creerMerge(brancheSprint, fonctionnalite1);
 
+// FUSION --------------------
+creerMerge(integration, fonctionnalite1);
+
+
