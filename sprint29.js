@@ -30,3 +30,20 @@ integration.commit("start");
 
 
 // FUSION --------------------
+
+
+
+//-------------------------QH7---------------------------//
+
+// On instancie le graph dans le conteneur.
+var sprint29b = creerGitGraph("graph-container-29b");
+
+// Branche MASTER
+var masterQH7 = creerBrancheMasterQH7(sprint29b);
+
+var integrationQH7 = masterQH7.branch("integration_22_02");
+integrationQH7.commit("start");
+
+var fonctionnalite1QH7 = creerBrancheDeFonctionnalite("f_migration_pop");
+var tache2968QH7 = creerBrancheDeTache(fonctionnalite1QH7, "t_2968-migration-mono-repo");
+// creerMerge(f_migration_pop, tache2968QH7);
