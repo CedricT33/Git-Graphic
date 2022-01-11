@@ -51,6 +51,7 @@ creerMerge(fonctionnalite1, tache3);
 creerMerge(fonctionnalite1, tache5);
 creerMerge(fonctionnalite1, tache4);
 creerMerge(integration, ano20207);
+creerMerge(integration, ano20072);
 creerMerge(integration, ano20293);
 creerMerge(brancheSprint, fonctionnalite1);
 
