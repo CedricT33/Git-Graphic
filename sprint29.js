@@ -22,6 +22,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_rubrique_offre");
 var tache1= creerBrancheDeTache(fonctionnalite1, "t_20615-niveau-2-credit-consommation");
+var tache2= creerBrancheDeTache(fonctionnalite1, "t_19516-modification-FAQ");
 
 
 // BRANCHE DE DEMO
