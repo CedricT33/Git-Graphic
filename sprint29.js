@@ -23,6 +23,7 @@ integration.commit("start");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_rubrique_offre");
 var tache1= creerBrancheDeTache(fonctionnalite1, "t_20615-niveau-2-credit-consommation");
 var tache2= creerBrancheDeTache(fonctionnalite1, "t_19516-modification-FAQ");
+var tache4= creerBrancheDeTache(fonctionnalite1, "t_18869-niveau-3-comptes-et-cartes");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_sdkta-5_11");
 var tache3 = creerBrancheDeTache(integration, "t_17355_mise_en_conformite_dsp2");
 
@@ -30,7 +31,7 @@ var tache3 = creerBrancheDeTache(integration, "t_17355_mise_en_conformite_dsp2")
 
 
 // MERGES --------------------
-
+creerMerge(fonctionnalite1, tache1);
 
 // FUSION --------------------
 
