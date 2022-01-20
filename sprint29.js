@@ -27,7 +27,7 @@ creerMerge(fonctionnalite1, tache1);
 var tache4= creerBrancheDeTache(fonctionnalite1, "t_18869-niveau-3-comptes-et-cartes");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_sdkta-5_11");
 var tache3 = creerBrancheDeTache(integration, "t_17355_mise_en_conformite_dsp2");
-var tache4 = creerBrancheDeTache(integration, "t_6969_cvs_workaround");
+var tache4= creerBrancheDeTache(fonctionnalite1, "t_20333-parcours-boquants-non-contact");
 
 // BRANCHE DE DEMO
 
