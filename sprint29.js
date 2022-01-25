@@ -37,10 +37,12 @@ creerMerge(fonctionnalite1, tache2);
 
 
 // BRANCHE DE DEMO
+var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
 
 
 // MERGES --------------------
-
+creerMerge(brancheSprint, fonctionnalite1);
+creerMerge(brancheSprint, tache7);
 
 // FUSION --------------------
 
