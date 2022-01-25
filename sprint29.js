@@ -31,6 +31,7 @@ var tache7 = creerBrancheDeTache(fonctionnalite1, "t_19405-rubrique-offres-barre
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_sdkta-5_11");
 var tache3 = creerBrancheDeTache(integration, "t_17355_mise_en_conformite_dsp2");
 var tache5 = creerBrancheDeTache(integration, "t_6969_cvs_workaround");
+creerMerge(fonctionnalite1, tache2);
 
 
 
