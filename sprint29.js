@@ -33,6 +33,12 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_sdkta-5_11");
 var tache3 = creerBrancheDeTache(integration, "t_17355_mise_en_conformite_dsp2");
 var tache5 = creerBrancheDeTache(integration, "t_6969_cvs_workaround");
 creerMerge(fonctionnalite1, tache2);
+creerMerge(brancheSprint, fonctionnalite1);
+creerMerge(brancheSprint, tache7);
+creerMerge(tache7, fonctionnalite1);
+creerMerge(fonctionnalite1, tache7);
+creerMerge(brancheSprint, fonctionnalite1);
+
 
 
 
@@ -41,8 +47,6 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
 
 
 // MERGES --------------------
-creerMerge(brancheSprint, fonctionnalite1);
-creerMerge(brancheSprint, tache7);
 
 // FUSION --------------------
 
