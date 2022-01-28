@@ -48,6 +48,7 @@ creerMerge(brancheMerge, fonctionnalite1);
 creerMerge(brancheMerge, fonctionnalite2);
 creerMerge(brancheMerge, tache5);
 creerMerge(integration, brancheMerge);
+integration.commit("V20.21.01.906 et 907"); // tag
 
 
 //-------------------------QH7---------------------------//
