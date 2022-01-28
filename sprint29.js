@@ -18,6 +18,8 @@ var master = creerBrancheMaster(sprint29);
 var integration = master.branch("integration_22_1");
 integration.commit("start");
 
+var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_s2");
+
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_rubrique_offre");
@@ -41,16 +43,11 @@ creerMerge(fonctionnalite1, tache7);
 creerMerge(brancheSprint, fonctionnalite1);
 
 
-
-
-// BRANCHE DE DEMO
-
-
-
-// MERGES --------------------
-
 // FUSION --------------------
-
+creerMerge(brancheMerge, fonctionnalite1);
+creerMerge(brancheMerge, fonctionnalite2);
+creerMerge(brancheMerge, tache5);
+creerMerge(integration, brancheMerge);
 
 
 //-------------------------QH7---------------------------//
