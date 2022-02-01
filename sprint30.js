@@ -22,7 +22,7 @@ integration.commit("start");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_rubrique_offre");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_18935-rubrique-assurances-prevoyance");
 var tache2 = creerBrancheDeTache(fonctionnalite1, "t_21090-amelioration-sb-et-wording-niveau-1");
-
+var tache20333 = creerBrancheDeTache(fonctionnalite1, "t_20333-parcours-boquants-non-contact");
 
 // MERGES --------------------
 
