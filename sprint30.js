@@ -24,7 +24,9 @@ var tache1 = creerBrancheDeTache(fonctionnalite1, "t_18935-rubrique-assurances-p
 var tache2 = creerBrancheDeTache(fonctionnalite1, "t_21090-amelioration-sb-et-wording-niveau-1");
 var tache20333 = creerBrancheDeTache(fonctionnalite1, "t_20333-parcours-boquants-non-contact");
 var tache18913 = creerBrancheDeTache(fonctionnalite1, "t_18913-niveau3-pretimmo-creditconso");
-
+var tache19135 = creerBrancheDeTache(fonctionnalite1, "t_19135_pdm_offre");
+var tache20968 = creerBrancheDeTache(fonctionnalite1, "t_20968_wording_picto");
+t_19135_pdm_offre
 // MERGES --------------------
 var brancheSprint = creerBrancheDeSprint("twenty_r01_s03");
 creerMerge(fonctionnalite1, tache1);
