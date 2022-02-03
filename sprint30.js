@@ -36,6 +36,8 @@ var tache20733= creerBrancheDeTache(fonctionnalite1, "t_20733-bouchon-prod");
 var ano_21435 = creerBrancheAnomalie(fonctionnalite1, "a_21435-cta-decouvrir-iframe-lbpa");
 creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(fonctionnalite1, ano_21435);
+var tache21360= creerBrancheDeTache(fonctionnalite1, "t_21360-rubrique-offres-sim-app");
+
 
 
 // FUSION --------------------
