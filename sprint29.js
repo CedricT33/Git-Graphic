@@ -27,6 +27,7 @@ var tache1= creerBrancheDeTache(fonctionnalite1, "t_20615-niveau-2-credit-consom
 var tache2= creerBrancheDeTache(fonctionnalite1, "t_19516-modification-FAQ");
 creerMerge(fonctionnalite1, tache1);
 var tache6= creerBrancheDeTache(fonctionnalite1, "t_18869-niveau-3-comptes-et-cartes");
+var tache8 = creerBrancheDeTache(fonctionnalite1, "t_20809_integration_sb_sam_formule_de_compte");
 var tache4 = creerBrancheDeTache(fonctionnalite1, "t_20333-parcours-boquants-non-contact");
 creerMerge(fonctionnalite1, tache6);
 var tache7 = creerBrancheDeTache(fonctionnalite1, "t_19405-rubrique-offres-barre-recherche");
