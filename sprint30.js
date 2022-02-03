@@ -26,13 +26,13 @@ var tache20333 = creerBrancheDeTache(fonctionnalite1, "t_20333-parcours-boquants
 var tache18913 = creerBrancheDeTache(fonctionnalite1, "t_18913-niveau3-pretimmo-creditconso");
 var tache19135 = creerBrancheDeTache(fonctionnalite1, "t_19135_pdm_offre");
 var tache20968 = creerBrancheDeTache(fonctionnalite1, "t_20968_wording_picto");
-t_19135_pdm_offre
+var tache20733= creerBrancheDeTache(fonctionnalite1, "t_20733-bouchon-prod");
+
+
 // MERGES --------------------
 var brancheSprint = creerBrancheDeSprint("twenty_r01_s03");
 creerMerge(fonctionnalite1, tache1);
 creerMerge(brancheSprint, fonctionnalite1);
-
-var tache20733= creerBrancheDeTache(fonctionnalite1, "t_20733-bouchon-prod");
 
 
 // FUSION --------------------
