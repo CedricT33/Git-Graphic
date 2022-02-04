@@ -39,7 +39,7 @@ var ano_21435 = creerBrancheAnomalie(fonctionnalite1, "a_21435-cta-decouvrir-ifr
 creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(fonctionnalite1, ano_21435);
 var tache21360= creerBrancheDeTache(fonctionnalite1, "t_21360-rubrique-offres-sim-app");
-var ano21383 = creerBrancheAnomalie(fonctionnalite1, "a_21383-offre-reour-niv-2");
+var ano21383 = creerBrancheAnomalie(fonctionnalite1, "a_21383-offre-retour-niv-2");
 creerMerge(fonctionnalite1, tache20968);
 creerMerge(fonctionnalite1, tache19135);
 
