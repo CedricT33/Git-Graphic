@@ -44,4 +44,4 @@ creerMerge(fonctionnalite1, tache20968);
 creerMerge(fonctionnalite1, tache19135);
 
 // FUSION --------------------
-
+creerMerge(brancheSprint, fonctionnalite1);
