@@ -30,7 +30,7 @@ var tache19135 = creerBrancheDeTache(fonctionnalite1, "t_19135_pdm_offre");
 var tache20968 = creerBrancheDeTache(fonctionnalite1, "t_20968_wording_picto");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_spay");
 var tache21328 = creerBrancheDeTache(fonctionnalite2, "t_21328-spay-modification-du-wording");
-
+var tache21240 = creerBrancheDeTache(fonctionnalite1, "t_21240");
 
 
 
@@ -45,6 +45,7 @@ var ano21383 = creerBrancheAnomalie(fonctionnalite1, "a_21383-offre-retour-niv-2
 creerMerge(fonctionnalite1, tache20968);
 creerMerge(fonctionnalite1, tache19135);
 creerMerge(fonctionnalite1, tache20733);
+creerMerge(fonctionnalite1, tache21240);
 
 // FUSION --------------------
 creerMerge(brancheSprint, fonctionnalite1);
