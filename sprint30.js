@@ -31,8 +31,8 @@ var tache20968 = creerBrancheDeTache(fonctionnalite1, "t_20968_wording_picto");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_spay");
 var tache21328 = creerBrancheDeTache(fonctionnalite2, "t_21328-spay-modification-du-wording");
 var tache21240 = creerBrancheDeTache(fonctionnalite1, "t_21240");
-
-
+var fonctionnalite3 = creerBrancheDeFonctionnalite("f_aem");
+var tache21330 = creerBrancheDeTache(fonctionnalite3,"t_21330-supprimer-parametres-url");
 
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache1);
@@ -49,3 +49,4 @@ creerMerge(fonctionnalite1, tache21240);
 
 // FUSION --------------------
 creerMerge(brancheSprint, fonctionnalite1);
+
