@@ -28,6 +28,8 @@ var tache20333 = creerBrancheDeTache(fonctionnalite1, "t_20333-parcours-boquants
 var tache18913 = creerBrancheDeTache(fonctionnalite1, "t_18913-niveau3-pretimmo-creditconso");
 var tache19135 = creerBrancheDeTache(fonctionnalite1, "t_19135_pdm_offre");
 var tache20968 = creerBrancheDeTache(fonctionnalite1, "t_20968_wording_picto");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_spay");
+var tache21328 = creerBrancheDeTache(fonctionnalite2, "t_21328-spay-modification-du-wording");
 
 
 
