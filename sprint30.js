@@ -43,7 +43,6 @@ creerMerge(brancheSprint, fonctionnalite1);
 creerMerge(fonctionnalite1, ano_21435);
 var tache21360= creerBrancheDeTache(fonctionnalite1, "t_21360-rubrique-offres-sim-app");
 var ano21383 = creerBrancheAnomalie(fonctionnalite1, "a_21383-offre-retour-niv-2");
-var tache21812= creerBrancheDeTache(fonctionnalite1, "t_21812-loader-iframe");
 creerMerge(fonctionnalite1, tache20968);
 creerMerge(fonctionnalite1, tache19135);
 creerMerge(fonctionnalite1, tache20733);
@@ -51,4 +50,5 @@ creerMerge(fonctionnalite1, tache21240);
 
 // FUSION --------------------
 creerMerge(brancheSprint, fonctionnalite1);
+var tache21812= creerBrancheDeTache(fonctionnalite1, "t_21812-loader-iframe");
 
