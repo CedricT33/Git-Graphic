@@ -33,7 +33,7 @@ var tache21328 = creerBrancheDeTache(fonctionnalite2, "t_21328-spay-modification
 var tache21240 = creerBrancheDeTache(fonctionnalite1, "t_21240");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_aem");
 var tache21330 = creerBrancheDeTache(fonctionnalite3,"t_21330-supprimer-parametres-url");
-var tache21330 = creerBrancheDeTache(fonctionnalite1,"t_20809_integration_sb_sam_formule_de_compte");
+var tache20809 = creerBrancheDeTache(fonctionnalite1,"t_20809_integration_sb_sam_formule_de_compte");
 
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache1);
@@ -46,7 +46,9 @@ var ano21383 = creerBrancheAnomalie(fonctionnalite1, "a_21383-offre-retour-niv-2
 creerMerge(fonctionnalite1, tache20968);
 creerMerge(fonctionnalite1, tache19135);
 creerMerge(fonctionnalite1, tache20733);
-creerMerge(fonctionnalite1, tache21240);
+creerMerge(fonctionnalite1, tache20809);
+
+
 
 // FUSION --------------------
 creerMerge(brancheSprint, fonctionnalite1);
