@@ -47,6 +47,7 @@ creerMerge(fonctionnalite1, tache20968);
 creerMerge(fonctionnalite1, tache19135);
 creerMerge(fonctionnalite1, tache20733);
 creerMerge(fonctionnalite1, tache20809);
+creerMerge(fonctionnalite2, tache21328);
 
 
 
