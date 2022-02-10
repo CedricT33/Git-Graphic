@@ -48,6 +48,9 @@ creerMerge(fonctionnalite1, tache19135);
 creerMerge(fonctionnalite1, tache20733);
 creerMerge(fonctionnalite1, tache20809);
 creerMerge(fonctionnalite2, tache21328);
+creerMerge(fonctionnalite1, tache21360);
+creerMerge(fonctionnalite1, ano21383);
+var tache21711 = creerBrancheDeTache(fonctionnalite1,"t_21711-rubrique-offres-effet-cta-niveau-1");
 
 
 
