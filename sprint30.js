@@ -54,6 +54,7 @@ var tache21711 = creerBrancheDeTache(fonctionnalite1,"t_21711-rubrique-offres-ef
 creerMerge(brancheSprint, fonctionnalite1);
 var tache21812= creerBrancheDeTache(fonctionnalite1, "t_21812-loader-iframe");
 creerMerge(fonctionnalite1, tache2);
+creerMerge(fonctionnalite1, tache21240);
 
 
 // FUSION --------------------
