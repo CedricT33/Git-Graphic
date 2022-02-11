@@ -48,6 +48,7 @@ creerMerge(fonctionnalite1, tache19135);
 creerMerge(fonctionnalite1, tache20733);
 creerMerge(fonctionnalite1, tache20809);
 creerMerge(fonctionnalite2, tache21328);
+var tache17200 = creerBrancheDeTache(fonctionnalite2, "t_17200-sim-app-bouchons-apple-pay-samsung-pay");
 creerMerge(fonctionnalite1, tache21360);
 creerMerge(fonctionnalite1, ano21383);
 var tache21711 = creerBrancheDeTache(fonctionnalite1,"t_21711-rubrique-offres-effet-cta-niveau-1");
@@ -59,6 +60,7 @@ creerMerge(fonctionnalite1, tache21812);
 creerMerge(fonctionnalite1, tache21711);
 creerMerge(brancheSprint, fonctionnalite1);
 var tache22039 = creerBrancheDeTache(fonctionnalite1, "t_22039-modification-wording-et-url");
+
 
 
 // FUSION --------------------
