@@ -52,12 +52,14 @@ creerMerge(fonctionnalite1, tache21360);
 creerMerge(fonctionnalite1, ano21383);
 var tache21711 = creerBrancheDeTache(fonctionnalite1,"t_21711-rubrique-offres-effet-cta-niveau-1");
 creerMerge(brancheSprint, fonctionnalite1);
-var tache21812= creerBrancheDeTache(fonctionnalite1, "t_21812-loader-iframe");
+var tache21812 = creerBrancheDeTache(fonctionnalite1, "t_21812-loader-iframe");
 creerMerge(fonctionnalite1, tache2);
 creerMerge(fonctionnalite1, tache21240);
 creerMerge(fonctionnalite1, tache21812);
 creerMerge(fonctionnalite1, tache21711);
 creerMerge(brancheSprint, fonctionnalite1);
+var tache22039 = creerBrancheDeTache(fonctionnalite1, "t_22039-modification-wording-et-url");
+creerMerge(fonctionnalite1, tache22039);
 
 
 // FUSION --------------------
