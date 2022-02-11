@@ -59,7 +59,6 @@ creerMerge(fonctionnalite1, tache21812);
 creerMerge(fonctionnalite1, tache21711);
 creerMerge(brancheSprint, fonctionnalite1);
 var tache22039 = creerBrancheDeTache(fonctionnalite1, "t_22039-modification-wording-et-url");
-creerMerge(fonctionnalite1, tache22039);
 
 
 // FUSION --------------------
