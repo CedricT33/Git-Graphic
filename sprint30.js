@@ -34,6 +34,7 @@ var tache21240 = creerBrancheDeTache(fonctionnalite1, "t_21240 (anomalie)");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_aem");
 var tache21330 = creerBrancheDeTache(fonctionnalite3,"t_21330-supprimer-parametres-url");
 var tache20809 = creerBrancheDeTache(fonctionnalite1,"t_20809_integration_sb_sam_formule_de_compte");
+var tache21688 = creerBrancheDeTache(fonctionnalite1,"t_21688-images-dynamiques-niveau-1");
 
 // MERGES --------------------
 creerMerge(fonctionnalite1, tache1);
