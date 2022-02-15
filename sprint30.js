@@ -68,7 +68,7 @@ creerMerge(brancheSprint, fonctionnalite2);
 creerMerge(fonctionnalite3, tache21330);
 var fonctionnalite3bis =  creerBrancheDeTache(fonctionnalite3,"merge_f_aem");
 creerMerge(brancheSprint, fonctionnalite3bis);
-
+creerMerge(fonctionnalite1, tache20333);
 
 // FUSION --------------------
 
