@@ -32,7 +32,6 @@ header {
     color: #222;
     font-size: 28px;
     text-decoration: none;
-    display: block;
     padding: 0.3em 0.7em;
     cursor: pointer;
     transition: 0.3s;
@@ -41,6 +40,15 @@ header {
 
 .aide:hover, li a:hover {
     color: rgb(128, 128, 128);
+}
+
+.header-buttons{
+    display: flex;
+    z-index: 99;
+}
+
+.header-buttons > button{
+    cursor: pointer;
 }
 
 .swiper-pagination {

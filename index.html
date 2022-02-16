@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>Git Graphic</title>
         <!-- mise à jour auto de la page toutes les 60s 
         <meta http-equiv="refresh" content="60"> -->
@@ -22,7 +23,12 @@
                 <span> (Twenty Team)</span>
             </div>
             <div class="swiper-pagination"></div>
-            <a class="aide" href="aide.html">?</a>
+            <div class="header-buttons">
+                <button onClick="zoom()" type="button"><img src="assets/zoom-in.svg"></button>
+                <button onClick="zoom('out')" type="button"><img src="assets/zoom-out.svg"></button>
+                <a class="aide" href="aide.html">?</a>
+            </div>
+           
         </header>
 
         <!-- Slider main container -->
@@ -169,6 +175,7 @@
             })
             mySwiper.slideTo(mySwiper.slides.length-1, 0, false);
         </script>
+        <script src="index.js"></script>
         <script src="fonctions_gitgraph.js"></script>
         <script src="sprint10.js"></script>
         <script src="sprint11.js"></script>
