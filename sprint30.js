@@ -67,6 +67,7 @@ creerMerge(fonctionnalite1, ano_22268);
 var tache22039 = creerBrancheDeTache(fonctionnalite1, "t_22039-modification-wording-et-url");
 var ano_21076 = creerBrancheAnomalie(fonctionnalite1, "a_21076-offres-accessibilite-menu-du-premier-niveau");
 creerMerge(fonctionnalite1, ano_21076);
+creerMerge(fonctionnalite1, tache22039);
 creerMerge(brancheSprint, fonctionnalite2);
 creerMerge(fonctionnalite3, tache21330);
 var fonctionnalite3bis =  creerBrancheDeTache(fonctionnalite3,"merge_f_aem");
