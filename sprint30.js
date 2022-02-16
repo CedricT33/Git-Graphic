@@ -62,6 +62,8 @@ creerMerge(fonctionnalite1, tache21240);
 creerMerge(fonctionnalite1, tache21812);
 creerMerge(fonctionnalite1, tache21711);
 creerMerge(brancheSprint, fonctionnalite1);
+var ano_22268 = creerBrancheAnomalie(fonctionnalite1, "a_22268-prod-simuler-expiration-session");
+creerMerge(fonctionnalite1, ano_22268);
 var tache22039 = creerBrancheDeTache(fonctionnalite1, "t_22039-modification-wording-et-url");
 var ano_21076 = creerBrancheAnomalie(fonctionnalite1, "a_21076-offres-accessibilite-menu-du-premier-niveau");
 creerMerge(brancheSprint, fonctionnalite2);
