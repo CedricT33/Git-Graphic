@@ -76,9 +76,6 @@ creerMerge(brancheSprint, fonctionnalite3bis);
 creerMerge(fonctionnalite1, tache20333);
 
 // FUSION --------------------
-creerMerge(fonctionnalite1, tache20333);
-creerMerge(fonctionnalite1, tache20333);
-creerMerge(fonctionnalite1, tache20333);
 creerMerge(fonctionnalite1, integration);
 creerMerge(fonctionnalite2, integration);
 creerMerge(fonctionnalite3, integration);
