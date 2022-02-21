@@ -5,7 +5,7 @@
 //var brancheSprint = creerBrancheDeSprint("twenty_rXX_sXX");
 //var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_sX");
 //creerMerge(fonctionnaliteX, tacheX);
-//integration.commit("V21.04.00.9XX et 9XX"); // tag
+//integration.commit("V22.01.00.9XX et 9XX"); // tag
 //---------------------------------
 
 // On instancie le graph dans le conteneur.
@@ -82,5 +82,6 @@ creerMerge(fonctionnalite3, integration);
 creerMerge(integration, fonctionnalite1);
 creerMerge(integration, fonctionnalite2);
 creerMerge(integration, fonctionnalite3);
+integration.commit("V22.01.00.916 et 917"); // tag
 
 
