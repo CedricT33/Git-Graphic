@@ -19,6 +19,7 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
+var fonctionnalite1 = creerBrancheDeFonctionnalite("f_rubrique_offre");
 
 
 // MERGES --------------------
