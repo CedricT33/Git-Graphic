@@ -25,6 +25,7 @@ var ano_22164 = creerBrancheAnomalie(integration, "a_22164-accessibilite-offres-
 
 
 // MERGES --------------------
+creerMerge(integration, ano_22164);
 
 
 // FUSION --------------------
