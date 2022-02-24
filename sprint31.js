@@ -21,6 +21,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_rubrique_offre");
 var tache22276 = creerBrancheDeTache(fonctionnalite1, "t_22276-liens-externes-au-lieu-de-iframe");
+var tache21688 = creerBrancheDeTache(fonctionnalite1,"t_21688-images-dynamiques-niveau-1");
 var ano_22164 = creerBrancheAnomalie(integration, "a_22164-accessibilite-offres-niveau-3-produit-intitule-des-boutons");
 var ano_22162 = creerBrancheAnomalie(integration, "fix/22162-piegeClavier");
 
