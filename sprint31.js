@@ -24,6 +24,7 @@ var tache22276 = creerBrancheDeTache(fonctionnalite1, "t_22276-liens-externes-au
 var tache21688 = creerBrancheDeTache(fonctionnalite1,"t_21688-images-dynamiques-niveau-1");
 var ano_22164 = creerBrancheAnomalie(integration, "a_22164-accessibilite-offres-niveau-3-produit-intitule-des-boutons");
 var ano_22162 = creerBrancheAnomalie(integration, "fix/22162-piegeClavier");
+var ano_21169 = creerBrancheAnomalie(integration, "fix/21169-offres-accessibilite-gestion-du-focus");
 
 
 // MERGES --------------------
