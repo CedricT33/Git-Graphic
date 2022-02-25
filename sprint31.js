@@ -27,6 +27,7 @@ var ano_22164 = creerBrancheAnomalie(integration, "a_22164-accessibilite-offres-
 var ano_22162 = creerBrancheAnomalie(integration, "fix/22162-piegeClavier");
 var ano_21169 = creerBrancheAnomalie(integration, "fix/21169-offres-accessibilite-gestion-du-focus");
 var ano_20423 = creerBrancheAnomalie(integration, "fix/20423_timout");
+var ano_22847 = creerBrancheAnomalie(integration, "fix/22847-offres-affichage-niveau-1");
 
 
 // MERGES --------------------
