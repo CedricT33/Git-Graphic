@@ -26,6 +26,7 @@ var tache22508 = creerBrancheDeTache(fonctionnalite1,"tache/22508-liens-prod-rec
 var ano_22164 = creerBrancheAnomalie(integration, "a_22164-accessibilite-offres-niveau-3-produit-intitule-des-boutons");
 var ano_22162 = creerBrancheAnomalie(integration, "fix/22162-piegeClavier");
 var ano_21169 = creerBrancheAnomalie(integration, "fix/21169-offres-accessibilite-gestion-du-focus");
+var ano_20423 = creerBrancheAnomalie(integration, "fix/20423_timout");
 
 
 // MERGES --------------------
