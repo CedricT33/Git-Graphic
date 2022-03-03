@@ -28,9 +28,10 @@ var ano_22162 = creerBrancheAnomalie(integration, "fix/22162-piegeClavier (+2216
 var ano_21169 = creerBrancheAnomalie(integration, "fix/21169-offres-accessibilite-gestion-du-focus");
 var ano_20423 = creerBrancheAnomalie(integration, "fix/20423_timout");
 var ano_22847 = creerBrancheAnomalie(integration, "fix/22847-offres-affichage-niveau-1");
-var ano_21805 = creerBrancheAnomalie(integration, "fix/21805-interstitiel-accessibilite");
+var ano_21805 = creerBrancheAnomalie(integration, "fix/21805-interstitiel-accessibilite (+21777)");
 var ano_23068 = creerBrancheAnomalie(integration, "fix/23068-accueil-non-connecte-produits-assurances-bouton-aide");
 var ano_21908 = creerBrancheAnomalie(integration, "fix/21908-bouton-contact-present-parcours-bloquant");
+var tache23063 = creerBrancheDeTache(integration,"t_23063_migration_sdkta");
 
 
 // MERGES --------------------
@@ -42,6 +43,8 @@ creerMerge(integration, ano_20423);
 integration.commit("V22.01.00.920 et 921"); // tag
 creerMerge(integration, ano_22847);
 creerMerge(integration, ano_21908);
+creerMerge(integration, tache23063);
+integration.commit("V22.01.00.924 et 925"); // tag
 
 
 // FUSION --------------------
