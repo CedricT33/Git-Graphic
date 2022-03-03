@@ -32,6 +32,7 @@ var ano_21805 = creerBrancheAnomalie(integration, "fix/21805-interstitiel-access
 var ano_23068 = creerBrancheAnomalie(integration, "fix/23068-accueil-non-connecte-produits-assurances-bouton-aide");
 var ano_21908 = creerBrancheAnomalie(integration, "fix/21908-bouton-contact-present-parcours-bloquant");
 var tache23063 = creerBrancheDeTache(integration,"t_23063_migration_sdkta");
+var tache22752 = creerBrancheDeTache(integration,"feat/22752_simapp_contact");
 
 
 // MERGES --------------------
