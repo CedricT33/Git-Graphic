@@ -47,6 +47,7 @@ creerMerge(integration, ano_21908);
 creerMerge(integration, tache23063);
 integration.commit("V22.01.00.924 et 925"); // tag
 creerMerge(integration, fonctionnalite1);
+creerMerge(integration, ano_23068);
 
 
 // FUSION --------------------
