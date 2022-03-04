@@ -34,6 +34,7 @@ var ano_21908 = creerBrancheAnomalie(integration, "fix/21908-bouton-contact-pres
 var tache23063 = creerBrancheDeTache(integration,"t_23063_migration_sdkta");
 var tache22752 = creerBrancheDeTache(integration,"feat/22752_simapp_contact");
 var ano_22864 = creerBrancheAnomalie(integration, "fix/22864-offres-barre-de-recherche");
+var ano_23206 = creerBrancheAnomalie(integration, "fix/23206-absence-bouton-contacts-header (+23199)");
 
 // MERGES --------------------
 creerMerge(integration, ano_22164);
