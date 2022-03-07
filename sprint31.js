@@ -55,6 +55,7 @@ creerMerge(integration, ano_23068);
 creerMerge(integration, ano_21805);
 integration.commit("V22.01.00.928 et 929"); // tag
 creerMerge(integration, ano_23206);
+creerMerge(integration, ano_23323);
 
 
 // FUSION --------------------
