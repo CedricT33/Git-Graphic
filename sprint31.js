@@ -36,6 +36,7 @@ var tache22752 = creerBrancheDeFonctionnalite("feat/22752_simapp_contact");
 var ano_22864 = creerBrancheAnomalie(integration, "fix/22864-offres-barre-de-recherche");
 var ano_23206 = creerBrancheAnomalie(integration, "fix/23206-absence-bouton-contacts-header (+23199)");
 var ano_23299 = creerBrancheAnomalie(integration, "fix/23299-offres-ios-mauvais-affichage-barre-de-recherche");
+var ano_23315 = creerBrancheAnomalie(integration, "fix/23315-insterstitiel-ios-croix-non-cliquable");
 
 // MERGES --------------------
 creerMerge(integration, ano_22164);
