@@ -39,6 +39,7 @@ var ano_23299 = creerBrancheAnomalie(integration, "fix/23299-offres-ios-mauvais-
 var ano_23315 = creerBrancheAnomalie(integration, "fix/23315-insterstitiel-ios-croix-non-cliquable");
 var ano_23323 = creerBrancheAnomalie(integration, "fix/23323-la-deconnexion-met-en-arriere-plan-l-application");
 var ano_22276 = creerBrancheAnomalie(integration, "fix/22276-lien-credit-renouvelable-externe-au-lieu-iframe");
+var ano_23363 = creerBrancheAnomalie(integration, "fix/23363-top-pret-expresse-asynchrone");
 
 // MERGES --------------------
 creerMerge(integration, ano_22164);
@@ -60,6 +61,7 @@ creerMerge(integration, ano_23323);
 creerMerge(integration, ano_23299);
 creerMerge(integration, ano_22276);
 creerMerge(integration, ano_23315);
+creerMerge(integration, ano_23363);
 
 
 // FUSION --------------------
