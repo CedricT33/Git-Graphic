@@ -40,7 +40,8 @@ var ano_23315 = creerBrancheAnomalie(integration, "fix/23315-insterstitiel-ios-c
 var ano_23323 = creerBrancheAnomalie(integration, "fix/23323-la-deconnexion-met-en-arriere-plan-l-application");
 var ano_22276 = creerBrancheAnomalie(integration, "fix/22276-lien-credit-renouvelable-externe-au-lieu-iframe");
 var ano_23363 = creerBrancheAnomalie(integration, "fix/23363-top-pret-expresse-asynchrone");
-
+var tache_23197 = creerBrancheDeTache(integration, "feat/23197_Boite_outils_tests");
+var tache_21005 = creerBrancheDeTache(integration, "t_21005(poc sam)");
 // MERGES --------------------
 creerMerge(integration, ano_22164);
 creerMerge(fonctionnalite1, tache22276);
