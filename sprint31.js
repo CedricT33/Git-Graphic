@@ -42,6 +42,8 @@ var ano_22276 = creerBrancheAnomalie(integration, "fix/22276-lien-credit-renouve
 var ano_23363 = creerBrancheAnomalie(integration, "fix/23363-top-pret-expresse-asynchrone");
 var tache_23197 = creerBrancheDeTache(integration, "feat/23197_Boite_outils_tests");
 var tache_21005 = creerBrancheDeTache(integration, "t_21005(poc sam)");
+
+
 // MERGES --------------------
 creerMerge(integration, ano_22164);
 creerMerge(fonctionnalite1, tache22276);
@@ -63,6 +65,7 @@ creerMerge(integration, ano_23299);
 creerMerge(integration, ano_22276);
 creerMerge(integration, ano_23315);
 creerMerge(integration, ano_23363);
+creerMerge(integration, tache22752);
 
 
 // FUSION --------------------
