@@ -44,7 +44,7 @@ var tache_23197 = creerBrancheDeTache(integration, "feat/23197_Boite_outils_test
 var tache_21005 = creerBrancheDeTache(integration, "t_21005(poc sam)");
 var fonctionnaliteTag = creerBrancheDeFonctionnalite("feat/tags");
 var tache22887 = creerBrancheDeTache(fonctionnaliteTag, "tache/22887-modification-js");
-var ano_23273 = creerBrancheAnomalie(integration, "(fix/a_23273_annulation_virement");
+var ano_23273 = creerBrancheAnomalie(integration, "fix/a_23273_annulation_virement");
 
 
 // MERGES --------------------
