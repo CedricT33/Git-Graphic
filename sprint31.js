@@ -69,6 +69,7 @@ creerMerge(integration, ano_22276);
 creerMerge(integration, ano_23315);
 creerMerge(integration, ano_23363);
 creerMerge(integration, tache22752);
+creerMerge(integration, ano_23273);
 
 
 // FUSION --------------------
