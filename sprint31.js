@@ -45,6 +45,7 @@ var tache_21005 = creerBrancheDeTache(integration, "t_21005(poc sam)");
 var fonctionnaliteTag = creerBrancheDeFonctionnalite("feat/tags");
 var tache22887 = creerBrancheDeTache(fonctionnaliteTag, "tache/22887-modification-js");
 var ano_23273 = creerBrancheAnomalie(integration, "fix/a_23273_annulation_virement");
+var fonctionnaliteTimeOut = creerBrancheDeFonctionnalite("feat/23238-POC-rubrique-offre-time-out");
 
 
 // MERGES --------------------
@@ -71,6 +72,7 @@ creerMerge(integration, ano_23363);
 creerMerge(integration, tache22752);
 creerMerge(integration, ano_23273);
 creerMerge(integration, ano_22864);
+creerMerge(integration, fonctionnaliteTimeOut);
 
 
 // FUSION --------------------
