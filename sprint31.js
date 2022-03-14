@@ -74,7 +74,7 @@ creerMerge(integration, tache22752);
 creerMerge(integration, ano_23273);
 creerMerge(integration, ano_22864);
 creerMerge(integration, ano_23473);
-
+integration.commit("V20.22.01.934 et 935"); // tag
 
 
 // FUSION --------------------
