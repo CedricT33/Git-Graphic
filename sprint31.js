@@ -48,6 +48,7 @@ var tache22887 = creerBrancheDeTache(fonctionnaliteTag, "tache/22887-modificatio
 var ano_23273 = creerBrancheAnomalie(integration, "fix/a_23273_annulation_virement");
 var fonctionnaliteTimeOut = creerBrancheDeFonctionnalite("feat/23238-POC-rubrique-offre-time-out");
 var ano_23473 = creerBrancheAnomalie(integration, "fix/23473-RetourDonneesPerso");
+var ano_23782 = creerBrancheAnomalie(integration, "fix/23782-modification-offres");
 
 
 // MERGES --------------------
