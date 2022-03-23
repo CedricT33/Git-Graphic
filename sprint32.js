@@ -20,6 +20,7 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("feat/assurance_deces");
+var tache17910 = creerBrancheDeTache(fonctionnalite1, "tache/17910_detail_contrat_assurance_deces");
 
 
 // MERGES --------------------
