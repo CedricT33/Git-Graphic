@@ -81,5 +81,6 @@ creerMerge(fonctionnalite1, tache22508);
 creerMerge(fonctionnalite1, master);
 creerMerge(master, fonctionnalite1);
 creerMerge(integration, ano_23782);
+integration.commit("V20.22.01.938 et 939"); // tag
 
 
