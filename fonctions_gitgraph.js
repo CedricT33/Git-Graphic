@@ -37,7 +37,7 @@ function creerGitGraph(container) {
 
 function creerBrancheMaster(sprint) {
     var master = sprint.branch({
-        name: "[Q4Q] master",
+        name: "[Q4Q]",
         style: {
             color: ""
         }
