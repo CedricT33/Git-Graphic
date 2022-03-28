@@ -21,7 +21,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("feat/assurance_deces");
 var tache17910 = creerBrancheDeTache(fonctionnalite1, "tache/17910_detail_contrat_assurance_deces");
-var tache17910 = creerBrancheDeTache(fonctionnalite1, "tache/17888-assurance-deces-ineligibilite");
+var tache17888 = creerBrancheDeTache(fonctionnalite1, "tache/17888-assurance-deces-ineligibilite");
 
 
 // MERGES --------------------
