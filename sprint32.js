@@ -25,7 +25,7 @@ var tache17888 = creerBrancheDeTache(fonctionnalite1, "tache/17888-assurance-dec
 var fonctionnalite2 = creerBrancheDeFonctionnalite("feat/certicode");
 var tache25533 = creerBrancheDeTache(fonctionnalite2, "tache_23533_clavier_certicode");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("feat/21517-poc-nsi");
-var ano_24198 = creerBrancheAnomalie(fonctionnaliteX, "fix/24198-cartes-tags-manquants");
+var ano_24198 = creerBrancheAnomalie(integration, "fix/24198-cartes-tags-manquants");
 
 
 // MERGES --------------------
