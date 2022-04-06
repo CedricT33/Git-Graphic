@@ -29,6 +29,7 @@ var ano_24198 = creerBrancheAnomalie(integration, "fix/24198-cartes-tags-manquan
 
 
 // MERGES --------------------
+creerMerge(integration, ano_24198);
 
 
 // FUSION --------------------
