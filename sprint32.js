@@ -17,6 +17,8 @@ var master = creerBrancheMaster(sprint32);
 var integration = master.branch("master (=22.2)");
 integration.commit("start");
 
+var demo = creerBrancheDeSprint("twenty_r01_s01");
+
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("feat/assurance_deces");
@@ -40,6 +42,10 @@ creerMerge(integration, ano_23801);
 creerMerge(integration, ano_23799);
 creerMerge(integration, ano_23789);
 creerMerge(integration, ano_23363);
+creerMerge(demo, fonctionnalite4);
+creerMerge(demo, tache17888);
+creerMerge(fonctionnalite2, tache25533);
+creerMerge(demo, fonctionnalite2);
 
 
 // FUSION --------------------
