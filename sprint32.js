@@ -26,7 +26,8 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("feat/certicode");
 var tache25533 = creerBrancheDeTache(fonctionnalite2, "tache_23533_clavier_certicode");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("feat/21517-poc-nsi");
 var ano_24198 = creerBrancheAnomalie(integration, "fix/24198-cartes-tags-manquants");
-var fonctionnalite4 = creerBrancheDeFonctionnalite("feat/23410-mail_app_android");
+var fonctionnalite4 = creerBrancheDeFonctionnalite("feat/23410_mail_app_android");
+var fonctionnalite5 = creerBrancheDeFonctionnalite("feat/235007_enabler_gyroscope");
 
 
 // MERGES --------------------
