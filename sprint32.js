@@ -50,3 +50,4 @@ creerMerge(demo, fonctionnalite2);
 
 // FUSION --------------------
 creerMerge(integration, fonctionnalite4);
+integration.commit("V22.02.00.900 et 901"); // tag
