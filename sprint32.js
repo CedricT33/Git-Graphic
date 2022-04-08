@@ -49,3 +49,4 @@ creerMerge(demo, fonctionnalite2);
 
 
 // FUSION --------------------
+creerMerge(integration, fonctionnalite4);
