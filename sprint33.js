@@ -22,6 +22,9 @@ integration.commit("start");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("feat/cookies");
 var tache21499 = creerBrancheDeTache(fonctionnalite1, "tache/js_cookies (21499)");
 var tache21485 = creerBrancheDeTache(fonctionnalite1, "tache/page_optin_cookies (21485)");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("feat/assurance_deces");
+var tache17910 = creerBrancheDeTache(fonctionnalite2, "tache/17910_detail_contrat_assurance_deces");
+var tache17888 = creerBrancheDeTache(fonctionnalite2, "tache/17888-assurance-deces-ineligibilite");
 
 
 // MERGES --------------------
