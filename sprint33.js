@@ -27,6 +27,7 @@ var tache17910 = creerBrancheDeTache(fonctionnalite2, "tache/17910_detail_contra
 var tache17888 = creerBrancheDeTache(fonctionnalite2, "tache/17888-assurance-deces-ineligibilite");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("feat/21517-poc-nsi");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("feat/22508-offres-bons-liens-prod-recette");
+var fonctionnalite5 = creerBrancheDeFonctionnalite("feat/rubrique_offre");
 
 
 // MERGES --------------------
