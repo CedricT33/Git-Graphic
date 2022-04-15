@@ -29,6 +29,7 @@ var fonctionnalite3 = creerBrancheDeFonctionnalite("feat/21517-poc-nsi");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("feat/22508-offres-bons-liens-prod-recette");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("feat/rubrique_offre");
 var tache21499 = creerBrancheDeTache(fonctionnalite5, "tache/21499_rubrique_offres_debouchonnage");
+var tache23116 = creerBrancheDeTache(fonctionnalite5, "tache/23116_assurances_et_prevoyance_ameliorations");
 
 
 
