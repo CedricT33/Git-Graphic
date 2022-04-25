@@ -36,6 +36,8 @@ var fonctionnalite7 = creerBrancheDeFonctionnalite("poc_apple_pay (ne pas merger
 
 
 // MERGES --------------------
+creerMerge(fonctionnalite2, tache17910);
+creerMerge(fonctionnalite2, tache17888);
 
 
 
