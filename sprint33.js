@@ -40,8 +40,8 @@ var fonctionnalite7 = creerBrancheDeFonctionnalite("poc_apple_pay (ne pas merger
 creerMerge(fonctionnalite5, tache24033);
 creerMerge(fonctionnalite2, tache17910);
 creerMerge(fonctionnalite2, tache17888);
-creerMerge(fonctionnalite5, tache21666);
 creerMerge(fonctionnalite5, tache23116);
+creerMerge(fonctionnalite5, tache21666);
 
 
 
