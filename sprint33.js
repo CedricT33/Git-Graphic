@@ -28,6 +28,7 @@ var tache17888 = creerBrancheDeTache(fonctionnalite2, "tache/17888-assurance-dec
 var fonctionnalite3 = creerBrancheDeFonctionnalite("feat/21517-poc-nsi");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("feat/22508-offres-bons-liens-prod-recette");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("feat/rubrique_offre");
+var tache24033 = creerBrancheDeTache(fonctionnalite5, "tache/24033_amelioration_application_de_test");
 var tache23116 = creerBrancheDeTache(fonctionnalite5, "tache/23116_assurances_et_prevoyance_ameliorations");
 var fonctionnalite6 = creerBrancheDeFonctionnalite("feat/21666_offre_flux_v2");
 var fonctionnalite7 = creerBrancheDeFonctionnalite("poc_apple_pay (ne pas merger)");
@@ -35,6 +36,7 @@ var fonctionnalite7 = creerBrancheDeFonctionnalite("poc_apple_pay (ne pas merger
 
 
 // MERGES --------------------
+creerMerge(fonctionnalite5, tache24033);
 creerMerge(fonctionnalite2, tache17910);
 creerMerge(fonctionnalite2, tache17888);
 
