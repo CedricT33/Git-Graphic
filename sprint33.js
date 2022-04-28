@@ -43,7 +43,7 @@ creerMerge(fonctionnalite2, tache17888);
 creerMerge(fonctionnalite5, tache23116);
 creerMerge(fonctionnalite5, tache21666);
 
-
+creerMerge(demo, fonctionnalite2);
 
 
 // FUSION --------------------
