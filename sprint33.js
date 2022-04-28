@@ -34,7 +34,7 @@ var tache23116 = creerBrancheDeTache(fonctionnalite5, "tache/23116_assurances_et
 var tache21666 = creerBrancheDeTache(fonctionnalite5, "feat/21666_offre_flux_v2");
 var fonctionnalite7 = creerBrancheDeFonctionnalite("poc_apple_pay (ne pas merger)");
 
-
+var demo = creerBrancheDeSprint("twenty_r01_s02");
 
 // MERGES --------------------
 creerMerge(fonctionnalite5, tache24033);
