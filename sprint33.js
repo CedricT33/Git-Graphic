@@ -17,6 +17,8 @@ var master = creerBrancheMaster(sprint33);
 var integration = master.branch("master (=22.2)");
 integration.commit("start");
 
+var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
+
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnalite1 = creerBrancheDeFonctionnalite("feat/cookies");
@@ -47,5 +49,9 @@ creerMerge(demo, fonctionnalite3);
 creerMerge(demo, fonctionnalite2);
 creerMerge(demo, fonctionnalite5);
 
-
 // FUSION --------------------
+creerMerge(brancheSprint, fonctionnalite4);
+creerMerge(brancheSprint, fonctionnalite2);
+creerMerge(brancheSprint, fonctionnalite5);
+creerMerge(integration, brancheSprint);
+
