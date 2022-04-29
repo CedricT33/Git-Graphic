@@ -17,7 +17,7 @@ var master = creerBrancheMaster(sprint33);
 var integration = master.branch("master (=22.2)");
 integration.commit("start");
 
-var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
+var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_r01_S02");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
