@@ -54,4 +54,4 @@ creerMerge(brancheSprint, fonctionnalite4);
 creerMerge(brancheSprint, fonctionnalite2);
 creerMerge(brancheSprint, fonctionnalite5);
 creerMerge(integration, brancheSprint);
-
+integration.commit("V22.02.00.902 et 903"); // tag
