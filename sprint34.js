@@ -19,8 +19,8 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
-
-
+var fonctionnalite1 = creerBrancheDeFonctionnalite("feat/rubrique_offre")
+var tache22796 = creerBrancheDeTache(fonctionnalite1, "tache/22796-amelioration-visuels");
 
 // MERGES --------------------
 
