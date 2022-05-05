@@ -25,6 +25,6 @@ var ano_24523  = creerBrancheAnomalie(integration, "fix/24523_erreur_500_faceid"
 var ano_24331  = creerBrancheAnomalie(integration, "fix/24331_wizzbi_eligibilite");
 
 // MERGES --------------------
-
+creerMerge(integration, ano_24523);
 
 // FUSION --------------------
