@@ -23,6 +23,8 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("feat/rubrique_offre")
 var tache22796 = creerBrancheDeTache(fonctionnalite1, "tache/22796-amelioration-visuels");
 var ano_24523  = creerBrancheAnomalie(integration, "fix/24523_erreur_500_faceid");
 var ano_24860  = creerBrancheAnomalie(integration, "fix/24860_loi_6902");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("feat/scoring-risk")
+var tache21465 = creerBrancheDeTache(fonctionnalite2, "tache/21465-integration-sdk-ibm");
 
 
 // MERGES --------------------
