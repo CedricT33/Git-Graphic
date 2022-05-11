@@ -26,7 +26,8 @@ var ano_24860  = creerBrancheAnomalie(integration, "fix/24860_loi_6902");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("feat/scoring-risk");
 var tache21465 = creerBrancheDeTache(fonctionnalite2, "tache/21465-integration-sdk-ibm");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("feat/25319-infos-techniques");
-var fonctionnalite4 = creerBrancheDeFonctionnalite("feat/assurance_deces")
+var fonctionnalite4 = creerBrancheDeFonctionnalite("feat/assurance_deces");
+var tache25261 = creerBrancheDeTache(fonctionnalite4, "tache/25261-patch-libelle");
 
 
 // MERGES --------------------
