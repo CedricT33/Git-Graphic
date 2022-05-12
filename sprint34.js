@@ -33,5 +33,5 @@ var fonctionnalite5 = creerBrancheDeFonctionnalite("feat/wizbii_mail_non_renseig
 
 // MERGES --------------------
 creerMerge(integration, ano_24523);
-
+creerMerge(fonctionnalite1, tache22796);
 // FUSION --------------------
