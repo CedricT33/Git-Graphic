@@ -29,6 +29,8 @@ var fonctionnalite3 = creerBrancheDeFonctionnalite("feat/25319-infos-techniques"
 var fonctionnalite4 = creerBrancheDeFonctionnalite("feat/assurance_deces");
 var tache25261 = creerBrancheDeTache(fonctionnalite4, "tache/25261-patch-libelle");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("feat/wizbii_mail_non_renseigne_de_kyc");
+var fonctionnalite6 = creerBrancheDeFonctionnalite("feat/cookies");
+var tache21485 = creerBrancheDeTache(fonctionnalite1, "tache/page_optin_cookies (21499 + 21485)");
 
 
 // MERGES --------------------
