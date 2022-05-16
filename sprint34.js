@@ -36,4 +36,5 @@ var tache21485 = creerBrancheDeTache(fonctionnalite6, "tache/page_optin_cookies 
 // MERGES --------------------
 creerMerge(integration, ano_24523);
 creerMerge(fonctionnalite1, tache22796);
+creerMerge(integration, ano_24860);
 // FUSION --------------------
