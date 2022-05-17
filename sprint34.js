@@ -39,4 +39,5 @@ var demo = creerBrancheDeSprint("twenty_r01_s03");
 creerMerge(integration, ano_24523);
 creerMerge(fonctionnalite1, tache22796);
 creerMerge(integration, ano_24860);
+creerMerge(fonctionnalite4, tache25261);
 // FUSION --------------------
