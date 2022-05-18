@@ -49,4 +49,11 @@ creerMerge(demo, tache21485);
 creerMerge(demo, fonctionnalite3);
 creerMerge(demo, fonctionnalite1);
 
+// QH5
+// Branche MASTER
+var masterQH5 = creerBrancheMasterQH5(sprint34);
+var ts24917QH5 = creerBrancheDeTache(masterQH5, "feat/24917-offre-prets-personnels");
+
 // FUSION --------------------
+
+
