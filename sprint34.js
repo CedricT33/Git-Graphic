@@ -35,7 +35,6 @@ var tache21485 = creerBrancheDeTache(fonctionnalite6, "tache/page_optin_cookies 
 var anomalie25533 = creerBrancheAnomalie(integration, "fix/25533_syndication_ees_q45");
 var tache25912 = creerBrancheDeTache(integration, "tache/25912_solde_dashboard_assurancevie (25192)");
 var anomalie25661 = creerBrancheAnomalie(integration, "fix/25661_offres_flux_debouchonne");
-var tache24978 = creerBrancheDeTache(integration, "task/24978_banque_compagnon (24978)");
 
 var demo = creerBrancheDeSprint("twenty_r01_s03");
 
@@ -68,3 +67,17 @@ masterQH5.commit("start");
 var ts24917QH5 = creerBrancheDeTache(masterQH5, "feat/24917-offre-prets-personnels");
 
 
+
+//-------------------------QH7---------------------------//
+
+// On instancie le graph dans le conteneur.
+var sprint34c = creerGitGraph("graph-container-34c");
+
+// Branche MASTER
+var masterQH7 = creerBrancheMasterQH7(sprint34c);
+masterQH7.commit("start");
+
+var tache24978 = creerBrancheDeTache(integration, "task/24978_banque_compagnon (24978)");
+
+// MERGES --------------------
+creerMerge(masterQH7, tache24978);
