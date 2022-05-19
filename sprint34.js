@@ -34,6 +34,7 @@ var fonctionnalite6 = creerBrancheDeFonctionnalite("feat/cookies");
 var tache21485 = creerBrancheDeTache(fonctionnalite6, "tache/page_optin_cookies (21499 + 21485)");
 var anomalie25533 = creerBrancheAnomalie(integration, "fix/25533_syndication_ees_q45");
 var anomalie25912 = creerBrancheAnomalie(integration, "tache/25912_solde_dashboard_assurancevie");
+var anomalie25661 = creerBrancheAnomalie(integration, "fix/25661_offres_flux_debouchonne");
 
 var demo = creerBrancheDeSprint("twenty_r01_s03");
 
