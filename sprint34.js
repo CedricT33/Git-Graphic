@@ -35,6 +35,7 @@ var tache21485 = creerBrancheDeTache(fonctionnalite6, "tache/page_optin_cookies 
 var anomalie25533 = creerBrancheAnomalie(integration, "fix/25533_syndication_ees_q45");
 var tache25912 = creerBrancheDeTache(integration, "tache/25912_solde_dashboard_assurancevie (25192)");
 var anomalie25661 = creerBrancheAnomalie(integration, "fix/25661_offres_flux_debouchonne");
+var tache24978 = creerBrancheDeTache(integration, "task/24978_banque_compagnon (24978)");
 
 var demo = creerBrancheDeSprint("twenty_r01_s03");
 
@@ -45,6 +46,7 @@ creerMerge(integration, ano_24860);
 creerMerge(fonctionnalite4, tache25261);
 creerMerge(integration, anomalie25533);
 creerMerge(integration, anomalie25661);
+creerMerge(integration, tache24978);
 
 creerMerge(demo, fonctionnalite4);
 creerMerge(demo, tache21485);
