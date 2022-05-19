@@ -33,7 +33,8 @@ var tache25597 = creerBrancheDeTache(fonctionnalite5, "tache_25597_email_non_ren
 var fonctionnalite6 = creerBrancheDeFonctionnalite("feat/cookies");
 var tache21485 = creerBrancheDeTache(fonctionnalite6, "tache/page_optin_cookies (21499 + 21485)");
 var anomalie25533 = creerBrancheAnomalie(integration, "fix/25533_syndication_ees_q45");
-var tache25912 = creerBrancheDeTache(integration, "tache/25912_solde_dashboard_assurancevie (25192)");
+var fonctionnalite7 = creerBrancheDeFonctionnalite("feat/assurancevie");
+var tache25912 = creerBrancheDeTache(fonctionnalite7, "tache/25912_solde_dashboard_assurancevie (25192)");
 var anomalie25661 = creerBrancheAnomalie(integration, "fix/25661_offres_flux_debouchonne");
 
 var demo = creerBrancheDeSprint("twenty_r01_s03");
@@ -51,6 +52,7 @@ creerMerge(demo, fonctionnalite4);
 creerMerge(demo, tache21485);
 creerMerge(demo, fonctionnalite3);
 creerMerge(demo, fonctionnalite1);
+creerMerge(demo, fonctionnalite6);
 
 // FUSION --------------------
 
