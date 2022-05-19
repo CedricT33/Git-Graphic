@@ -53,11 +53,18 @@ creerMerge(demo, tache21485);
 creerMerge(demo, fonctionnalite3);
 creerMerge(demo, fonctionnalite1);
 
-// QH5
-// Branche MASTER
-var masterQH5 = creerBrancheMasterQH5(sprint34);
-var ts24917QH5 = creerBrancheDeTache(masterQH5, "feat/24917-offre-prets-personnels");
-
 // FUSION --------------------
+
+
+//-------------------------QH5---------------------------//
+
+// On instancie le graph dans le conteneur.
+var sprint34b = creerGitGraph("graph-container-34b");
+
+// Branche MASTER
+var masterQH5 = creerBrancheMasterQH5(sprint34b);
+masterQH5.commit("start");
+
+var ts24917QH5 = creerBrancheDeTache(masterQH5, "feat/24917-offre-prets-personnels");
 
 
