@@ -44,6 +44,7 @@ creerMerge(fonctionnalite1, tache22796);
 creerMerge(integration, ano_24860);
 creerMerge(fonctionnalite4, tache25261);
 creerMerge(integration, anomalie25533);
+creerMerge(integration, anomalie25661);
 
 creerMerge(demo, fonctionnalite4);
 creerMerge(demo, tache21485);
