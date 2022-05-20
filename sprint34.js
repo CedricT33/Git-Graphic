@@ -65,6 +65,7 @@ creerMerge(integration, fonctionnalite4);
 creerMerge(integration, fonctionnalite7);
 
 
+
 //-------------------------QH5---------------------------//
 
 // On instancie le graph dans le conteneur.
