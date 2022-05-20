@@ -44,16 +44,17 @@ creerMerge(integration, ano_24523);
 creerMerge(fonctionnalite1, tache22796);
 creerMerge(integration, ano_24860);
 creerMerge(fonctionnalite7, tache25912);
+creerMerge(fonctionnalite6, tache21485);
 creerMerge(fonctionnalite4, tache25261);
 creerMerge(integration, anomalie25533);
 creerMerge(integration, anomalie25661);
 
 
 creerMerge(demo, fonctionnalite4);
-creerMerge(demo, tache21485);
 creerMerge(demo, fonctionnalite3);
 creerMerge(demo, fonctionnalite1);
 creerMerge(demo, fonctionnalite6);
+creerMerge(demo, fonctionnalite7);
 
 // FUSION --------------------
 
