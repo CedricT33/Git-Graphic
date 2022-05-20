@@ -43,10 +43,12 @@ var demo = creerBrancheDeSprint("twenty_r01_s03");
 creerMerge(integration, ano_24523);
 creerMerge(fonctionnalite1, tache22796);
 creerMerge(integration, ano_24860);
+creerMerge(fonctionnalite7, tache25912);
 creerMerge(fonctionnalite4, tache25261);
 creerMerge(integration, anomalie25533);
 creerMerge(integration, anomalie25661);
 creerMerge(integration, tache24978);
+
 
 creerMerge(demo, fonctionnalite4);
 creerMerge(demo, tache21485);
@@ -79,7 +81,7 @@ var sprint34c = creerGitGraph("graph-container-34c");
 var masterQH7 = creerBrancheMasterQH7(sprint34c);
 masterQH7.commit("start");
 
-var tache24978 = creerBrancheDeTache(integration, "task/24978_banque_compagnon (24978)");
+var tache24978 = creerBrancheDeTache(masterQH7, "task/24978_banque_compagnon (24978)");
 
 // MERGES --------------------
 creerMerge(masterQH7, tache24978);
