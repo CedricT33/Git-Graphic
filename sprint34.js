@@ -59,6 +59,10 @@ creerMerge(demo, fonctionnalite6);
 creerMerge(demo, fonctionnalite7);
 
 // FUSION --------------------
+creerMerge(integration, fonctionnalite1);
+creerMerge(integration, fonctionnalite3);
+creerMerge(integration, fonctionnalite4);
+creerMerge(integration, fonctionnalite7);
 
 
 //-------------------------QH5---------------------------//
