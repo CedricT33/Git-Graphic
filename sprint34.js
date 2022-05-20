@@ -68,7 +68,7 @@ var sprint34b = creerGitGraph("graph-container-34b");
 var masterQH5 = creerBrancheMasterQH5(sprint34b);
 masterQH5.commit("start");
 
-var ts24917QH5 = creerBrancheDeTache(masterQH5, "feat/24917-offre-prets-personnels");
+var ts24917QH5 = creerBrancheDeMerge(masterQH5, "feat/24917-offre-prets-personnels");
 
 
 
@@ -81,7 +81,7 @@ var sprint34c = creerGitGraph("graph-container-34c");
 var masterQH7 = creerBrancheMasterQH7(sprint34c);
 masterQH7.commit("start");
 
-var tache24978 = creerBrancheDeTache(masterQH7, "task/24978_banque_compagnon (24978)");
+var tache24978 = creerBrancheDeMerge(masterQH7, "task/24978_banque_compagnon (24978)");
 
 // MERGES --------------------
 creerMerge(masterQH7, tache24978);
