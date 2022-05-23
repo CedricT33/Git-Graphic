@@ -36,6 +36,7 @@ var anomalie25533 = creerBrancheAnomalie(integration, "fix/25533_syndication_ees
 var fonctionnalite7 = creerBrancheDeFonctionnalite("feat/assurancevie");
 var tache25912 = creerBrancheDeTache(fonctionnalite7, "tache/25912_solde_dashboard_assurancevie (25192)");
 var anomalie25661 = creerBrancheAnomalie(integration, "fix/25661_offres_flux_debouchonne");
+var anomaliesOffres = creerBrancheAnomalie(integration, "fix/anos-offres-25723-25668-25730");
 
 var demo = creerBrancheDeSprint("twenty_r01_s03");
 
