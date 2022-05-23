@@ -65,6 +65,7 @@ creerMerge(integration, fonctionnalite3);
 creerMerge(integration, fonctionnalite4);
 creerMerge(integration, fonctionnalite7);
 creerMerge(integration, fonctionnalite5);
+creerMerge(integration, anomaliesOffres);
 
 
 
