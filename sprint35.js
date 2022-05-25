@@ -21,10 +21,12 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteCookies = creerBrancheDeFonctionnalite("feat/cookies");
 var ano_25703 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25703_delai_affichage_AEM");
+var ano_24651 = creerBrancheAnomalie(integration, "fix/24651");
 
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
+creerMerge(integration, ano_24651);
 
 
 // FUSION --------------------
