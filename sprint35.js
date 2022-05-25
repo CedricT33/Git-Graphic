@@ -23,8 +23,8 @@ var fonctionnaliteCookies = creerBrancheDeFonctionnalite("feat/cookies");
 var ano_25703 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25703_delai_affichage_AEM");
 
 
-
 // MERGES --------------------
+creerMerge(fonctionnaliteCookies, ano_25703);
 
 
 // FUSION --------------------
