@@ -27,6 +27,7 @@ var ano_24651 = creerBrancheAnomalie(integration, "fix/24651");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
+creerMerge(fonctionnaliteCookies, ano_25697);
 creerMerge(integration, ano_24651);
 
 
