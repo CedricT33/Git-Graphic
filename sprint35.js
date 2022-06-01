@@ -41,6 +41,7 @@ creerMerge(integration, ano_25633);
 creerMerge(integration, ano_25627);
 creerMerge(integration, ano_25907);
 creerMerge(integration, ano_25804);
+integration.commit("V22.02.00.908 et 909"); // tag
 
 
 // FUSION --------------------
