@@ -32,7 +32,8 @@ var ano_25907 = creerBrancheAnomalie(integration, "fix/25907 (montant fullIP)");
 var ano_25804 = creerBrancheAnomalie(integration, "fix/25804_popin_wizbiiDash");
 var ano_25981 = creerBrancheAnomalie(integration, "fix/25981_loader_infini_blocage_carte");
 var ano_25914 = creerBrancheAnomalie(integration, "fix/25914");
-
+var ano_25973 = creerBrancheAnomalie(integration, "fix/25973-affichage-cvs-fingerprint");
+var ano_23881 = creerBrancheAnomalie(integration, "fix/23881-offres-anomalie-tags");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
@@ -46,7 +47,8 @@ creerMerge(integration, ano_25804);
 integration.commit("V22.02.00.908 et 909"); // tag
 creerMerge(integration, ano_25981);
 creerMerge(integration, ano_25914);
-
+creerMerge(integration, ano_25973);
+creerMerge(integration, ano_23881);
 
 // FUSION --------------------
 
