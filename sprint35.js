@@ -25,12 +25,22 @@ var ano_25697 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25697_service_i
 var ano_24651 = creerBrancheAnomalie(integration, "fix/24651");
 var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
 var tache25912 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24751_points_d_entree");
+var ano_25900 = creerBrancheAnomalie(integration, "fix/25900_Absence_NumCompte_Dashboard");
+var ano_25633 = creerBrancheAnomalie(integration, "fix/25633_Erreur_Wording");
+var ano_25627 = creerBrancheAnomalie(integration, "fix/25627_Popin_Debranchement");
+var ano_25907 = creerBrancheAnomalie(integration, "fix/25907 (montant fullIP)");
+var ano_25804 = creerBrancheAnomalie(integration, "fix/25804_popin_wizbiiDash");
 
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
 creerMerge(fonctionnaliteCookies, ano_25697);
 creerMerge(integration, ano_24651);
+creerMerge(integration, ano_25900);
+creerMerge(integration, ano_25633);
+creerMerge(integration, ano_25627);
+creerMerge(integration, ano_25907);
+creerMerge(integration, ano_25804);
 
 
 // FUSION --------------------
