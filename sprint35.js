@@ -49,3 +49,20 @@ creerMerge(integration, ano_25914);
 
 
 // FUSION --------------------
+
+
+
+
+//-------------------------QH7---------------------------//
+
+// On instancie le graph dans le conteneur.
+var sprint35b = creerGitGraph("graph-container-35b");
+
+// Branche MASTER
+var masterQH7 = creerBrancheMasterQH7(sprint35b);
+masterQH7.commit("start");
+
+var tache24978 = creerBrancheDeMerge(masterQH7, "task/24978_banque_compagnon (24978)");
+
+// MERGES --------------------
+creerMerge(masterQH7, tache24978);
