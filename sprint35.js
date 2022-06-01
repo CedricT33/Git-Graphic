@@ -31,6 +31,7 @@ var ano_25627 = creerBrancheAnomalie(integration, "fix/25627_Popin_Debranchement
 var ano_25907 = creerBrancheAnomalie(integration, "fix/25907 (montant fullIP)");
 var ano_25804 = creerBrancheAnomalie(integration, "fix/25804_popin_wizbiiDash");
 var ano_25981 = creerBrancheAnomalie(integration, "fix/25981_loader_infini_blocage_carte");
+var ano_25914 = creerBrancheAnomalie(integration, "fix/25914");
 
 
 // MERGES --------------------
@@ -42,6 +43,7 @@ creerMerge(integration, ano_25633);
 creerMerge(integration, ano_25627);
 creerMerge(integration, ano_25907);
 creerMerge(integration, ano_25804);
+creerMerge(integration, ano_25914);
 integration.commit("V22.02.00.908 et 909"); // tag
 
 
