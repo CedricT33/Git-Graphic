@@ -62,7 +62,7 @@ var sprint35b = creerGitGraph("graph-container-35b");
 var masterQH7 = creerBrancheMasterQH7(sprint35b);
 masterQH7.commit("start");
 
-var tache24978 = creerBrancheDeMerge(masterQH7, "task/24978_banque_compagnon (24978)");
+var tache24978 = creerBrancheDeMerge(masterQH7, "task/24978_banque_compagnon");
 
 // MERGES --------------------
 creerMerge(masterQH7, tache24978);
