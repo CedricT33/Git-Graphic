@@ -30,6 +30,7 @@ var ano_25633 = creerBrancheAnomalie(integration, "fix/25633_Erreur_Wording");
 var ano_25627 = creerBrancheAnomalie(integration, "fix/25627_Popin_Debranchement");
 var ano_25907 = creerBrancheAnomalie(integration, "fix/25907 (montant fullIP)");
 var ano_25804 = creerBrancheAnomalie(integration, "fix/25804_popin_wizbiiDash");
+var ano_25981 = creerBrancheAnomalie(integration, "fix/25981_loader_infini_blocage_carte");
 
 
 // MERGES --------------------
