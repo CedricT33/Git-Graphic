@@ -25,6 +25,7 @@ var ano_25697 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25697_service_i
 var ano_24651 = creerBrancheAnomalie(integration, "fix/24651");
 var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
 var tache25912 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24751_points_d_entree");
+var tache24704 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24704_consentement_client");
 var ano_25900 = creerBrancheAnomalie(integration, "fix/25900_Absence_NumCompte_Dashboard");
 var ano_25633 = creerBrancheAnomalie(integration, "fix/25633_Erreur_Wording");
 var ano_25627 = creerBrancheAnomalie(integration, "fix/25627_Popin_Debranchement");
@@ -36,6 +37,7 @@ var ano_25973 = creerBrancheAnomalie(integration, "fix/25973-affichage-cvs-finge
 var ano_23881 = creerBrancheAnomalie(integration, "fix/23881-offres-anomalie-tags");
 var ano_25692 = creerBrancheAnomalie(integration, "fix/25692_PermanentSansT");
 var ano_25964 = creerBrancheAnomalie(integration, "fix/25964 (chevron retour cartes)");
+var ano_23789 = creerBrancheAnomalie(integration, "fix/23789_access_fullip_detail_montant");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
