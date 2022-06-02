@@ -34,6 +34,7 @@ var ano_25981 = creerBrancheAnomalie(integration, "fix/25981_loader_infini_bloca
 var ano_25914 = creerBrancheAnomalie(integration, "fix/25914");
 var ano_25973 = creerBrancheAnomalie(integration, "fix/25973-affichage-cvs-fingerprint");
 var ano_23881 = creerBrancheAnomalie(integration, "fix/23881-offres-anomalie-tags");
+var ano_25964 = creerBrancheAnomalie(integration, "fix/25964 (chevron retour cartes)");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
@@ -49,6 +50,7 @@ creerMerge(integration, ano_25981);
 creerMerge(integration, ano_25914);
 creerMerge(integration, ano_25973);
 creerMerge(integration, ano_23881);
+creerMerge(integration, ano_25964);
 
 // FUSION --------------------
 
