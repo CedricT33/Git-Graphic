@@ -31,9 +31,10 @@ var ano_25627 = creerBrancheAnomalie(integration, "fix/25627_Popin_Debranchement
 var ano_25907 = creerBrancheAnomalie(integration, "fix/25907 (montant fullIP)");
 var ano_25804 = creerBrancheAnomalie(integration, "fix/25804_popin_wizbiiDash");
 var ano_25981 = creerBrancheAnomalie(integration, "fix/25981_loader_infini_blocage_carte");
-var ano_25914 = creerBrancheAnomalie(integration, "fix/25914");
+var ano_25914 = creerBrancheAnomalie(integration, "fix/25914 (ass deces)");
 var ano_25973 = creerBrancheAnomalie(integration, "fix/25973-affichage-cvs-fingerprint");
 var ano_23881 = creerBrancheAnomalie(integration, "fix/23881-offres-anomalie-tags");
+var ano_25692 = creerBrancheAnomalie(integration, "fix/25692_PermanentSansT");
 var ano_25964 = creerBrancheAnomalie(integration, "fix/25964 (chevron retour cartes)");
 
 // MERGES --------------------
@@ -50,6 +51,7 @@ creerMerge(integration, ano_25981);
 creerMerge(integration, ano_25914);
 creerMerge(integration, ano_25973);
 creerMerge(integration, ano_23881);
+creerMerge(integration, ano_25692);
 creerMerge(integration, ano_25964);
 
 // FUSION --------------------
