@@ -22,7 +22,7 @@ integration.commit("start");
 var fonctionnaliteCookies = creerBrancheDeFonctionnalite("feat/cookies");
 var ano_25703 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25703_delai_affichage_AEM");
 var ano_25697 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25697_service_indisponible_cookies");
-var ano_24651 = creerBrancheAnomalie(integration, "fix/24651");
+var ano_24651 = creerBrancheAnomalie(integration, "fix/24651 (message err fullIP)");
 var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
 var tache25912 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24751_points_d_entree");
 var tache24704 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24704_consentement_client");
