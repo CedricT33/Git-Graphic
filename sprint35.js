@@ -69,6 +69,7 @@ creerMerge(integration, ano_26036);
 creerMerge(integration, fonctionnaliteCookies);
 creerMerge(integration, ano_25817);
 creerMerge(integration, ano_26095);
+integration.commit("V22.02.00.910 et 911"); // tag
 
 
 
