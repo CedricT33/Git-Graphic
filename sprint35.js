@@ -42,6 +42,7 @@ var ano_23789 = creerBrancheAnomalie(integration, "fix/23789_access_fullip_detai
 var ano_26093 = creerBrancheAnomalie(integration, "fix/26093-loader-carre");
 var ano_26042 = creerBrancheAnomalie(integration, "fix/26042_virements_decimale");
 var ano_26036 = creerBrancheAnomalie(integration, "fix/26036_Croix_de_fermeture");
+var ano_25817 = creerBrancheAnomalie(integration, "fix/25817_chevrons_offre");
 var ano_26095 = creerBrancheAnomalie(integration, "fix/26095 (loader non centré)");
 var ano_26164 = creerBrancheAnomalie(integration, "fix/26164 (err 500 cartes)");
 
@@ -66,6 +67,7 @@ creerMerge(integration, ano_26093);
 creerMerge(integration, ano_26042);
 creerMerge(integration, ano_26036);
 creerMerge(integration, fonctionnaliteCookies);
+creerMerge(integration, ano_25817);
 
 
 
