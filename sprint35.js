@@ -19,7 +19,7 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
-var fonctionnaliteCookies = creerBrancheDeFonctionnalite("feat/cookies");
+var fonctionnaliteCookies = creerBrancheDeFonctionnalite("feat/cookies (JS 4.06)");
 var ano_25703 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25703_delai_affichage_AEM");
 var ano_25697 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25697_service_indisponible_cookies");
 var ano_24651 = creerBrancheAnomalie(integration, "fix/24651 (message err fullIP)");
@@ -49,6 +49,7 @@ var ano_26164 = creerBrancheAnomalie(integration, "fix/26164 (err 500 cartes)");
 creerMerge(fonctionnaliteCookies, ano_25703);
 creerMerge(fonctionnaliteCookies, ano_25697);
 creerMerge(integration, ano_24651);
+creerMerge(fonctionnaliteBlossom, tache24729);
 creerMerge(integration, ano_25900);
 creerMerge(integration, ano_25633);
 creerMerge(integration, ano_25627);
@@ -64,7 +65,7 @@ creerMerge(integration, ano_25964);
 creerMerge(integration, ano_26093);
 creerMerge(integration, ano_26042);
 creerMerge(integration, ano_26036);
-creerMerge(fonctionnaliteBlossom, tache24729);
+creerMerge(integration, fonctionnaliteCookies);
 
 
 
