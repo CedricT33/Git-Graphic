@@ -68,6 +68,7 @@ creerMerge(integration, ano_26042);
 creerMerge(integration, ano_26036);
 creerMerge(integration, fonctionnaliteCookies);
 creerMerge(integration, ano_25817);
+creerMerge(integration, ano_26095);
 
 
 
