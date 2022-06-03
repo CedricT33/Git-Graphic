@@ -40,8 +40,9 @@ var ano_25964 = creerBrancheAnomalie(integration, "fix/25964 (chevron retour car
 var ano_23789 = creerBrancheAnomalie(integration, "fix/23789_access_fullip_detail_montant");
 var ano_26093 = creerBrancheAnomalie(integration, "fix/26093-loader-carre");
 var ano_26042 = creerBrancheAnomalie(integration, "fix/26042_virements_decimale");
-var ano_26095 = creerBrancheAnomalie(integration, "fix/26095");
-var ano_26164 = creerBrancheAnomalie(integration, "fix/26164");
+var ano_26036 = creerBrancheAnomalie(integration, "fix/26036_Croix_de_fermeture");
+var ano_26095 = creerBrancheAnomalie(integration, "fix/26095 (loader non centré)");
+var ano_26164 = creerBrancheAnomalie(integration, "fix/26164 (err 500 cartes)");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
@@ -61,6 +62,7 @@ creerMerge(integration, ano_25692);
 creerMerge(integration, ano_25964);
 creerMerge(integration, ano_26093);
 creerMerge(integration, ano_26042);
+creerMerge(integration, ano_26036);
 
 
 
