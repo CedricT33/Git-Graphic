@@ -26,6 +26,7 @@ var ano_24651 = creerBrancheAnomalie(integration, "fix/24651 (message err fullIP
 var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
 var tache25912 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24751_points_d_entree");
 var tache24704 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24704_consentement_client");
+var tache24729 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24729-blossom-page-presentation");
 var ano_25900 = creerBrancheAnomalie(integration, "fix/25900_Absence_NumCompte_Dashboard");
 var ano_25633 = creerBrancheAnomalie(integration, "fix/25633_Erreur_Wording");
 var ano_25627 = creerBrancheAnomalie(integration, "fix/25627_Popin_Debranchement");
@@ -43,7 +44,6 @@ var ano_26042 = creerBrancheAnomalie(integration, "fix/26042_virements_decimale"
 var ano_26036 = creerBrancheAnomalie(integration, "fix/26036_Croix_de_fermeture");
 var ano_26095 = creerBrancheAnomalie(integration, "fix/26095 (loader non centré)");
 var ano_26164 = creerBrancheAnomalie(integration, "fix/26164 (err 500 cartes)");
-var tache24729 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24729-blossom-page-presentation");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
