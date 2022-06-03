@@ -43,6 +43,7 @@ var ano_26042 = creerBrancheAnomalie(integration, "fix/26042_virements_decimale"
 var ano_26036 = creerBrancheAnomalie(integration, "fix/26036_Croix_de_fermeture");
 var ano_26095 = creerBrancheAnomalie(integration, "fix/26095 (loader non centré)");
 var ano_26164 = creerBrancheAnomalie(integration, "fix/26164 (err 500 cartes)");
+var tache24729 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24729-blossom-page-presentation");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
@@ -63,7 +64,7 @@ creerMerge(integration, ano_25964);
 creerMerge(integration, ano_26093);
 creerMerge(integration, ano_26042);
 creerMerge(integration, ano_26036);
-
+creerMerge(fonctionnaliteBlossom, tache24729);
 
 
 
