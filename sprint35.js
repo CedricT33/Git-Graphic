@@ -45,6 +45,8 @@ var ano_26036 = creerBrancheAnomalie(integration, "fix/26036_Croix_de_fermeture"
 var ano_25817 = creerBrancheAnomalie(integration, "fix/25817_chevrons_offre");
 var ano_26095 = creerBrancheAnomalie(integration, "fix/26905 (26095 loader non centré)");
 var ano_26164 = creerBrancheAnomalie(integration, "fix/26164 (err 500 cartes)");
+var fonctionnaliteScoringRisk = creerBrancheDeFonctionnalite("feat/scoring-risk");
+var tache21465 = creerBrancheDeTache(fonctionnaliteScoringRisk, "tache/21465-integration-sdk-ibm");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
@@ -69,6 +71,7 @@ creerMerge(integration, ano_26036);
 creerMerge(integration, fonctionnaliteCookies);
 creerMerge(integration, ano_25817);
 creerMerge(integration, ano_26095);
+creerMerge(integration, tache21465);
 integration.commit("V22.02.00.910 et 911"); // tag
 
 
