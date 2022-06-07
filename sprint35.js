@@ -49,6 +49,7 @@ var fonctionnaliteScoringRisk = creerBrancheDeFonctionnalite("feat/scoring-risk"
 var tache21465 = creerBrancheDeTache(fonctionnaliteScoringRisk, "tache/21465-integration-sdk-ibm");
 var ano_25372 = creerBrancheAnomalie(integration, "fix/25372 (popin C+)");
 var ano_26170 = creerBrancheAnomalie(integration, "fix/26170_Virement_avec_S");
+var tache26217 = creerBrancheDeTache(integration, "task/26217_version_toolbox");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
@@ -77,6 +78,7 @@ creerMerge(integration, tache21465);
 integration.commit("V22.02.00.910 et 911"); // tag
 creerMerge(integration, ano_25372);
 creerMerge(integration, ano_26170);
+creerMerge(integration, tache26217);
 
 
 //-------------------------QH7---------------------------//
