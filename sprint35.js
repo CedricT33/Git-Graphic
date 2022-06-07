@@ -47,6 +47,8 @@ var ano_26095 = creerBrancheAnomalie(integration, "fix/26905 (26095 loader non c
 var ano_26164 = creerBrancheAnomalie(integration, "fix/26164 (err 500 cartes)");
 var fonctionnaliteScoringRisk = creerBrancheDeFonctionnalite("feat/scoring-risk");
 var tache21465 = creerBrancheDeTache(fonctionnaliteScoringRisk, "tache/21465-integration-sdk-ibm");
+var ano_25372 = creerBrancheAnomalie(integration, "fix/25372 (popin C+)");
+var ano_26170 = creerBrancheAnomalie(integration, "fix/26170_Virement_avec_S");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
@@ -73,7 +75,8 @@ creerMerge(integration, ano_25817);
 creerMerge(integration, ano_26095);
 creerMerge(integration, tache21465);
 integration.commit("V22.02.00.910 et 911"); // tag
-
+creerMerge(integration, ano_25372);
+creerMerge(integration, ano_26170);
 
 
 //-------------------------QH7---------------------------//
