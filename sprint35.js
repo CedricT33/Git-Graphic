@@ -50,6 +50,7 @@ var tache21465 = creerBrancheDeTache(fonctionnaliteScoringRisk, "tache/21465-int
 var ano_25372 = creerBrancheAnomalie(integration, "fix/25372 (popin C+)");
 var ano_26170 = creerBrancheAnomalie(integration, "fix/26170_Virement_avec_S");
 var tache26217 = creerBrancheDeTache(integration, "task/26217_version_toolbox");
+var tacheJS = creerBrancheDeTache(integration, "task/retour_fichier_js_4_05");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
