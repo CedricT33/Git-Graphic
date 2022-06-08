@@ -80,6 +80,7 @@ integration.commit("V22.02.00.910 et 911"); // tag
 creerMerge(integration, ano_25372);
 creerMerge(integration, ano_26170);
 creerMerge(integration, tache26217);
+creerMerge(fonctionnaliteScoringRisk, tache21465);
 
 
 //-------------------------QH7---------------------------//
