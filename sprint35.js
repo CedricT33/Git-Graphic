@@ -49,6 +49,7 @@ var fonctionnaliteScoringRisk = creerBrancheDeFonctionnalite("feat/scoring-risk"
 var tache21465 = creerBrancheDeTache(fonctionnaliteScoringRisk, "tache/21465-integration-sdk-ibm");
 var ano_25372 = creerBrancheAnomalie(integration, "fix/25372 (popin C+)");
 var ano_26170 = creerBrancheAnomalie(integration, "fix/26170_Virement_avec_S");
+var ano_25352 = creerBrancheAnomalie(integration, "fix/25352_bouton_rejeu");
 var tache26217 = creerBrancheDeTache(integration, "task/26217_version_toolbox");
 var tacheJS = creerBrancheDeTache(integration, "task/retour_fichier_js_4_05 (26277)");
 
