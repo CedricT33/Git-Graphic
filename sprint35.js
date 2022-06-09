@@ -56,6 +56,7 @@ var tacheJS = creerBrancheDeTache(integration, "task/retour_fichier_js_4_05 (262
 creerMerge(fonctionnaliteCookies, ano_25703);
 creerMerge(fonctionnaliteCookies, ano_25697);
 creerMerge(integration, ano_24651);
+creerMerge(fonctionnaliteBlossom, tache25912);
 creerMerge(fonctionnaliteBlossom, tache24729);
 creerMerge(integration, ano_25900);
 creerMerge(integration, ano_25633);
