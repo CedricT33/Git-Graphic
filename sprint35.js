@@ -24,7 +24,7 @@ var ano_25703 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25703_delai_aff
 var ano_25697 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25697_service_indisponible_cookies");
 var ano_24651 = creerBrancheAnomalie(integration, "fix/24651 (message err fullIP)");
 var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
-var tache25912 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24751_points_d_entree");
+var tache24751 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24751_points_d_entree");
 var tache24704 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24704_consentement_client");
 var tache24729 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24729-blossom-page-presentation");
 var ano_25900 = creerBrancheAnomalie(integration, "fix/25900_Absence_NumCompte_Dashboard");
@@ -56,7 +56,7 @@ var tacheJS = creerBrancheDeTache(integration, "task/retour_fichier_js_4_05 (262
 creerMerge(fonctionnaliteCookies, ano_25703);
 creerMerge(fonctionnaliteCookies, ano_25697);
 creerMerge(integration, ano_24651);
-creerMerge(fonctionnaliteBlossom, tache25912);
+creerMerge(fonctionnaliteBlossom, tache24751);
 creerMerge(fonctionnaliteBlossom, tache24729);
 creerMerge(integration, ano_25900);
 creerMerge(integration, ano_25633);
