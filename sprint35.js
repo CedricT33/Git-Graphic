@@ -83,6 +83,7 @@ creerMerge(integration, ano_25372);
 creerMerge(integration, ano_26170);
 creerMerge(integration, tache26217);
 creerMerge(fonctionnaliteScoringRisk, tache21465);
+creerMerge(integration, fonctionnaliteScoringRisk);
 
 
 //-------------------------QH7---------------------------//
