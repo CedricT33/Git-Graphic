@@ -52,6 +52,7 @@ var ano_26170 = creerBrancheAnomalie(integration, "fix/26170_Virement_avec_S");
 var ano_25352 = creerBrancheAnomalie(integration, "fix/25352_bouton_rejeu");
 var tache26217 = creerBrancheDeTache(integration, "task/26217_version_toolbox");
 var tacheJS = creerBrancheDeTache(integration, "task/retour_fichier_js_4_05 (26277)");
+var ano_25953 = creerBrancheAnomalie(integration, "fix/25953-notifications-prod");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
@@ -84,7 +85,7 @@ creerMerge(integration, ano_26170);
 creerMerge(integration, tache26217);
 creerMerge(fonctionnaliteScoringRisk, tache21465);
 creerMerge(integration, fonctionnaliteScoringRisk);
-
+creerMerge(integration, ano_25953);
 
 //-------------------------QH7---------------------------//
 
