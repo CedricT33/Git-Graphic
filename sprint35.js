@@ -17,8 +17,12 @@ var master = creerBrancheMaster(sprint35);
 var integration = master.branch("master (=22.2)");
 integration.commit("start");
 
+var brancheProd = creerBrancheDeMerge(integration, "support/22.2");
+
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
+var tache26463 = creerBrancheDeTache(brancheProd, "task/26463-lbpa-url");
+var tache26253 = creerBrancheDeTache(integration, "fix/26253-chevron-back-popin-certicode-full-ip");
 var fonctionnaliteCookies = creerBrancheDeFonctionnalite("feat/cookies (JS 4.06)");
 var ano_25703 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25703_delai_affichage_AEM");
 var ano_25697 = creerBrancheAnomalie(fonctionnaliteCookies, "fix/25697_service_indisponible_cookies");
@@ -53,18 +57,28 @@ var ano_25352 = creerBrancheAnomalie(integration, "fix/25352_bouton_rejeu");
 var tache26217 = creerBrancheDeTache(integration, "task/26217_version_toolbox");
 var tacheJS = creerBrancheDeTache(integration, "task/retour_fichier_js_4_05 (26277)");
 var ano_25953 = creerBrancheAnomalie(integration, "fix/25953-notifications-prod");
+var ano_25419 = creerBrancheAnomalie(integration, "fix/25419_picto_niveau2");
+var ano_25639 = creerBrancheAnomalie(integration, "fix/25639_boutonContact_Email");
+var ano_26310 = creerBrancheAnomalie(integration, "fix/26310_bouton_contacts_header");
+var ano_26450 = creerBrancheAnomalie(integration, "fix/26450_virement_avec_S");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteCookies, ano_25703);
 creerMerge(fonctionnaliteCookies, ano_25697);
+creerMerge(fonctionnaliteCookies, ano_25697);
 creerMerge(integration, ano_24651);
 creerMerge(fonctionnaliteBlossom, tache24751);
 creerMerge(fonctionnaliteBlossom, tache24729);
+creerMerge(fonctionnaliteBlossom, tache24704);
 creerMerge(integration, ano_25900);
 creerMerge(integration, ano_25633);
 creerMerge(integration, ano_25627);
 creerMerge(integration, ano_25907);
 creerMerge(integration, ano_25804);
+creerMerge(integration, ano_25419);
+creerMerge(integration, ano_25639);
+creerMerge(integration, ano_26310);
+creerMerge(integration, ano_26450);
 integration.commit("V22.02.00.908 et 909"); // tag
 creerMerge(integration, ano_25981);
 creerMerge(integration, ano_25914);
@@ -86,6 +100,8 @@ creerMerge(integration, tache26217);
 creerMerge(fonctionnaliteScoringRisk, tache21465);
 creerMerge(integration, fonctionnaliteScoringRisk);
 creerMerge(integration, ano_25953);
+creerMerge(brancheProd, tache26463);
+creerMerge(brancheProd, tache26253);
 
 //-------------------------QH7---------------------------//
 
