@@ -14,7 +14,7 @@ var sprint35 = creerGitGraph("graph-container-35");
 // Branche MASTER & INTEGRATION
 var master = creerBrancheMaster(sprint35);
 
-var integration = master.branch("master (=22.2)");
+var integration = master.branch("master (=22.3)");
 integration.commit("start");
 
 var brancheProd = creerBrancheDeMerge(integration, "support/22.2");
