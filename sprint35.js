@@ -102,7 +102,7 @@ creerMerge(integration, fonctionnaliteScoringRisk);
 creerMerge(integration, ano_25953);
 creerMerge(brancheProd, tache26463);
 creerMerge(brancheProd, tache26253);
-
+creerMerge(fonctionnaliteBlossom, tache24729);
 //-------------------------QH7---------------------------//
 
 // On instancie le graph dans le conteneur.
