@@ -103,6 +103,7 @@ creerMerge(brancheProd, ano_25419);
 creerMerge(brancheProd, ano_25639);
 creerMerge(brancheProd, ano_26310);
 creerMerge(brancheProd, ano_26450);
+creerMerge(brancheProd, ano_25352);
 creerMerge(integration, brancheProd);
 
 //-------------------------QH7---------------------------//
