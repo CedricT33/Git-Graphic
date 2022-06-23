@@ -75,10 +75,6 @@ creerMerge(integration, ano_25633);
 creerMerge(integration, ano_25627);
 creerMerge(integration, ano_25907);
 creerMerge(integration, ano_25804);
-creerMerge(integration, ano_25419);
-creerMerge(integration, ano_25639);
-creerMerge(integration, ano_26310);
-creerMerge(integration, ano_26450);
 integration.commit("V22.02.00.908 et 909"); // tag
 creerMerge(integration, ano_25981);
 creerMerge(integration, ano_25914);
@@ -103,6 +99,12 @@ creerMerge(integration, ano_25953);
 creerMerge(brancheProd, tache26463);
 creerMerge(brancheProd, tache26253);
 creerMerge(fonctionnaliteBlossom, tache24729);
+creerMerge(brancheProd, ano_25419);
+creerMerge(brancheProd, ano_25639);
+creerMerge(brancheProd, ano_26310);
+creerMerge(brancheProd, ano_26450);
+creerMerge(integration, brancheProd);
+
 //-------------------------QH7---------------------------//
 
 // On instancie le graph dans le conteneur.
