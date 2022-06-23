@@ -19,6 +19,7 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
+var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
 
 
 
