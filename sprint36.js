@@ -21,7 +21,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
 var fonctionnaliteApplepay = creerBrancheDeFonctionnalite("feat/applepay");
-
+var tache24831 = creerBrancheDeTache(fonctionnaliteApplepay, "task/24831-controle-acces-service");
 
 
 // MERGES --------------------
