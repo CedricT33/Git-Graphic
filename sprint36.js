@@ -20,6 +20,7 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
+var fonctionnaliteApplepay = creerBrancheDeFonctionnalite("feat/applepay");
 
 
 
