@@ -23,6 +23,7 @@ var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
 var fonctionnaliteApplepay = creerBrancheDeFonctionnalite("feat/applepay");
 var tache24831 = creerBrancheDeTache(fonctionnaliteApplepay, "task/24831-controle-acces-service");
 var ano_26733 = creerBrancheAnomalie(master, "fix/26733-popin-debranchement-externe-popin-wizibii");
+var ano_26747 = creerBrancheAnomalie(master, "fix/26747-iOS-saisie-montant-decimal");
 
 
 // MERGES --------------------
