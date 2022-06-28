@@ -22,6 +22,7 @@ integration.commit("start");
 var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
 var fonctionnaliteApplepay = creerBrancheDeFonctionnalite("feat/applepay");
 var tache24831 = creerBrancheDeTache(fonctionnaliteApplepay, "task/24831-controle-acces-service");
+var ano_26733 = creerBrancheAnomalie(master, "fix/26733-popin-debranchement-externe-popin-wizibii");
 
 
 // MERGES --------------------
