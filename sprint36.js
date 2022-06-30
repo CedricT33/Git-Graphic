@@ -30,6 +30,9 @@ var ano_26747 = creerBrancheAnomalie(master, "fix/26747-iOS-saisie-montant-decim
 
 
 // MERGES --------------------
+creerMerge(fonctionnaliteBlossom, tache24751);
+creerMerge(fonctionnaliteBlossom, tache24729);
+creerMerge(fonctionnaliteBlossom, tache24704);
 
 
 // FUSION --------------------
