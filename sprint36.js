@@ -20,6 +20,9 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
+var tache24751 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24751_points_d_entree");
+var tache24729 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24729-blossom-page-presentation"); 
+var tache24704 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24704_consentement_client"); 
 var fonctionnaliteApplepay = creerBrancheDeFonctionnalite("feat/applepay");
 var tache24831 = creerBrancheDeTache(fonctionnaliteApplepay, "task/24831-controle-acces-service");
 var ano_26733 = creerBrancheAnomalie(master, "fix/26733-popin-debranchement-externe-popin-wizibii");
