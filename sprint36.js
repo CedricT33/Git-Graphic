@@ -29,6 +29,7 @@ var ano_26733 = creerBrancheAnomalie(master, "fix/26733-popin-debranchement-exte
 var ano_26747 = creerBrancheAnomalie(master, "fix/26747-iOS-saisie-montant-decimal");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26454 = creerBrancheDeTache(fonctionnaliteSAM, "task/26454-sam-integration-post-message");
+var enablerOffre = creerBrancheDeFonctionnalite("enabler/26223_offre_du_moment");
 
 
 
