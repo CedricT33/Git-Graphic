@@ -26,7 +26,6 @@ var tache24704 = creerBrancheDeTache(fonctionnaliteBlossom, "task/24704_consente
 var fonctionnaliteApplepay = creerBrancheDeFonctionnalite("feat/applepay");
 var tache24831 = creerBrancheDeTache(fonctionnaliteApplepay, "task/24831-controle-acces-service");
 var ano_26733 = creerBrancheAnomalie(integration, "fix/26733-popin-debranchement-externe-popin-wizibii");
-var ano_26747 = creerBrancheAnomalie(integration, "fix/26747-iOS-saisie-montant-decimal");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26454 = creerBrancheDeTache(fonctionnaliteSAM, "task/26454-sam-integration-post-message");
 var enablerOffre = creerBrancheDeFonctionnalite("enabler/26223_offre_du_moment");
