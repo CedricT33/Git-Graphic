@@ -29,6 +29,8 @@ var ano_26733 = creerBrancheAnomalie(integration, "fix/26733-popin-debranchement
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26454 = creerBrancheDeTache(fonctionnaliteSAM, "task/26454-sam-integration-post-message");
 var enablerOffre = creerBrancheDeFonctionnalite("enabler/26223_offre_du_moment");
+var tache26064 = creerBrancheDeTache(integration, "task/26064_gestion_camera_Iframe");
+
 
 
 
@@ -36,6 +38,7 @@ var enablerOffre = creerBrancheDeFonctionnalite("enabler/26223_offre_du_moment")
 creerMerge(fonctionnaliteBlossom, tache24751);
 creerMerge(fonctionnaliteBlossom, tache24729);
 creerMerge(fonctionnaliteBlossom, tache24704);
+creerMerge(integration, tache26064);
 
 
 // FUSION --------------------
