@@ -38,6 +38,7 @@ var tache26064 = creerBrancheDeTache(integration, "task/26064_gestion_camera_Ifr
 creerMerge(fonctionnaliteBlossom, tache24751);
 creerMerge(fonctionnaliteBlossom, tache24729);
 creerMerge(fonctionnaliteBlossom, tache24704);
+creerMerge(integration, ano_26733);
 creerMerge(integration, tache26064);
 
 
