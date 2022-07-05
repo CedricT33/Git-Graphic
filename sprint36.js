@@ -27,6 +27,8 @@ var fonctionnaliteApplepay = creerBrancheDeFonctionnalite("feat/applepay");
 var tache24831 = creerBrancheDeTache(fonctionnaliteApplepay, "task/24831-controle-acces-service");
 var tache25626 = creerBrancheDeTache(fonctionnaliteApplepay, "feat/25626_connexion_applePay");
 var tache26292 = creerBrancheDeTache(fonctionnaliteApplepay, "task/26292_tests_apple_pay");
+var tacheTestApplePay = creerBrancheDeTache(fonctionnaliteApplepay, " 25626+24831_ApplePay_Connexion_ControlesAcces");
+
 var ano_26733 = creerBrancheAnomalie(integration, "fix/26733-popin-debranchement-externe-popin-wizibii");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26454 = creerBrancheDeTache(fonctionnaliteSAM, "task/26454-sam-integration-post-message");
