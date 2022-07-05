@@ -29,6 +29,7 @@ var ano_26733 = creerBrancheAnomalie(integration, "fix/26733-popin-debranchement
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26454 = creerBrancheDeTache(fonctionnaliteSAM, "task/26454-sam-integration-post-message");
 var enablerOffre = creerBrancheDeFonctionnalite("enabler/26223_offre_du_moment");
+var enablerNSI2 = creerBrancheDeFonctionnalite("enabler/25287_poc_nsi_2");
 
 
 
