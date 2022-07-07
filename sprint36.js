@@ -49,6 +49,7 @@ creerMerge(fonctionnaliteBlossom, tache24704);
 creerMerge(integration, ano_26733);
 creerMerge(integration, tache26064);
 creerMerge(fonctionnaliteSAM, tache26454);
+creerMerge(fonctionnaliteApplepay, tache24831);
 
 
 // FUSION --------------------
