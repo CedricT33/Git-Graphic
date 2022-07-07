@@ -35,6 +35,7 @@ var tache26454 = creerBrancheDeTache(fonctionnaliteSAM, "task/26454-sam-integrat
 var enablerOffre = creerBrancheDeFonctionnalite("enabler/26223_offre_du_moment");
 var enablerNSI2 = creerBrancheDeFonctionnalite("enabler/25287_poc_nsi_2");
 var ano_26888 = creerBrancheAnomalie(integration, "fix/26888_offres_tags_pages-produits");
+var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_cookies_v5");
 
 
 
