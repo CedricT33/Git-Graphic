@@ -50,6 +50,7 @@ creerMerge(integration, ano_26733);
 creerMerge(fonctionnaliteSAM, tache26454);
 creerMerge(fonctionnaliteApplepay, tache24831);
 creerMerge(fonctionnaliteApplepay, tache24831);
+creerMerge(integration, ano_26888);
 
 // MERGE DEMO ------------------------
 creerMerge(demo, fonctionnaliteApplepay);
