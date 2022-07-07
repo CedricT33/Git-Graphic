@@ -52,6 +52,7 @@ creerMerge(fonctionnaliteApplepay, tache24831);
 
 // MERGE DEMO ------------------------
 creerMerge(demo, fonctionnaliteApplepay);
+creerMerge(demo, enablerOffre);
 
 
 // FUSION --------------------
