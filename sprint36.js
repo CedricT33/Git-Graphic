@@ -34,6 +34,7 @@ var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26454 = creerBrancheDeTache(fonctionnaliteSAM, "task/26454-sam-integration-post-message");
 var enablerOffre = creerBrancheDeFonctionnalite("enabler/26223_offre_du_moment");
 var enablerNSI2 = creerBrancheDeFonctionnalite("enabler/25287_poc_nsi_2");
+var ano_26888 = creerBrancheAnomalie(integration, "fix/26888_offres_tags_pages-produits");
 
 
 
