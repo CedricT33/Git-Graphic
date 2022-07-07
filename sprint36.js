@@ -36,7 +36,7 @@ var enablerOffre = creerBrancheDeFonctionnalite("enabler/26223_offre_du_moment")
 var enablerNSI2 = creerBrancheDeFonctionnalite("enabler/25287_poc_nsi_2");
 var ano_26888 = creerBrancheAnomalie(integration, "fix/26888_offres_tags_pages-produits");
 var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_cookies_v5");
-
+var tache26064 =  creerBrancheDeTache(integration, "task/26064_gestion_camera_Iframe");
 var demo = creerBrancheDeSprint("twenty_r03_s01");
 
 
