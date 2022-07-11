@@ -20,9 +20,9 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteAPAY = creerBrancheDeFonctionnalite("feat/applepay");
+var tache26292 = creerBrancheDeTache(fonctionnaliteAPAY, "task/26292_tests_apple_pay");
 var fonctionnaliteBlossom = creerBrancheDeFonctionnalite("feat/blossom");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
-var tache26292 = creerBrancheDeTache(fonctionnaliteAPAY, "task/26292_tests_apple_pay");
 var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_js_cookies");
 
 
