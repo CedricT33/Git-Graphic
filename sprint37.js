@@ -36,3 +36,4 @@ var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_js_coo
 
 
 // FUSION --------------------
+creerMerge(integration, fonctionnaliteBlossom);
