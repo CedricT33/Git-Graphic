@@ -58,3 +58,5 @@ creerMerge(demo, fonctionnaliteBlossom);
 
 
 // FUSION --------------------
+creerMerge(integration, fonctionnaliteBlossom);
+creerMerge(integration, fonctionnaliteSAM);
