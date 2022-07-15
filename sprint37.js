@@ -19,6 +19,7 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
+var poc_apple_pay = creerBrancheDeTache(integration, "poc_apple_pay");
 var fonctionnaliteAPAY = creerBrancheDeFonctionnalite("feat/applepay");
 var tache26292 = creerBrancheDeTache(fonctionnaliteAPAY, "task/26292_tests_apple_pay");
 var tache25709 = creerBrancheDeTache(fonctionnaliteAPAY, "task/25709_verification_titulaire_carte");
