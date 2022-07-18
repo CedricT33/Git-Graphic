@@ -24,7 +24,7 @@ var fonctionnaliteAPAY = creerBrancheDeFonctionnalite("feat/applepay");
 var tache26292 = creerBrancheDeTache(fonctionnaliteAPAY, "task/26292_tests_apple_pay");
 var tache25709 = creerBrancheDeTache(fonctionnaliteAPAY, "task/25709_verification_titulaire_carte");
 var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_js_cookies");
-var fonctionnaliteAPAY = creerBrancheDeFonctionnalite("feat/SAM");
+var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26293 = creerBrancheDeTache(fonctionnaliteSAM, "task/26293-sam-contralia");
 
 
