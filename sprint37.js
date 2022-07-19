@@ -24,7 +24,7 @@ var fonctionnaliteAPAY = creerBrancheDeFonctionnalite("feat/applepay");
 var tache26292 = creerBrancheDeTache(fonctionnaliteAPAY, "task/26292_tests_apple_pay");
 var tache25709 = creerBrancheDeTache(fonctionnaliteAPAY, "task/25709_verification_titulaire_carte");
 var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_js_cookies");
-var tache25709 = creerBrancheDeTache(fonctionnaliteAPAY, "feat/25626_connexion_applePay");
+var tache25626 = creerBrancheDeTache(fonctionnaliteAPAY, "feat/25626_connexion_applePay");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26293 = creerBrancheDeTache(fonctionnaliteSAM, "task/26293-sam-contralia");
 
@@ -32,7 +32,7 @@ var tache26293 = creerBrancheDeTache(fonctionnaliteSAM, "task/26293-sam-contrali
 
 var demo = creerBrancheDeSprint("twenty_r03_s02");
 // MERGES --------------------
-
+creerMerge(fonctionnaliteAPAY, tache25626);
 
 
 // MERGE DEMO ------------------------
