@@ -26,7 +26,7 @@ var tache25709 = creerBrancheDeTache(fonctionnaliteAPAY, "task/25709_verificatio
 var tache25626 = creerBrancheDeTache(fonctionnaliteAPAY, "feat/25626_connexion_applePay");
 var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_js_cookies");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
-var tache26293 = creerBrancheDeTache(fonctionnaliteSAM, "task/26293-sam-contralia");
+var tache26293 = creerBrancheDeTache(fonctionnaliteSAM, "task/26293-sam-implementation-postmessages");
 
 
 
@@ -34,7 +34,7 @@ var demo = creerBrancheDeSprint("twenty_r03_s02");
 // MERGES --------------------
 creerMerge(fonctionnaliteAPAY, tache25626);
 creerMerge(fonctionnaliteAPAY, tache26292);
-
+creerMerge(fonctionnaliteSAM, tache26293);
 
 // MERGE DEMO ------------------------
 
