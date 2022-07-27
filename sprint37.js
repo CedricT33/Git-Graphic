@@ -28,6 +28,7 @@ var tache25626 = creerBrancheDeTache(fonctionnaliteAPAY, "feat/25626_connexion_a
 var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_js_cookies");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26293 = creerBrancheDeTache(fonctionnaliteSAM, "task/26293-sam-implementation-postmessages");
+var ano27400 = creerBrancheAnomalie(fonctionnaliteSAM, "fix/27400-sam-popin-alert-null");
 
 
 
@@ -36,7 +37,7 @@ var demo = creerBrancheDeSprint("twenty_r03_s02");
 creerMerge(fonctionnaliteAPAY, tache25626);
 creerMerge(fonctionnaliteAPAY, tache26292);
 creerMerge(fonctionnaliteSAM, tache26293);
-
+creerMerge(fonctionnaliteSAM, ano27400);
 // MERGE DEMO ------------------------
 
 
