@@ -28,6 +28,7 @@ var tache25626 = creerBrancheDeTache(fonctionnaliteAPAY, "feat/25626_connexion_a
 var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_js_cookies");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26293 = creerBrancheDeTache(fonctionnaliteSAM, "task/26293-sam-implementation-postmessages");
+var tache27099 = creerBrancheDeTache(fonctionnaliteSAM, "task/integration-contralia-en-app");
 var ano27400 = creerBrancheAnomalie(fonctionnaliteSAM, "fix/27400-sam-popin-alert-null");
 
 
