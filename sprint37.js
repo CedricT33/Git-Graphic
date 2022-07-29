@@ -30,6 +30,7 @@ var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache26293 = creerBrancheDeTache(fonctionnaliteSAM, "task/26293-sam-implementation-postmessages");
 var tache27099 = creerBrancheDeTache(fonctionnaliteSAM, "task/integration-contralia-en-app");
 var ano27400 = creerBrancheAnomalie(fonctionnaliteSAM, "fix/27400-sam-popin-alert-null");
+var tache26871 = creerBrancheDeTache(integration, "task/26871_SimAPP_Bouchon_RubriqueOffres");
 
 
 
@@ -44,4 +45,6 @@ creerMerge(fonctionnaliteSAM, ano27400);
 
 
 // FUSION --------------------
-
+creerMerge(master, fonctionnaliteAPAY);
+creerMerge(master, fonctionnaliteSAM);
+creerMerge(master, tache26871);
