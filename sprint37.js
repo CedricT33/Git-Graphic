@@ -36,6 +36,7 @@ var demo = creerBrancheDeSprint("twenty_r03_s02");
 // MERGES --------------------
 creerMerge(fonctionnaliteAPAY, tache25626);
 creerMerge(fonctionnaliteAPAY, tache26292);
+creerMerge(fonctionnaliteAPAY, tache25709);
 creerMerge(fonctionnaliteSAM, tache26293);
 creerMerge(fonctionnaliteSAM, ano27400);
 // MERGE DEMO ------------------------
