@@ -45,6 +45,6 @@ creerMerge(fonctionnaliteSAM, ano27400);
 
 
 // FUSION --------------------
-creerMerge(master, fonctionnaliteAPAY);
-creerMerge(master, fonctionnaliteSAM);
-creerMerge(master, tache26871);
+creerMerge(integration, fonctionnaliteAPAY);
+creerMerge(integration, fonctionnaliteSAM);
+creerMerge(integration, tache26871);
