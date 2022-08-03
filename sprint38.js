@@ -26,6 +26,7 @@ var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache27099 = creerBrancheDeTache(fonctionnaliteSAM, "task/integration-contralia-en-app (27099)");
 var tache27174 = creerBrancheDeTache(fonctionnaliteSAM, "task/27174_ecran_fin_parours (27174)");
 var tache27034 = creerBrancheDeTache(fonctionnaliteSAM, "task/27034_message_erreur_navigation");
+var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_automatique");
 
 
 // MERGES --------------------
