@@ -31,7 +31,7 @@ var fonctionnaliteSAM2 = creerBrancheDeFonctionnalite("feat/SAM2");
 
 
 // MERGES --------------------
-
+creerMerge(fonctionnaliteAPAY, tache25710);
 
 
 // MERGE DEMO ------------------------
