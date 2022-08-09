@@ -22,17 +22,18 @@ integration.commit("start");
 var fonctionnaliteAPAY = creerBrancheDeFonctionnalite("feat/applepay");
 var tache25710 = creerBrancheDeTache(fonctionnaliteAPAY, "task/25710_choix_de_carte");
 var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_js_cookies");
+var fonctionnaliteSAM2 = creerBrancheDeFonctionnalite("feat/SAM2");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache27099 = creerBrancheDeTache(fonctionnaliteSAM, "task/integration-contralia-en-app (27099)");
 var tache27174 = creerBrancheDeTache(fonctionnaliteSAM, "task/27174_ecran_fin_parours (27174)");
 var tache27034 = creerBrancheDeTache(fonctionnaliteSAM, "task/27034_message_erreur_navigation");
 var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_automatique");
-var fonctionnaliteSAM2 = creerBrancheDeFonctionnalite("feat/SAM2");
 
 
 // MERGES --------------------
 creerMerge(fonctionnaliteAPAY, tache25710);
-
+creerMerge(fonctionnaliteSAM2, tache27099);
+creerMerge(fonctionnaliteSAM2, tache27034);
 
 // MERGE DEMO ------------------------
 
