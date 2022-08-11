@@ -20,7 +20,7 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_js_cookies");
-var ano27601 = creerBrancheAnomalie(master, "fix/27601_impossible_de_continuer_vers_le_parcours");
+var ano27601 = creerBrancheAnomalie(integration, "fix/27601_impossible_de_continuer_vers_le_parcours");
 var fonctionnaliteAPAY = creerBrancheDeFonctionnalite("feat/applepay");
 var tache25710 = creerBrancheDeTache(fonctionnaliteAPAY, "task/25710_choix_de_carte");
 var tache26287 = creerBrancheDeTache(fonctionnaliteAPAY, "task/26287_Nouveau_parcours_applePay");
@@ -38,7 +38,7 @@ var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_a
 creerMerge(fonctionnaliteAPAY, tache25710);
 creerMerge(fonctionnaliteSAM2, tache27099);
 creerMerge(fonctionnaliteSAM2, tache27034);
-creerMerge(master, ano27601);
+creerMerge(integration, ano27601);
 
 // MERGE DEMO ------------------------
 
