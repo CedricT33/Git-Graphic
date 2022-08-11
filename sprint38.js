@@ -20,10 +20,11 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var tacheCookies = creerBrancheDeTache(integration, "task/nouveau_fichier_js_cookies");
+var ano27601 = creerBrancheAnomalie(master, "fix/27601_impossible_de_continuer_vers_le_parcours");
 var fonctionnaliteAPAY = creerBrancheDeFonctionnalite("feat/applepay");
 var tache25710 = creerBrancheDeTache(fonctionnaliteAPAY, "task/25710_choix_de_carte");
 var tache26287 = creerBrancheDeTache(fonctionnaliteAPAY, "task/26287_Nouveau_parcours_applePay");
-var ano27601 = creerBrancheAnomalie(master, "fix/27601_impossible_de_continuer_vers_le_parcours");
+var ano27638 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27638-bouton-choix-carte-non-conforme");
 var fonctionnaliteSAM2 = creerBrancheDeFonctionnalite("feat/SAM2");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache27099 = creerBrancheDeTache(fonctionnaliteSAM, "task/integration-contralia-en-app (27099)");
