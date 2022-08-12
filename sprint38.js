@@ -26,6 +26,7 @@ var tache25710 = creerBrancheDeTache(fonctionnaliteAPAY, "task/25710_choix_de_ca
 var tache26287 = creerBrancheDeTache(fonctionnaliteAPAY, "task/26287_Nouveau_parcours_applePay");
 var ano27638 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27638-bouton-choix-carte-non-conforme");
 var fonctionnaliteSAM2 = creerBrancheDeFonctionnalite("feat/SAM2");
+var tache27743 = creerBrancheDeTache(fonctionnaliteSAM, "task/27743-msg-tel-non-renseigne");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache27099 = creerBrancheDeTache(fonctionnaliteSAM, "task/integration-contralia-en-app (27099)");
 var tache27174 = creerBrancheDeTache(fonctionnaliteSAM, "task/27174_ecran_fin_parours (27174)");
