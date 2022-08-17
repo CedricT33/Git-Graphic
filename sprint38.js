@@ -43,6 +43,7 @@ creerMerge(fonctionnaliteSAM2, tache27099);
 creerMerge(fonctionnaliteSAM2, tache27034);
 creerMerge(fonctionnaliteSAM2, tache27003);
 creerMerge(fonctionnaliteSAM2, tache27405);
+creerMerge(fonctionnaliteSAM2, tache27099);
 creerMerge(integration, ano27601);
 
 // MERGE DEMO ------------------------
