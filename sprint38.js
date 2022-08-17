@@ -32,6 +32,8 @@ var tache27099 = creerBrancheDeTache(fonctionnaliteSAM, "task/integration-contra
 var tache27174 = creerBrancheDeTache(fonctionnaliteSAM, "task/27174_ecran_fin_parours (27174)");
 var tache27034 = creerBrancheDeTache(fonctionnaliteSAM, "task/27034_message_erreur_navigation");
 var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_automatique");
+var tache27003 = creerBrancheDeTache(fonctionnaliteSAM, "task/27003");
+var tache27405 = creerBrancheDeTache(fonctionnaliteSAM, "task/27405_postmessage_contralia");
 
 
 var demo = creerBrancheDeSprint("twenty_r03_s03");
@@ -39,6 +41,8 @@ var demo = creerBrancheDeSprint("twenty_r03_s03");
 creerMerge(fonctionnaliteAPAY, tache25710);
 creerMerge(fonctionnaliteSAM2, tache27099);
 creerMerge(fonctionnaliteSAM2, tache27034);
+creerMerge(fonctionnaliteSAM2, tache27003);
+creerMerge(fonctionnaliteSAM2, tache27405);
 creerMerge(integration, ano27601);
 
 // MERGE DEMO ------------------------
