@@ -34,6 +34,11 @@ var tache27034 = creerBrancheDeTache(fonctionnaliteSAM, "task/27034_message_erre
 var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_automatique");
 var tache27003 = creerBrancheDeTache(fonctionnaliteSAM, "task/27003");
 var tache27405 = creerBrancheDeTache(fonctionnaliteSAM, "task/27405_postmessage_contralia");
+var ano27461 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27461_SB_APPLE_SAMSUNG");
+var ano27689 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27689_UL_Apple");
+var tache25712 = creerBrancheDeTache(fonctionnaliteSAM, "task/25712_gestion_operation_engageante_apple_pay");
+var ano27951 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27951");
+var ano27956 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27956");
 
 
 var demo = creerBrancheDeSprint("twenty_r03_s03");
@@ -45,6 +50,12 @@ creerMerge(fonctionnaliteSAM2, tache27003);
 creerMerge(fonctionnaliteSAM2, tache27405);
 creerMerge(fonctionnaliteSAM2, tache27099);
 creerMerge(integration, ano27601);
+creerMerge(integration, ano27461);
+creerMerge(integration, ano27689);
+creerMerge(integration, ano27951);
+creerMerge(integration, ano27956);
+creerMerge(demo, fonctionnaliteAPAY);
+creerMerge(demo, fonctionnaliteSAM2);
 
 // MERGE DEMO ------------------------
 
