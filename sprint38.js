@@ -39,6 +39,7 @@ var ano27689 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27689_UL_Apple");
 var tache25712 = creerBrancheDeTache(fonctionnaliteSAM, "task/25712_gestion_operation_engageante_apple_pay");
 var ano27951 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27951");
 var ano27956 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27956");
+var ano27226 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27226");
 var tache27174 = creerBrancheDeTache(fonctionnaliteSAM2, "27174_ecran_fin_parours_merge");
 
 
@@ -59,6 +60,7 @@ creerMerge(integration, ano27461);
 creerMerge(integration, ano27689);
 creerMerge(integration, ano27951);
 creerMerge(integration, ano27956);
+creerMerge(integration, ano27226);
 creerMerge(demo, fonctionnaliteAPAY);
 creerMerge(demo, fonctionnaliteSAM2);
 creerMerge(fonctionnaliteSAM2, tache27174);
