@@ -39,7 +39,8 @@ var ano27689 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27689_UL_Apple");
 var tache25712 = creerBrancheDeTache(fonctionnaliteSAM, "task/25712_gestion_operation_engageante_apple_pay");
 var ano27951 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27951");
 var ano27956 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27956");
-var tache27743 = creerBrancheDeTache(fonctionnaliteSAM2, "task/27174_ecran_fin_parours_merge");
+var tache27174 = creerBrancheDeTache(fonctionnaliteSAM2, "task/27174_ecran_fin_parours_merge");
+
 
 
 var demo = creerBrancheDeSprint("twenty_r03_s03");
@@ -51,6 +52,7 @@ creerMerge(fonctionnaliteSAM2, tache27034);
 creerMerge(fonctionnaliteSAM2, tache27003);
 creerMerge(fonctionnaliteSAM2, tache27405);
 creerMerge(fonctionnaliteSAM2, tache27099);
+creerMerge(fonctionnaliteSAM2, tache27743);
 creerMerge(integration, ano27601);
 creerMerge(integration, ano27461);
 creerMerge(integration, ano27689);
