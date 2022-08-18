@@ -29,7 +29,7 @@ var fonctionnaliteSAM2 = creerBrancheDeFonctionnalite("feat/SAM2");
 var tache27743 = creerBrancheDeTache(fonctionnaliteSAM2, "task/27743-msg-tel-non-renseigne");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache27099 = creerBrancheDeTache(fonctionnaliteSAM, "task/integration-contralia-en-app (27099)");
-var tache27174 = creerBrancheDeTache(fonctionnaliteSAM, "task/27174_ecran_fin_parours (27174)");
+var tache27174old = creerBrancheDeTache(fonctionnaliteSAM, "task/27174_ecran_fin_parours (27174)");
 var tache27034 = creerBrancheDeTache(fonctionnaliteSAM, "task/27034_message_erreur_navigation");
 var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_automatique");
 var tache27003 = creerBrancheDeTache(fonctionnaliteSAM, "task/27003");
@@ -39,7 +39,7 @@ var ano27689 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27689_UL_Apple");
 var tache25712 = creerBrancheDeTache(fonctionnaliteSAM, "task/25712_gestion_operation_engageante_apple_pay");
 var ano27951 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27951");
 var ano27956 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27956");
-var tache27174 = creerBrancheDeTache(fonctionnaliteSAM2, "task/27174_ecran_fin_parours_merge");
+var tache27174 = creerBrancheDeTache(fonctionnaliteSAM2, "27174_ecran_fin_parours_merge");
 
 
 
@@ -60,6 +60,7 @@ creerMerge(integration, ano27951);
 creerMerge(integration, ano27956);
 creerMerge(demo, fonctionnaliteAPAY);
 creerMerge(demo, fonctionnaliteSAM2);
+creerMerge(fonctionnaliteSAM2, tache27174);
 
 // MERGE DEMO ------------------------
 
