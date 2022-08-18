@@ -24,7 +24,7 @@ var ano27601 = creerBrancheAnomalie(integration, "fix/27601_impossible_de_contin
 var fonctionnaliteAPAY = creerBrancheDeFonctionnalite("feat/applepay");
 var tache25710 = creerBrancheDeTache(fonctionnaliteAPAY, "task/25710_choix_de_carte");
 var tache26287 = creerBrancheDeTache(fonctionnaliteAPAY, "task/26287_Nouveau_parcours_applePay");
-var ano27638 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27638-bouton-choix-carte-non-conforme");
+var ano27638 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27638_taille_de_bouton_choix_de_carte");
 var fonctionnaliteSAM2 = creerBrancheDeFonctionnalite("feat/SAM2");
 var tache27743 = creerBrancheDeTache(fonctionnaliteSAM2, "task/27743-msg-tel-non-renseigne");
 var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
@@ -44,6 +44,7 @@ var tache27743 = creerBrancheDeTache(fonctionnaliteSAM2, "task/27174_ecran_fin_p
 
 var demo = creerBrancheDeSprint("twenty_r03_s03");
 // MERGES --------------------
+creerMerge(fonctionnaliteAPAY, ano27638);
 creerMerge(fonctionnaliteAPAY, tache25710);
 creerMerge(fonctionnaliteSAM2, tache27099);
 creerMerge(fonctionnaliteSAM2, tache27034);
