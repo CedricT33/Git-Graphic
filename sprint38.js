@@ -39,6 +39,7 @@ var ano27689 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27689_UL_Apple");
 var tache25712 = creerBrancheDeTache(fonctionnaliteSAM, "task/25712_gestion_operation_engageante_apple_pay");
 var ano27951 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27951");
 var ano27956 = creerBrancheAnomalie(fonctionnaliteAPAY, "fix/27956");
+var tache27743 = creerBrancheDeTache(fonctionnaliteSAM2, "task/27174_ecran_fin_parours_merge");
 
 
 var demo = creerBrancheDeSprint("twenty_r03_s03");
