@@ -19,7 +19,7 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
-
+var ano_27330 = creerBrancheAnomalie(fonctionnaliteX, "fix/27330_postmessages_manquants_iframe_lbpa");
 
 
 // MERGES --------------------
