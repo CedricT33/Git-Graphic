@@ -9,7 +9,7 @@
 //---------------------------------
 
 // On instancie le graph dans le conteneur.
-var sprint38 = creerGitGraph("graph-container-39");
+var sprint39 = creerGitGraph("graph-container-39");
 
 // Branche MASTER & INTEGRATION
 var master = creerBrancheMaster(sprint39);
