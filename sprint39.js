@@ -22,6 +22,7 @@ integration.commit("start");
 var ano_27330 = creerBrancheAnomalie(integration, "fix/27330_postmessages_manquants_iframe_lbpa");
 var ano_27994 = creerBrancheAnomalie(integration, "fix/27994_header_sam_contralia");
 var ano_28142 = creerBrancheAnomalie(integration, "fix/28142_certicode_bouton_annuler");
+var ano_28115 = creerBrancheAnomalie(integration, "fix/28115_apay_controle_sb_ko");
 
 
 // MERGES --------------------
