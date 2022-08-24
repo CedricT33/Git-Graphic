@@ -25,4 +25,4 @@ var ano_28142 = creerBrancheAnomalie(integration, "fix/28142_certicode_bouton_an
 
 
 // MERGES --------------------
-var brancheMerge = creerBrancheDeMerge(integration, "ano_28142");
+creerMerge(integration, ano_28142);
