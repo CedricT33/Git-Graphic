@@ -24,10 +24,11 @@ var ano_27994 = creerBrancheAnomalie(integration, "fix/27994_header_sam_contrali
 var ano_28142 = creerBrancheAnomalie(integration, "fix/28142_certicode_bouton_annuler");
 var ano_28115 = creerBrancheAnomalie(integration, "fix/28115_apay_controle_sb_ko");
 var ano_27889 = creerBrancheAnomalie(integration, "fix/27889_accueil_non_connectee_accessibilite");
-
+var ano_28241 = creerBrancheAnomalie(integration, "fix/28241-apay-controle-ancien-parcours");
 
 // MERGES --------------------
 creerMerge(integration, ano_28142);
 creerMerge(integration, ano_28115);
 creerMerge(integration, ano_27889);
 creerMerge(integration, ano_27994);
+//creerMerge(integration, ano_28241);
