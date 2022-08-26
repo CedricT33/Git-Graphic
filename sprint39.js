@@ -30,3 +30,4 @@ var ano_27889 = creerBrancheAnomalie(integration, "fix/27889_accueil_non_connect
 creerMerge(integration, ano_28142);
 creerMerge(integration, ano_28115);
 creerMerge(integration, ano_27889);
+creerMerge(integration, ano_27994);
