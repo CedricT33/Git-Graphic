@@ -27,6 +27,7 @@ var ano_28241 = creerBrancheAnomalie(integration, "fix/28241-apay-controle-ancie
 var ano_28035 = creerBrancheAnomalie(integration, "fix/28035");
 var ano_25694 = creerBrancheAnomalie(integration, "fix/25694");
 var ano_27967 = creerBrancheAnomalie(integration, "fix/27967");
+var ano_27447 = creerBrancheAnomalie(integration, "fix/27447-apay-deconnexion-ko");
 
 // MERGES --------------------
 creerMerge(integration, ano_28142);
