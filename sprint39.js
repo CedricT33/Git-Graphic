@@ -38,6 +38,7 @@ creerMerge(integration, ano_27994);
 creerMerge(integration, ano_28241);
 creerMerge(integration, ano_28035);
 creerMerge(integration, ano_25694);
+creerMerge(integration, ano_28380);
 
 
 //-------------------------QH7---------------------------//
