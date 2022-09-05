@@ -29,6 +29,8 @@ var ano_25694 = creerBrancheAnomalie(integration, "fix/25694");
 var ano_27967 = creerBrancheAnomalie(integration, "fix/27967");
 var ano_27447 = creerBrancheAnomalie(integration, "fix/27447-apay-deconnexion-ko");
 var ano_28380 = creerBrancheAnomalie(integration, "fix/28380-apay-profil");
+var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
+var tache28354 = creerBrancheDeTache(fonctionnaliteSAM, "task/28354-sam-modif-erreur-tel");
 
 // MERGES --------------------
 creerMerge(integration, ano_28142);
