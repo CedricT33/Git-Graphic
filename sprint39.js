@@ -63,4 +63,4 @@ masterQH7.commit("start");
 var tache28212 = creerBrancheDeMerge(masterQH7, "fix/28212");
 
 // MERGES --------------------
-creerMerge(masterQH7, tache24978);
+creerMerge(masterQH7, tache28212);
