@@ -48,7 +48,8 @@ creerMerge(integration, ano_27447);
 creerMerge(integration, ano_28380);
 creerMerge(fonctionnaliteSAM, tache28354);
 creerMerge(integration22_3, ano_28433);
-
+creerMerge(integration, fonctionnaliteSAM);
+creerMerge(integration22_3, fonctionnaliteSAM);
 
 //-------------------------QH7---------------------------//
 
