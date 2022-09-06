@@ -14,8 +14,11 @@ var sprint39 = creerGitGraph("graph-container-39");
 // Branche MASTER & INTEGRATION
 var master = creerBrancheMaster(sprint39);
 
-var integration = master.branch("master (=22.3)");
+var integration = master.branch("master (=22.4)");
 integration.commit("start");
+
+var integration22_3 = master.branch("support/22.3");
+integration22_3.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var ano_27330 = creerBrancheAnomalie(integration, "fix/27330_postmessages_manquants_iframe_lbpa");
@@ -44,6 +47,7 @@ creerMerge(integration, ano_25694);
 creerMerge(integration, ano_27447);
 creerMerge(integration, ano_28380);
 creerMerge(fonctionnaliteSAM, tache28354);
+creerMerge(integration22_3, ano_28433);
 
 
 //-------------------------QH7---------------------------//
