@@ -38,6 +38,7 @@ var ano_28433 = creerBrancheAnomalie(integration, "fix/28433-wording-erreur-apay
 var ano_28488 = creerBrancheAnomalie(integration, "fix/28488-focus-border");
 var ano_28285 = creerBrancheAnomalie(integration, "fix/28285_agregateur");
 var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_automatique");
+var ano_28575 = creerBrancheAnomalie(integration22_3, "fix/27663-sam-lien-alliatys");
 
 
 // MERGES --------------------
@@ -56,7 +57,7 @@ creerMerge(integration22_3, ano_28433);
 creerMerge(integration, fonctionnaliteSAM);
 creerMerge(integration22_3, fonctionnaliteSAM);
 creerMerge(integration22_3, ano_28285);
-
+creerMerge(integration22_3, ano_28575);
 //-------------------------QH7---------------------------//
 
 // On instancie le graph dans le conteneur.
