@@ -37,6 +37,8 @@ var tache28354 = creerBrancheDeTache(fonctionnaliteSAM, "task/28354-sam-modif-er
 var ano_28433 = creerBrancheAnomalie(integration, "fix/28433-wording-erreur-apay");
 var ano_28488 = creerBrancheAnomalie(integration, "fix/28488-focus-border");
 var ano_28285 = creerBrancheAnomalie(integration, "fix/28285_agregateur");
+var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_automatique");
+
 
 // MERGES --------------------
 creerMerge(integration, ano_28142);
@@ -49,7 +51,7 @@ creerMerge(integration, ano_25694);
 creerMerge(integration, ano_27447);
 creerMerge(integration, ano_28380);
 creerMerge(fonctionnaliteSAM, tache28354);
-creerMerge(integration22_3, integration);
+creerMerge(integration, integration22_3);
 creerMerge(integration22_3, ano_28433);
 creerMerge(integration, fonctionnaliteSAM);
 creerMerge(integration22_3, fonctionnaliteSAM);
