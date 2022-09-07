@@ -36,6 +36,7 @@ var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/SAM");
 var tache28354 = creerBrancheDeTache(fonctionnaliteSAM, "task/28354-sam-modif-erreur-tel");
 var ano_28433 = creerBrancheAnomalie(integration, "fix/28433-wording-erreur-apay");
 var ano_28488 = creerBrancheAnomalie(integration, "fix/28488-focus-border");
+var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_automatique");
 
 // MERGES --------------------
 creerMerge(integration, ano_28142);
