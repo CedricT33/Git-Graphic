@@ -40,6 +40,8 @@ var ano_28285 = creerBrancheAnomalie(integration, "fix/28285_agregateur");
 var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_automatique");
 var ano_28575 = creerBrancheAnomalie(integration22_3, "fix/27663-sam-lien-alliatys");
 var ano_28621 = creerBrancheAnomalie(integration22_3, "fix/28621-dashboard-redirection-vers-details-compte-ko");
+var fonctionnaliteNSI = creerBrancheDeFonctionnalite("feat/nsi");
+var tache27799 = creerBrancheDeTache(fonctionnaliteNSI, "task/27799_recuperation_id_contrat")
 
 
 // MERGES --------------------
