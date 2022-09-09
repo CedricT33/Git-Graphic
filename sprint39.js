@@ -63,6 +63,9 @@ creerMerge(integration22_3, fonctionnaliteSAM);
 creerMerge(integration22_3, ano_28285);
 creerMerge(integration22_3, ano_28575);
 creerMerge(integration22_3, ano_28621);
+creerMerge(integration, fonctionnalite27571);
+
+
 //-------------------------QH7---------------------------//
 
 // On instancie le graph dans le conteneur.
