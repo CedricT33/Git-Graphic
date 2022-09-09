@@ -41,7 +41,8 @@ var fonctionnalite27571 = creerBrancheDeFonctionnalite("feat/27571_maj_version_a
 var ano_28575 = creerBrancheAnomalie(integration22_3, "fix/27663-sam-lien-alliatys");
 var ano_28621 = creerBrancheAnomalie(integration22_3, "fix/28621-dashboard-redirection-vers-details-compte-ko");
 var fonctionnaliteNSI = creerBrancheDeFonctionnalite("feat/nsi");
-var tache27799 = creerBrancheDeTache(fonctionnaliteNSI, "task/27799_recuperation_id_contrat")
+var tache27799 = creerBrancheDeTache(fonctionnaliteNSI, "task/27799_recuperation_id_contrat");
+var ano_28641 = creerBrancheAnomalie(integration22_3, "fix/28641-toaster-non-conforme");
 
 
 // MERGES --------------------
