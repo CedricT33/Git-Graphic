@@ -43,6 +43,8 @@ var ano_28621 = creerBrancheAnomalie(integration22_3, "fix/28621-dashboard-redir
 var fonctionnaliteNSI = creerBrancheDeFonctionnalite("feat/nsi");
 var tache27799 = creerBrancheDeTache(fonctionnaliteNSI, "task/27799_recuperation_id_contrat");
 var ano_28641 = creerBrancheAnomalie(integration22_3, "fix/28641-toaster-non-conforme");
+var ano_28669 = creerBrancheAnomalie(integration, "fix/28669-offre-du-moment-recette-image");
+
 
 
 // MERGES --------------------
