@@ -19,8 +19,9 @@ integration.commit("start");
 
 var integration22_3 = master.branch("support/22.3");
 integration22_3.commit("start");
+
 var integration22_4 = master.branch("support/22.4");
-integration22_3.commit("start");
+integration22_4.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 
@@ -28,7 +29,7 @@ var fonctionnaliteNSI = creerBrancheDeFonctionnalite("feat/nsi");
 var tache27799 = creerBrancheDeTache(fonctionnaliteNSI, "task/27799_recuperation_id_contrat");
 
 var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
-var tache27259 = creerBrancheDeTache(fonctionnaliteNSI, "task/27259_Points-entrée-eligibilite");
+var tache27259 = creerBrancheDeTache(fonctionnaliteCashback, "task/27259_Points-entree-eligibilite");
 
 
 
