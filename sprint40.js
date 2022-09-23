@@ -32,7 +32,7 @@ var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
 var tache27259 = creerBrancheDeTache(fonctionnaliteCashback, "task/27259_Points-entree-eligibilite");
 
 var fonctionnaliteParapheur = creerBrancheDeFonctionnalite("feat/parapheur");
-var tache28719 = creerBrancheDeTache(fonctionnaliteCashback, "task/28719_affichage_VDA_BEL_en_iframe");
+var tache28719 = creerBrancheDeTache(fonctionnaliteParapheur, "task/28719_affichage_VDA_BEL_en_iframe");
 
 
 // MERGES --------------------
