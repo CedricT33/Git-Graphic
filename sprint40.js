@@ -31,6 +31,8 @@ var tache27799 = creerBrancheDeTache(fonctionnaliteNSI, "task/27799_recuperation
 var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
 var tache27259 = creerBrancheDeTache(fonctionnaliteCashback, "task/27259_Points-entree-eligibilite");
 
+var fonctionnaliteParapheur = creerBrancheDeFonctionnalite("feat/parapheur");
+
 
 
 // MERGES --------------------
