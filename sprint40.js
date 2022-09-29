@@ -36,6 +36,7 @@ var tache28719 = creerBrancheDeTache(fonctionnaliteParapheur, "task/28719_affich
 
 var fonctionnaliteRubriqueOffres = creerBrancheDeFonctionnalite("feat/rubrique_offres");
 var tache28719 = creerBrancheDeTache(fonctionnaliteRubriqueOffres, "task/28870-sam-ajout-types-conditions-affichages");
+var ano27944 = creerBrancheAnomalie(fonctionnaliteRubriqueOffres, "fix/27944-sam-telechargement-documents-contralia-ios");
 
 
 // MERGES --------------------
