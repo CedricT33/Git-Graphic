@@ -38,6 +38,9 @@ var fonctionnaliteRubriqueOffres = creerBrancheDeFonctionnalite("feat/rubrique_o
 var tache28719 = creerBrancheDeTache(fonctionnaliteRubriqueOffres, "task/28870-sam-ajout-types-conditions-affichages");
 var ano27944 = creerBrancheAnomalie(fonctionnaliteRubriqueOffres, "fix/27944-sam-telechargement-documents-contralia-ios");
 
+var fonctionnaliteNouveauHeader = creerBrancheDeFonctionnalite("feat/amelioration-navigationservice-headerservice");
+var tache28761 = creerBrancheDeTache(fonctionnaliteNouveauHeader, "task/28761-nouveau-header");
+
 
 // MERGES --------------------
 
