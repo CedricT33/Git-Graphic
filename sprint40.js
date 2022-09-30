@@ -41,6 +41,8 @@ var ano27944 = creerBrancheAnomalie(fonctionnaliteRubriqueOffres, "fix/27944-sam
 var fonctionnaliteNouveauHeader = creerBrancheDeFonctionnalite("feat/amelioration-navigationservice-headerservice");
 var tache28761 = creerBrancheDeTache(fonctionnaliteNouveauHeader, "task/28761-nouveau-header");
 
+var tache28644 = creerBrancheDeTache(integration, "task/28644-modif-version-via-hook");
+
 
 // MERGES --------------------
 
