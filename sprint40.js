@@ -33,6 +33,7 @@ var tache27259 = creerBrancheDeTache(fonctionnaliteCashback, "task/27259_Points-
 
 var fonctionnaliteParapheur = creerBrancheDeFonctionnalite("feat/parapheur");
 var tache28719 = creerBrancheDeTache(fonctionnaliteParapheur, "task/28719_affichage_VDA_BEL_en_iframe");
+var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/27171-point-entree-parapheur");
 
 var fonctionnaliteRubriqueOffres = creerBrancheDeFonctionnalite("feat/rubrique_offres");
 var tache28719 = creerBrancheDeTache(fonctionnaliteRubriqueOffres, "task/28870-sam-ajout-types-conditions-affichages");
