@@ -46,7 +46,7 @@ var tache28644 = creerBrancheDeTache(integration, "task/28644-modif-version-via-
 
 
 // MERGES --------------------
-creerMerge(fonctionnaliteNSI, tache27259);
+creerMerge(fonctionnaliteNSI, tache27799);
 
 //-------------------------QH7---------------------------//
 
