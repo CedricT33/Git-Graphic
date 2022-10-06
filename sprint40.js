@@ -64,3 +64,5 @@ creerMerge(fonctionnaliteNouveauHeader, tache28761);
 creerMerge(demo, fonctionnaliteNSI);
 creerMerge(demo, fonctionnaliteRubriqueOffres);
 creerMerge(demo, fonctionnaliteNouveauHeader);
+creerMerge(demo, tache28719);
+creerMerge(demo, tache27171);
