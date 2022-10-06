@@ -60,3 +60,4 @@ masterQH7.commit("start");
 
 // MERGES --------------------
 creerMerge(fonctionnaliteRubriqueOffres, tache28719);
+creerMerge(fonctionnaliteNouveauHeader, tache28761);
