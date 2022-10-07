@@ -59,7 +59,7 @@ masterQH7.commit("start");
 
 
 // MERGES --------------------
-creerMerge(fonctionnaliteRubriqueOffres, tache28719);
+creerMerge(fonctionnaliteRubriqueOffres, tache28870);
 creerMerge(fonctionnaliteNouveauHeader, tache28761);
 creerMerge(demo, fonctionnaliteNSI);
 creerMerge(demo, fonctionnaliteRubriqueOffres);
