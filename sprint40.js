@@ -36,7 +36,7 @@ var tache28719 = creerBrancheDeTache(fonctionnaliteParapheur, "task/28719_affich
 var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/27171-point-entree-parapheur");
 
 var fonctionnaliteRubriqueOffres = creerBrancheDeFonctionnalite("feat/rubrique_offres");
-var tache28719 = creerBrancheDeTache(fonctionnaliteRubriqueOffres, "task/28870-sam-ajout-types-conditions-affichages");
+var tache28870 = creerBrancheDeTache(fonctionnaliteRubriqueOffres, "task/28870-sam-ajout-types-conditions-affichages");
 var ano27944 = creerBrancheAnomalie(fonctionnaliteRubriqueOffres, "fix/27944-sam-telechargement-documents-contralia-ios");
 
 var fonctionnaliteNouveauHeader = creerBrancheDeFonctionnalite("feat/amelioration-navigationservice-headerservice");
@@ -66,4 +66,5 @@ creerMerge(demo, fonctionnaliteRubriqueOffres);
 creerMerge(demo, fonctionnaliteNouveauHeader);
 creerMerge(fonctionnaliteParapheur, tache28719);
 creerMerge(tache27171, fonctionnaliteParapheur);
+creerMerge(demo, tache28870);
 creerMerge(demo, tache27171);
