@@ -68,6 +68,11 @@ creerMerge(fonctionnaliteParapheur, tache28719);
 creerMerge(tache27171, fonctionnaliteParapheur);
 creerMerge(demo, tache28870);
 creerMerge(demo, tache27171);
+creerMerge(integration22_4, fonctionnaliteRubriqueOffres);
 
 creerMerge(integration22_4, integration22_3);
-creerMerge(integration22_3, integration22_4);
+creerMerge(integration, integration22_4);
+creerMerge(integration, tache28644);
+creerMerge(integration, fonctionnaliteNouveauHeader);
+creerMerge(integration, fonctionnaliteParapheur);
+creerMerge(integration, fonctionnaliteNSI);
