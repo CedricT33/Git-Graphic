@@ -17,11 +17,11 @@ var master = creerBrancheMaster(sprint40);
 var integration = master.branch("master (=22.5)");
 integration.commit("start");
 
-var integration22_3 = master.branch("support/22.3");
-integration22_3.commit("start");
-
 var integration22_4 = master.branch("support/22.4");
 integration22_4.commit("start");
+
+var integration22_3 = master.branch("support/22.3");
+integration22_3.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 
@@ -68,3 +68,6 @@ creerMerge(fonctionnaliteParapheur, tache28719);
 creerMerge(tache27171, fonctionnaliteParapheur);
 creerMerge(demo, tache28870);
 creerMerge(demo, tache27171);
+
+creerMerge(integration22_4, integration22_3);
+creerMerge(integration22_3, integration22_4);
