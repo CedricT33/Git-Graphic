@@ -32,7 +32,7 @@ integration22_3.commit("start");
 //-------------------------QH7---------------------------//
 
 // On instancie le graph dans le conteneur.
-var sprint39b = creerGitGraph("graph-container-41b");
+var sprint41b = creerGitGraph("graph-container-41b");
 
 // Branche MASTER
 var masterQH7 = creerBrancheMasterQH7(sprint41b);
