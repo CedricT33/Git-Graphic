@@ -28,6 +28,8 @@ integration22_3.commit("start");
 var fonctionnaliteSAMEPARGNE = creerBrancheDeFonctionnalite("feat/sam_epargne");
 var tache28084 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28084_image_toolbox_sam");
 
+var fonctionnaliteParapheur = creerBrancheDeFonctionnalite("feat/parapheur");
+var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/27171-point-entree-parapheur");
 
 
 
