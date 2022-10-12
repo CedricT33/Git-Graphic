@@ -25,6 +25,9 @@ integration22_3.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 
+var fonctionnaliteSAMEPARGNE = creerBrancheDeFonctionnalite("feat/sam_epargne");
+var tache28084 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28084_image_toolbox_sam");
+
 
 
 
