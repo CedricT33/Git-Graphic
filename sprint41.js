@@ -30,6 +30,7 @@ var tache28084 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28084_image
 
 var fonctionnaliteParapheur = creerBrancheDeFonctionnalite("feat/parapheur");
 var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/27171-point-entree-parapheur");
+var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/28720_debrachement_BEL_contralia");
 
 
 
