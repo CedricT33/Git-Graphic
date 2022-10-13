@@ -36,11 +36,11 @@ var fonctionnaliteParapheur = creerBrancheDeFonctionnalite("feat/parapheur");
 var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/27171-point-entree-parapheur");
 var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/28720_debrachement_BEL_contralia");
 
-
-
+var demo = creerBrancheDeSprint("twenty_r04_s02");
 // MERGES --------------------
 
-
+creerMerge(fonctionnaliteSAMEPARGNE, tache28084);
+creerMerge(demo, fonctionnaliteSAMEPARGNE);
 
 //-------------------------QH7---------------------------//
 
