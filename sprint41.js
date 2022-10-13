@@ -36,7 +36,12 @@ var fonctionnaliteParapheur = creerBrancheDeFonctionnalite("feat/parapheur");
 var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/27171-point-entree-parapheur");
 var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/28720_debrachement_BEL_contralia");
 
+var fonctionnaliteNouveauHeader = creerBrancheDeFonctionnalite("feat/amelioration-navigationservice-headerservice");
+var ano_29289 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29289-header-retour-contralia-ko");
+
 var ano_27944 = creerBrancheAnomalie(integration22_4, "fix/27944-sam-telechargement-documents-contralia-ios");
+
+
 
 var demo = creerBrancheDeSprint("twenty_r04_s02");
 // MERGES --------------------
