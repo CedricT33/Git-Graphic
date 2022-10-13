@@ -28,6 +28,10 @@ integration22_3.commit("start");
 var fonctionnaliteSAMEPARGNE = creerBrancheDeFonctionnalite("feat/sam_epargne");
 var tache28084 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28084_image_toolbox_sam");
 
+var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
+var tache27259 = creerBrancheDeTache(fonctionnaliteCashback, "task/27259_Points-entree-eligibilite");
+var tache27262 = creerBrancheDeTache(fonctionnaliteCashback, "task/27262_integration_AEM");
+
 var fonctionnaliteParapheur = creerBrancheDeFonctionnalite("feat/parapheur");
 var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/27171-point-entree-parapheur");
 var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/28720_debrachement_BEL_contralia");
