@@ -62,5 +62,5 @@ var sprint41b = creerGitGraph("graph-container-41b");
 var masterQH7 = creerBrancheMasterQH7(sprint41b);
 masterQH7.commit("start");
 
-var tache29431 = creerBrancheDeTache(masterQH7, "task/29431");
+var tache29431_QH7 = creerBrancheDeTache(masterQH7, "task/29431");
 
