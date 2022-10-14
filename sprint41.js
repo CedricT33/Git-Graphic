@@ -55,6 +55,7 @@ creerMerge(fonctionnaliteParapheur, tache27171);
 creerMerge(fonctionnaliteNouveauHeader, ano_29289);
 
 creerMerge(demo, fonctionnaliteNouveauHeader);
+creerMerge(demo, fonctionnaliteParapheur);
 
 //-------------------------QH7---------------------------//
 
