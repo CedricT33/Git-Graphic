@@ -52,6 +52,9 @@ creerMerge(fonctionnaliteSAMEPARGNE, tache28084);
 creerMerge(demo, fonctionnaliteSAMEPARGNE);
 
 creerMerge(fonctionnaliteParapheur, tache27171);
+creerMerge(fonctionnaliteNouveauHeader, ano_29289);
+
+creerMerge(demo, fonctionnaliteNouveauHeader);
 
 //-------------------------QH7---------------------------//
 
