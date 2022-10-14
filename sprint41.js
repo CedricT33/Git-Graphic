@@ -41,6 +41,8 @@ var ano_29289 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29289-hea
 
 var ano_27944 = creerBrancheAnomalie(integration22_4, "fix/27944-sam-telechargement-documents-contralia-ios");
 
+var fonctionnaliteSAMAQ = creerBrancheDeFonctionnalite(integration22_4, "feat/sam_aq");
+var tache29431 = creerBrancheDeTache(fonctionnaliteSAMAQ, "task/29431");
 
 
 var demo = creerBrancheDeSprint("twenty_r04_s02");
@@ -59,3 +61,6 @@ var sprint41b = creerGitGraph("graph-container-41b");
 // Branche MASTER
 var masterQH7 = creerBrancheMasterQH7(sprint41b);
 masterQH7.commit("start");
+
+var tache29431 = creerBrancheDeTache(masterQH7, "task/29431");
+
