@@ -41,7 +41,7 @@ var ano_29289 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29289-hea
 
 var ano_27944 = creerBrancheAnomalie(integration22_4, "fix/27944-sam-telechargement-documents-contralia-ios");
 
-var fonctionnaliteSAMAQ = creerBrancheDeFonctionnalite(integration22_4, "feat/sam_aq");
+var fonctionnaliteSAMAQ = creerBrancheDeTache(integration22_4, "feat/sam_aq");
 var tache29431 = creerBrancheDeTache(fonctionnaliteSAMAQ, "task/29431");
 
 
