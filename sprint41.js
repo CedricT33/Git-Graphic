@@ -60,7 +60,7 @@ creerMerge(demo, fonctionnaliteParapheur);
 // fin 1er Merge --------------------
 
 var ano_29520 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29520_mauvais-routage-du-chevron-back");
-
+creerMerge(fonctionnaliteNouveauHeader, ano_29520);
 
 //-------------------------QH7---------------------------//
 
