@@ -46,7 +46,7 @@ var tache29431 = creerBrancheDeTache(fonctionnaliteSAMAQ, "task/29431");
 
 
 var demo = creerBrancheDeSprint("twenty_r04_s02");
-// MERGES --------------------
+// 1er Merge --------------------
 
 creerMerge(fonctionnaliteSAMEPARGNE, tache28084);
 creerMerge(demo, fonctionnaliteSAMEPARGNE);
@@ -56,6 +56,11 @@ creerMerge(fonctionnaliteNouveauHeader, ano_29289);
 
 creerMerge(demo, fonctionnaliteNouveauHeader);
 creerMerge(demo, fonctionnaliteParapheur);
+
+// fin 1er Merge --------------------
+
+var ano_29520 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29520_mauvais-routage-du-chevron-back");
+
 
 //-------------------------QH7---------------------------//
 
