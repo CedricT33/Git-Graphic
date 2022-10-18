@@ -35,6 +35,8 @@ var tache27262 = creerBrancheDeTache(fonctionnaliteCashback, "task/27262_integra
 var fonctionnaliteParapheur = creerBrancheDeFonctionnalite("feat/parapheur");
 var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/27171-point-entree-parapheur");
 var tache28720 = creerBrancheDeTache(fonctionnaliteParapheur, "task/28720_debrachement_BEL_contralia");
+var tache29208 = creerBrancheDeTache(fonctionnaliteParapheur, "task/29208_integration_SB_parapheur");
+
 
 var fonctionnaliteNouveauHeader = creerBrancheDeFonctionnalite("feat/amelioration-navigationservice-headerservice");
 var ano_29289 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29289-header-retour-contralia-ko");
