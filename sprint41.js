@@ -74,5 +74,5 @@ var masterQH7 = creerBrancheMasterQH7(sprint41b);
 masterQH7.commit("start");
 
 var tache29431_QH7 = creerBrancheDeTache(masterQH7, "task/29431");
-var tache29431_QH7 = creerBrancheDeTache(masterQH7, "task/27259-Adherant-Clo");
+var tache27259_QH7 = creerBrancheDeTache(masterQH7, "task/27259-Adherant-Clo");
 
