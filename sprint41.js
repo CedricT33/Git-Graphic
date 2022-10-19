@@ -28,6 +28,8 @@ integration22_3.commit("start");
 var fonctionnaliteSAMEPARGNE = creerBrancheDeFonctionnalite("feat/sam_epargne");
 var tache28084 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28084_image_toolbox_sam");
 
+var tache28336 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28336-sam-epargne-postmessage");
+
 var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
 var tache27259 = creerBrancheDeTache(fonctionnaliteCashback, "task/27259_Points-entree-eligibilite");
 var tache27262 = creerBrancheDeTache(fonctionnaliteCashback, "task/27262_integration_AEM");
@@ -43,6 +45,8 @@ var ano_27944 = creerBrancheAnomalie(integration22_4, "fix/27944-sam-telechargem
 
 var fonctionnaliteSAMAQ = creerBrancheDeTache(integration22_4, "feat/sam_aq");
 var tache29431 = creerBrancheDeTache(fonctionnaliteSAMAQ, "task/29431");
+
+var tache29596 = creerBrancheDeTache(integration, "task/29596-optimisation-bouton-back-android");
 
 
 var demo = creerBrancheDeSprint("twenty_r04_s02");
@@ -62,7 +66,6 @@ creerMerge(demo, fonctionnaliteParapheur);
 var ano_29520 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29520_mauvais-routage-du-chevron-back");
 creerMerge(fonctionnaliteNouveauHeader, ano_29520);
 
-var tache28336 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28336-sam-epargne-postmessage");
 
 //-------------------------QH7---------------------------//
 
