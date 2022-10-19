@@ -62,6 +62,8 @@ creerMerge(demo, fonctionnaliteParapheur);
 var ano_29520 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29520_mauvais-routage-du-chevron-back");
 creerMerge(fonctionnaliteNouveauHeader, ano_29520);
 
+var tache28336 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28336-sam-epargne-postmessage");
+
 //-------------------------QH7---------------------------//
 
 // On instancie le graph dans le conteneur.
