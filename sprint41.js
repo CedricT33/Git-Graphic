@@ -23,7 +23,9 @@ integration22_4.commit("start");
 var integration22_3 = master.branch("support/22.3");
 integration22_3.commit("start");
 
+
 // Branches FONCTIONNALITE, TACHES ET ANOS
+var fonctionnalitePARTENAIRES = creerBrancheDeFonctionnalite("feat/integration_souscription_partenaires");
 
 var fonctionnaliteSAMEPARGNE = creerBrancheDeFonctionnalite("feat/sam_epargne");
 var tache28084 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28084_image_toolbox_sam");
