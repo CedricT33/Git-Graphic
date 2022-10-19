@@ -63,17 +63,15 @@ creerMerge(fonctionnaliteNouveauHeader, ano_29289);
 creerMerge(demo, fonctionnaliteNouveauHeader);
 creerMerge(demo, fonctionnaliteParapheur);
 
-creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteSAMEPARGNE);
-creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteParapheur);
-creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteNouveauHeader);
-
-
 // fin 1er Merge --------------------
 
 var ano_29520 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29520_mauvais-routage-du-chevron-back");
 creerMerge(fonctionnaliteNouveauHeader, ano_29520);
 
 
+creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteSAMEPARGNE);
+creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteParapheur);
+creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteNouveauHeader);
 //-------------------------QH7---------------------------//
 
 // On instancie le graph dans le conteneur.
