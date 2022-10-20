@@ -1,5 +1,5 @@
 //----------DOCUMENTATION----------
-//var fonctionnaliteX = creerBrancheDeFonctionnalite("f_X");
+//var fonctionnaliteX = creerBrancheDeFonctionnalite(brancheOrigine, "f_X");
 //var tacheX = creerBrancheDeTache(fonctionnaliteX, "t_X");
 //var ano_X = creerBrancheAnomalie(fonctionnaliteX, "a_X");
 //var brancheSprint = creerBrancheDeSprint("twenty_rXX_sXX");
@@ -43,7 +43,7 @@ var ano_29289 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29289-hea
 
 var ano_27944 = creerBrancheAnomalie(integration22_4, "fix/27944-sam-telechargement-documents-contralia-ios");
 
-var fonctionnaliteSAMAQ = creerBrancheDeTache(integration22_4, "feat/sam_aq");
+var fonctionnaliteSAMAQ = creerBrancheDeFonctionnalite(integration22_4, "feat/sam_aq");
 var tache29431 = creerBrancheDeTache(fonctionnaliteSAMAQ, "task/29431");
 
 var tache29596 = creerBrancheDeTache(integration, "task/29596-optimisation-bouton-back-android");
