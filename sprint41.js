@@ -25,7 +25,7 @@ integration22_3.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
-var fonctionnalitePARTENAIRES = creerBrancheDeFonctionnalite("feat/integration_souscription_partenaires");
+var fonctionnalitePARTENAIRES = creerBrancheDeFonctionnalite("feat/integration_sam_epargne_parapheur");
 
 var fonctionnaliteSAMEPARGNE = creerBrancheDeFonctionnalite("feat/sam_epargne");
 var tache28084 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28084_image_toolbox_sam");
@@ -73,11 +73,8 @@ creerMerge(demo, fonctionnaliteCashback);
 
 var ano_29520 = creerBrancheAnomalie(fonctionnaliteNouveauHeader, "fix/29520_mauvais-routage-du-chevron-back");
 creerMerge(fonctionnaliteNouveauHeader, ano_29520);
+creerMerge(integration, fonctionnaliteNouveauHeader);
 
-
-creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteSAMEPARGNE);
-creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteParapheur);
-creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteNouveauHeader);
 //-------------------------QH7---------------------------//
 
 // On instancie le graph dans le conteneur.
