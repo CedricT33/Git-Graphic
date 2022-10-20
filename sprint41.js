@@ -63,13 +63,11 @@ creerMerge(fonctionnaliteParapheur, tache27171);
 creerMerge(fonctionnaliteNouveauHeader, ano_29289);
 
 creerMerge(fonctionnaliteCashback, tache27262);
-creerMerge(demo, fonctionnaliteCashback);
 
 creerMerge(demo, fonctionnaliteNouveauHeader);
 creerMerge(demo, fonctionnaliteParapheur);
 
-
-
+creerMerge(demo, fonctionnaliteCashback);
 
 // fin 1er Merge --------------------
 
