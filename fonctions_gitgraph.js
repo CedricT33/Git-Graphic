@@ -94,8 +94,12 @@ function creerBrancheIntegration(nom) {
     return integration;
 }
 
-function creerBrancheDeFonctionnalite(nom) {
-    var fonctionnalite = integration.branch({
+function creerBrancheDeFonctionnalite(brancheOrigine, nom) {
+    // retrocompatibilite avec ancienne fonction ne prenant qu'un parametre
+    var isAncienneFonction = typeof brancheOrigine === "string";
+    var nom = isAncienneFonction ? brancheOrigine : nom;
+    var branche = isAncienneFonction ? integration : brancheOrigine;
+    var fonctionnalite = branche.branch({
         name: nom,
         style: {
             color: rouge,
