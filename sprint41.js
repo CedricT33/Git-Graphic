@@ -50,6 +50,8 @@ var tache29431 = creerBrancheDeTache(fonctionnaliteSAMAQ, "task/29431");
 
 var tache29596 = creerBrancheDeTache(integration, "task/29596-optimisation-bouton-back-android");
 
+var fonctionnalitePersoCompte = creerBrancheDeFonctionnalite("feat/perso_compte");
+var tache29021 = creerBrancheDeTache(fonctionnalitePersoCompte, "task/29021_filtre_renommage_compte");
 
 var demo = creerBrancheDeSprint("twenty_r04_s02");
 // 1er Merge --------------------
