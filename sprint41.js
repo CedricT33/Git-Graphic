@@ -83,6 +83,7 @@ creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteParapheur);
 creerMerge(fonctionnaliteSAMEPARGNE, ano_28336);
 creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteSAMEPARGNE);
 
+creerMerge(demo, fonctionnalitePARTENAIRES);
 creerMerge(integration22_4, ano_27944);
 
 //-------------------------QH7---------------------------//
