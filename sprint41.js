@@ -101,6 +101,5 @@ var tache27261_QH7 = creerBrancheDeTache(masterQH7, "task/27261_debranchement_pl
 var feat_NSI = creerBrancheDeTache(masterQH7, "feat/NSI");
 var demo_QH7 = creerBrancheDeTache(masterQH7, "twenty_r04_s02");
 
-creerMerge(demo_QH7, feat_NSI);
 
 
