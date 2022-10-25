@@ -86,6 +86,12 @@ creerMerge(fonctionnalitePARTENAIRES, fonctionnaliteSAMEPARGNE);
 creerMerge(demo, fonctionnalitePARTENAIRES);
 creerMerge(integration22_4, ano_27944);
 
+// branche de démo 22.4
+var demo_22_4 = creerBrancheDeSprint("twenty_r04_s02_support_22.4");
+creerMerge(fonctionnaliteSAMAQ, tache29431);
+creerMerge(demo_22_4, fonctionnaliteSAMAQ);
+
+
 //-------------------------QH7---------------------------//
 
 // On instancie le graph dans le conteneur.
