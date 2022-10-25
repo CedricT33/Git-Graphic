@@ -97,4 +97,10 @@ masterQH7.commit("start");
 
 var tache29431_QH7 = creerBrancheDeTache(masterQH7, "task/29431");
 var tache27259_QH7 = creerBrancheDeTache(masterQH7, "task/27259-Adherant-Clo");
+var tache27261_QH7 = creerBrancheDeTache(masterQH7, "task/27261_debranchement_plebicom");
+var feat_NSI = creerBrancheDeTache(masterQH7, "feat/NSI");
+var demo_QH7 = creerBrancheDeTache(masterQH7, "twenty_r04_s02");
+
+creerMerge(demo_QH7, feat_NSI);
+
 
