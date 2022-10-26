@@ -156,8 +156,12 @@ function creerMerge(branche1, branche2) {
     branche1.merge(branche2);
 }
 
-function creerBrancheDeSprint(nom) {
-    var sprint =  integration.branch({
+function creerBrancheDeSprint(brancheOrigine, nom) {
+    // retrocompatibilite avec ancienne fonction ne prenant qu'un parametre
+    var isAncienneFonction = typeof brancheOrigine === "string";
+    var nom = isAncienneFonction ? brancheOrigine : nom;
+    var branche = isAncienneFonction ? integration : brancheOrigine;
+    var sprint =  branche.branch({
         name: nom,
         style: {
             color: vert,
