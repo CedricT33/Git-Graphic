@@ -2,7 +2,7 @@
 //var fonctionnaliteX = creerBrancheDeFonctionnalite(brancheOrigine, "f_X");
 //var tacheX = creerBrancheDeTache(fonctionnaliteX, "t_X");
 //var ano_X = creerBrancheAnomalie(fonctionnaliteX, "a_X");
-//var brancheSprint = creerBrancheDeSprint("twenty_rXX_sXX");
+//var brancheSprint = creerBrancheDeSprint(brancheOrigine, "twenty_rXX_sXX");
 //var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_sX");
 //creerMerge(fonctionnaliteX, tacheX);
 //integration.commit("V22.02.00.9XX et 9XX"); // tag
@@ -87,7 +87,7 @@ creerMerge(demo, fonctionnalitePARTENAIRES);
 creerMerge(integration22_4, ano_27944);
 
 // branche de démo 22.4
-var demo_22_4 = creerBrancheDeSprint("twenty_r04_s02_support_22.4");
+var demo_22_4 = creerBrancheDeSprint(integration22_4, "twenty_r04_s02_support_22.4");
 creerMerge(fonctionnaliteSAMAQ, tache29431);
 creerMerge(demo_22_4, fonctionnaliteSAMAQ);
 
