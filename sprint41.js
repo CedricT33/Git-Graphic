@@ -33,6 +33,10 @@ var tache28336 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28336-sam-e
 var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
 var tache27259 = creerBrancheDeTache(fonctionnaliteCashback, "task/27259_Points-entree-eligibilite");
 var tache27262 = creerBrancheDeTache(fonctionnaliteCashback, "task/27262_integration_AEM");
+var tache27261 = creerBrancheDeTache(fonctionnaliteCashback, "task/27261_debranchement_plebicom");
+var tach2726127259 = creerBrancheDeTache(fonctionnaliteCashback, "task/27261-27259_un_appel_cmp");
+creerMerge(tache27259, tach2726127259);
+creerMerge(tache27261, tach2726127259);
 
 var fonctionnaliteParapheur = creerBrancheDeFonctionnalite("feat/parapheur");
 var tache27171 = creerBrancheDeTache(fonctionnaliteParapheur, "task/27171-point-entree-parapheur");
@@ -104,6 +108,9 @@ masterQH7.commit("start");
 var tache29431_QH7 = creerBrancheDeTache(masterQH7, "task/29431");
 var tache27259_QH7 = creerBrancheDeTache(masterQH7, "task/27259-Adherant-Clo");
 var tache27261_QH7 = creerBrancheDeTache(masterQH7, "task/27261_debranchement_plebicom");
+var tach2726127259_QH7 = creerBrancheDeTache(masterQH7, "task/27261-27259_merge_cashback");
+creerMerge(tache27259_QH7, tach2726127259_QH7);
+creerMerge(tache27261_QH7, tach2726127259_QH7);
 var feat_NSI = creerBrancheDeTache(masterQH7, "feat/NSI");
 var demo_QH7 = creerBrancheDeTache(masterQH7, "twenty_r04_s02");
 
