@@ -95,6 +95,11 @@ var demo_22_4 = creerBrancheDeSprint(integration22_4, "twenty_r04_s02_support_22
 creerMerge(fonctionnaliteSAMAQ, tache29431);
 creerMerge(demo_22_4, fonctionnaliteSAMAQ);
 
+//merge master
+creerMerge(integration22_4, fonctionnaliteSAMAQ);
+creerMerge(master, fonctionnalitePARTENAIRES);
+creerMerge(master, fonctionnaliteNouveauHeader);
+
 
 //-------------------------QH7---------------------------//
 
