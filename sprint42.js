@@ -23,6 +23,16 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
+var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
+var tache27259 = creerBrancheDeTache(fonctionnaliteCashback, "task/27259_Points-entree-eligibilite");
+var tache27262 = creerBrancheDeTache(fonctionnaliteCashback, "task/27262_integration_AEM");
+var tache27261 = creerBrancheDeTache(fonctionnaliteCashback, "task/27261_debranchement_plebicom");
+var tach2726127259 = creerBrancheDeTache(fonctionnaliteCashback, "task/27261-27259_un_appel_cmp");
+creerMerge(tache27259, tach2726127259);
+creerMerge(tache27261, tach2726127259);
+
+var fonctionnaliteSam = creerBrancheDeFonctionnalite("feat/parcours_sam");
+var tache28297 = creerBrancheDeTache(fonctionnaliteSam, "task/28297_tag_sam_epargne");
 
 
 
