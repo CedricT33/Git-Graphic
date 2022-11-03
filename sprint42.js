@@ -14,8 +14,11 @@ var sprint42 = creerGitGraph("graph-container-42");
 // Branche MASTER & INTEGRATION
 var master = creerBrancheMaster(sprint42);
 
-var integration = master.branch("master (=22.4)");
+var integration = master.branch("master (=22.5)");
 integration.commit("start");
+
+var integration22_4 = master.branch("support/22.4");
+integration22_4.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 
