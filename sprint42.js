@@ -36,6 +36,7 @@ var tache28297 = creerBrancheDeTache(fonctionnaliteSam, "task/28297_tag_sam_epar
 
 var fix29088 = creerBrancheAnomalie(integration, "fix/29088_wording_popin_xpay");
 var fix29861 = creerBrancheAnomalie(integration22_4, "fix/29861");
+var fix29018 = creerBrancheAnomalie(integration22_4, "fix/29018");
 
 // MERGES --------------------
 
