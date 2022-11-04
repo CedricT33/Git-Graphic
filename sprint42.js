@@ -34,10 +34,11 @@ creerMerge(tache27261, tach2726127259);
 var fonctionnaliteSam = creerBrancheDeFonctionnalite("feat/parcours_sam");
 var tache28297 = creerBrancheDeTache(fonctionnaliteSam, "task/28297_tag_sam_epargne");
 
-
+var fix29088 = creerBrancheDeTache(integration, "fix/29088_wording_popin_xpay");
 
 // MERGES --------------------
 
+creerMerge(integration, fix29088);
 
 //-------------------------QH7---------------------------//
 
