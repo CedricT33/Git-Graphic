@@ -42,6 +42,7 @@ var fix29018 = creerBrancheAnomalie(integration22_4, "fix/29018");
 
 creerMerge(integration, fix29088);
 creerMerge(integration22_4, fix29861);
+creerMerge(integration22_4, fix29018);
 
 //-------------------------QH7---------------------------//
 
