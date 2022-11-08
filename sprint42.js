@@ -35,6 +35,7 @@ var fonctionnaliteSam = creerBrancheDeFonctionnalite("feat/parcours_sam");
 var tache28297 = creerBrancheDeTache(fonctionnaliteSam, "task/28297_tag_sam_epargne");
 
 var fix29088 = creerBrancheAnomalie(integration, "fix/29088_wording_popin_xpay");
+var fix29517 = creerBrancheAnomalie(integration, "fix/29517_jonctions_stomes");
 var fix29861 = creerBrancheAnomalie(integration22_4, "fix/29861");
 var fix29018 = creerBrancheAnomalie(integration22_4, "fix/29018");
 
