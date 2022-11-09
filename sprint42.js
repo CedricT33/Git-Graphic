@@ -39,6 +39,9 @@ var fix29517 = creerBrancheAnomalie(integration, "fix/29517_jonctions_stomes");
 var fix29861 = creerBrancheAnomalie(integration22_4, "fix/29861");
 var fix29018 = creerBrancheAnomalie(integration22_4, "fix/29018");
 
+var tache29922 = creerBrancheDeTache(integration22_4, "task/29922");
+
+
 // MERGES --------------------
 
 creerMerge(integration, fix29088);
