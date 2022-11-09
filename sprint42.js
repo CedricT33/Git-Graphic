@@ -41,6 +41,8 @@ var fix29018 = creerBrancheAnomalie(integration22_4, "fix/29018");
 
 var tache29922 = creerBrancheDeTache(integration22_4, "task/29922");
 
+var poc29478 = creerBrancheDeFonctionnalite("poc/29478_cookies-new-crm");
+
 
 // MERGES --------------------
 
