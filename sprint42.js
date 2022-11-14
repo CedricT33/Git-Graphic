@@ -38,6 +38,7 @@ var fix29088 = creerBrancheAnomalie(integration, "fix/29088_wording_popin_xpay")
 var fix29517 = creerBrancheAnomalie(integration, "fix/29517_jonctions_stomes");
 var fix29861 = creerBrancheAnomalie(integration22_4, "fix/29861");
 var fix29018 = creerBrancheAnomalie(integration22_4, "fix/29018");
+var fix30008 = creerBrancheAnomalie(integration22_4, "fix/30008");
 
 var tache29922 = creerBrancheDeTache(integration22_4, "task/29922");
 
@@ -51,6 +52,7 @@ creerMerge(integration, tache29975);
 creerMerge(integration, tache29972);
 creerMerge(integration22_4, fix29861);
 creerMerge(integration22_4, fix29018);
+creerMerge(integration22_4, fix30008);
 
 //-------------------------QH7---------------------------//
 
