@@ -45,6 +45,8 @@ var tache29922 = creerBrancheDeTache(integration22_4, "task/29922");
 var poc29478 = creerBrancheDeFonctionnalite("poc/29478_cookies-new-crm");
 var tache29975 = creerBrancheDeTache(integration, "task/29972_simapp_xpay");
 var tache29972 = creerBrancheDeTache(integration, "task/29972_simapp_samaq");
+var fix29422 = creerBrancheAnomalie(integration, "fix/29422_parapheur_puces_syndication");
+
 // MERGES --------------------
 
 creerMerge(integration, fix29088);
