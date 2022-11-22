@@ -70,5 +70,6 @@ var sprint42b = creerGitGraph("graph-container-42b");
 var masterQH7 = creerBrancheMasterQH7(sprint42b);
 masterQH7.commit("start");
 
-
+var tache27307 = creerBrancheDeTache(masterQH7, "task/27307_amelioration_maptest");
+creerMerge(masterQH7, tache27307);
 // MERGES --------------------
