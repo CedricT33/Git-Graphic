@@ -34,7 +34,7 @@ creerMerge(tach2726127259, tache27261);
 var fonctionnaliteNsi = creerBrancheDeFonctionnalite("feat/nsi");
 var tache28598 = creerBrancheDeTache(fonctionnaliteNsi, "task/28598_postmessage_filtre");
 creerMerge(fonctionnaliteNsi, tache28598);
-creerMerge(master, fonctionnaliteNsi);
+creerMerge(integration, fonctionnaliteNsi);
 
 var fonctionnaliteSam = creerBrancheDeFonctionnalite("feat/parcours_sam");
 var tache28297 = creerBrancheDeTache(fonctionnaliteSam, "task/28297_tag_sam_epargne");
