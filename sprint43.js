@@ -1,7 +1,7 @@
 //----------DOCUMENTATION----------
-//var fonctionnaliteX = creerBrancheDeFonctionnalite("f_X");
-//var tacheX = creerBrancheDeTache(fonctionnaliteX, "t_X");
-//var ano_X = creerBrancheAnomalie(fonctionnaliteX, "a_X");
+//var fonctionnaliteX = creerBrancheDeFonctionnalite("feat/X");
+//var tacheX = creerBrancheDeTache(fonctionnaliteX, "task/X");
+//var ano_X = creerBrancheAnomalie(fonctionnaliteX, "fix/X");
 //var brancheSprint = creerBrancheDeSprint("twenty_rXX_sXX");
 //var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_sX");
 //creerMerge(fonctionnaliteX, tacheX);
@@ -19,7 +19,7 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
-
+var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
 
 
 // MERGES --------------------
