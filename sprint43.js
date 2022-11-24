@@ -20,6 +20,8 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
+var tache29872 = creerBrancheDeTache(fonctionnaliteCashback, "task/29872_cashback_point_entree_gerer");
+
 
 
 // MERGES --------------------
