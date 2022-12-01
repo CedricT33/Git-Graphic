@@ -29,4 +29,15 @@ var tache29872 = creerBrancheDeTache(fonctionnaliteCashback, "task/29872_cashbac
 
 
 //-------------------------QH7---------------------------//
+// On instancie le graph dans le conteneur.
+var sprint43b = creerGitGraph("graph-container-43b");
+
+// Branche MASTER
+var masterQH7 = creerBrancheMasterQH7(sprint43b);
+masterQH7.commit("start");
+
+var fonctionnaliteCashbackQH7 = creerBrancheDeFonctionnalite("feat/cashback");
+var tache29872QH7 = creerBrancheDeTache(fonctionnaliteCashbackQH7, "task/29872_modification_appel_eligibilite_clo");
+
+// MERGES --------------------
 
