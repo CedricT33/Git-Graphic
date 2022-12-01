@@ -36,7 +36,7 @@ var sprint43b = creerGitGraph("graph-container-43b");
 var masterQH7 = creerBrancheMasterQH7(sprint43b);
 masterQH7.commit("start");
 
-var fonctionnaliteCashbackQH7 = creerBrancheDeFonctionnalite("feat/cashback");
+var fonctionnaliteCashbackQH7 = creerBrancheDeTache(masterQH7, "feat/cashback");
 var tache29872QH7 = creerBrancheDeTache(fonctionnaliteCashbackQH7, "task/29872_modification_appel_eligibilite_clo");
 
 // MERGES --------------------
