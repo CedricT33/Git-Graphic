@@ -24,6 +24,8 @@ var tache29872 = creerBrancheDeTache(fonctionnaliteCashback, "task/29872_cashbac
 
 
 
+var brancheSprint = creerBrancheDeSprint("twenty_r05_s01");
+
 // MERGES --------------------
 
 
