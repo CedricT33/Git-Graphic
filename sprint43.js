@@ -45,4 +45,4 @@ var fonctionnaliteCashbackQH7 = creerBrancheDeTache(masterQH7, "feat/cashback");
 var tache29872QH7 = creerBrancheDeTache(fonctionnaliteCashbackQH7, "task/29872_modification_appel_eligibilite_clo");
 
 // MERGES --------------------
-
+creerMerge(fonctionnaliteCashbackQH7, tache29872QH7);
