@@ -23,7 +23,7 @@ var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
 var tache29872 = creerBrancheDeTache(fonctionnaliteCashback, "task/29872_cashback_point_entree_gerer");
 var tache30240 = creerBrancheDeTache(fonctionnaliteCashback, "task/30240_cashback_carte_compte");
 
-var ticket30487 = creerBrancheDeAnomalie(master, " fix/30487_appel-doublon-full-ip");
+var ticket30487 = creerBrancheAnomalie(master, " fix/30487_appel-doublon-full-ip");
 
 
 var brancheSprint = creerBrancheDeSprint("twenty_r05_s01");
@@ -31,6 +31,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r05_s01");
 // MERGES --------------------
 creerMerge(fonctionnaliteCashback, tache29872);
 creerMerge(tache30240, fonctionnaliteCashback);
+creerMerge(fonctionnaliteCashback, tache30240);
 
 
 
