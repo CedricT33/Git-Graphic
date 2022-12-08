@@ -21,22 +21,24 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
 var fonctionnaliteSIMAPP = creerBrancheDeFonctionnalite("feat/simapp");
+var fonctionnaliteVadParapheur = creerBrancheDeFonctionnalite("feat/vad_parapheur");
 var tache29872 = creerBrancheDeTache(fonctionnaliteCashback, "task/29872_cashback_point_entree_gerer");
 var tache30240 = creerBrancheDeTache(fonctionnaliteCashback, "task/30240_cashback_carte_compte");
-
+var tache30136 = creerBrancheDeTache(fonctionnaliteVadParapheur, "task/30136_tag_vad_parapheur_en_iframe");
 var ano30487 = creerBrancheAnomalie(master, " fix/30487_appel-doublon-full-ip");
+
 
 
 var brancheSprint = creerBrancheDeSprint("twenty_r05_s01");
 
 // MERGES --------------------
+creerMerge(fonctionnaliteVadParapheur, tache30136);
 creerMerge(fonctionnaliteCashback, tache29872);
 creerMerge(tache30240, fonctionnaliteCashback);
 creerMerge(fonctionnaliteCashback, tache30240);
 creerMerge(integration, ano30487);
 
-
-
+creerMerge(brancheSprint, fonctionnaliteCashback);
 //-------------------------QH7---------------------------//
 // On instancie le graph dans le conteneur.
 var sprint43b = creerGitGraph("graph-container-43b");
