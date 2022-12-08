@@ -44,11 +44,20 @@ creerMerge(brancheSprint, fonctionnaliteCashback);
 var sprint43b = creerGitGraph("graph-container-43b");
 
 // Branche MASTER
+// On instancie le graph dans le conteneur.
+var sprint43b = creerGitGraph("graph-container-43b");
+
+// Branche MASTER
 var masterQH7 = creerBrancheMasterQH7(sprint43b);
 masterQH7.commit("start");
 
 var fonctionnaliteCashbackQH7 = creerBrancheDeTache(masterQH7, "feat/cashback");
 var tache29872QH7 = creerBrancheDeTache(fonctionnaliteCashbackQH7, "task/29872_modification_appel_eligibilite_clo");
 
+var tache27171 = creerBrancheDeTache(masterQH7, "task/27171-lister-dossier");
+var brancheSprint = creerBrancheDeTache(masterQH7, "twenty_r05_s01");
+
+
 // MERGES --------------------
 creerMerge(fonctionnaliteCashbackQH7, tache29872QH7);
+creerMerge(brancheSprint, fonctionnaliteCashbackQH7););
