@@ -20,6 +20,7 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
+var fonctionnaliteSIMAPP = creerBrancheDeFonctionnalite("feat/simapp");
 var tache29872 = creerBrancheDeTache(fonctionnaliteCashback, "task/29872_cashback_point_entree_gerer");
 var tache30240 = creerBrancheDeTache(fonctionnaliteCashback, "task/30240_cashback_carte_compte");
 
