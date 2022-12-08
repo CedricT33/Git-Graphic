@@ -61,5 +61,5 @@ var brancheSprint = creerBrancheDeTache(masterQH7, "twenty_r05_s01");
 
 // MERGES --------------------
 creerMerge(brancheSprint, tache27171);
-creerMerge(fonctionnaliteCashbackQH7, tache29872QH7);
+creerMerge(fonctionnaliteCashbackQH7, tache29872);
 creerMerge(brancheSprint, fonctionnaliteCashbackQH7);
