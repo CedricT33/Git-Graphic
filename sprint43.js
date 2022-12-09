@@ -48,8 +48,8 @@ creerMerge(brancheSprint, fonctionnaliteCashback);
 creerMerge(fonctionnaliteFusion, fonctionnaliteCashback);
 creerMerge(fonctionnaliteFusion, fonctionnaliteSIMAPP);
 creerMerge(fonctionnaliteFusion, fonctionnaliteVadParapheur);
-creerMerge(fonctionnaliteFusion, fonctionnaliteSAMAQ);
 
+creerMerge(integration, fonctionnaliteSAMAQ);
 creerMerge(integration, fonctionnaliteFusion);
 
 //-------------------------QH7---------------------------//
