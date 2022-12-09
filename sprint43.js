@@ -22,6 +22,8 @@ integration.commit("start");
 var fonctionnaliteCashback = creerBrancheDeFonctionnalite("feat/cashback");
 var fonctionnaliteSIMAPP = creerBrancheDeFonctionnalite("feat/simapp");
 var fonctionnaliteVadParapheur = creerBrancheDeFonctionnalite("feat/vad_parapheur");
+var fonctionnaliteSAMAQ = creerBrancheDeFonctionnalite("feat/sam_aq");
+var tache29898 = creerBrancheDeTache(fonctionnaliteCashback, "task/29898_samaq_tel_erreur");
 var tache29872 = creerBrancheDeTache(fonctionnaliteCashback, "task/29872_cashback_point_entree_gerer");
 var tache30240 = creerBrancheDeTache(fonctionnaliteCashback, "task/30240_cashback_carte_compte");
 var tache30136 = creerBrancheDeTache(fonctionnaliteVadParapheur, "task/30136_tag_vad_parapheur_en_iframe");
@@ -39,12 +41,14 @@ creerMerge(fonctionnaliteCashback, tache29872);
 creerMerge(tache30240, fonctionnaliteCashback);
 creerMerge(fonctionnaliteCashback, tache30240);
 creerMerge(integration, ano30487);
+creerMerge(fonctionnaliteSAMAQ, tache29898);
 
 creerMerge(brancheSprint, fonctionnaliteCashback);
 
 creerMerge(fonctionnaliteFusion, fonctionnaliteCashback);
 creerMerge(fonctionnaliteFusion, fonctionnaliteSIMAPP);
 creerMerge(fonctionnaliteFusion, fonctionnaliteVadParapheur);
+creerMerge(fonctionnaliteFusion, fonctionnaliteSAMAQ);
 
 creerMerge(integration, fonctionnaliteFusion);
 
