@@ -40,11 +40,12 @@ creerMerge(tache30240, fonctionnaliteCashback);
 creerMerge(fonctionnaliteCashback, tache30240);
 creerMerge(integration, ano30487);
 
+creerMerge(brancheSprint, fonctionnaliteCashback);
+
 creerMerge(fonctionnaliteFusion, fonctionnaliteCashback);
 creerMerge(fonctionnaliteFusion, fonctionnaliteSIMAPP);
 creerMerge(fonctionnaliteFusion, fonctionnaliteVadParapheur);
 
-creerMerge(brancheSprint, fonctionnaliteCashback);
 creerMerge(integration, fonctionnaliteFusion);
 
 //-------------------------QH7---------------------------//
@@ -71,3 +72,5 @@ var brancheSprint = creerBrancheDeTache(masterQH7, "twenty_r05_s01");
 creerMerge(brancheSprint, tache27171);
 creerMerge(fonctionnaliteCashbackQH7, tache29872);
 creerMerge(brancheSprint, fonctionnaliteCashbackQH7);
+
+creerMerge(masterQH7, brancheSprint);
