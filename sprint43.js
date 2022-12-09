@@ -27,6 +27,8 @@ var tache30240 = creerBrancheDeTache(fonctionnaliteCashback, "task/30240_cashbac
 var tache30136 = creerBrancheDeTache(fonctionnaliteVadParapheur, "task/30136_tag_vad_parapheur_en_iframe");
 var ano30487 = creerBrancheAnomalie(master, " fix/30487_appel-doublon-full-ip");
 
+var fonctionnaliteFusion = creerBrancheDeFonctionnalite("fusion_twenty_r05_s01");
+
 
 
 var brancheSprint = creerBrancheDeSprint("twenty_r05_s01");
@@ -38,6 +40,11 @@ creerMerge(tache30240, fonctionnaliteCashback);
 creerMerge(fonctionnaliteCashback, tache30240);
 creerMerge(integration, ano30487);
 
+creerMerge(fonctionnaliteFusion, fonctionnaliteCashback);
+creerMerge(fonctionnaliteFusion, fonctionnaliteSIMAPP);
+creerMerge(fonctionnaliteFusion, fonctionnaliteVadParapheur);
+
+creerMerge(integration, fonctionnaliteFusion);
 creerMerge(brancheSprint, fonctionnaliteCashback);
 //-------------------------QH7---------------------------//
 // On instancie le graph dans le conteneur.
