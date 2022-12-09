@@ -44,8 +44,9 @@ creerMerge(fonctionnaliteFusion, fonctionnaliteCashback);
 creerMerge(fonctionnaliteFusion, fonctionnaliteSIMAPP);
 creerMerge(fonctionnaliteFusion, fonctionnaliteVadParapheur);
 
-creerMerge(integration, fonctionnaliteFusion);
 creerMerge(brancheSprint, fonctionnaliteCashback);
+creerMerge(integration, fonctionnaliteFusion);
+
 //-------------------------QH7---------------------------//
 // On instancie le graph dans le conteneur.
 var sprint43b = creerGitGraph("graph-container-43b");
