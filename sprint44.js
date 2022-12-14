@@ -22,5 +22,9 @@ integration.commit("start");
 var fonctionnaliteSAMEPARGNE = creerBrancheDeFonctionnalite("feat/sam_epargne");
 var tache29898 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28297_sam_epargne_tags_post_message (+30737)");
 
+var fonctionnaliteCOOKIES = creerBrancheDeFonctionnalite("feat/cookies");
+var tache29478 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/29478_cookies_valorisation");
+var tache30198 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/30198-enabler-focus-cookies");
+
 
 // MERGES --------------------
