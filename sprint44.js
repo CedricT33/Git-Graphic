@@ -20,7 +20,7 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteSAMEPARGNE = creerBrancheDeFonctionnalite("feat/sam_epargne");
-var tache29898 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28297_sam_epargne_tags_post_message (+30737)");
+var tache29898 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28297_sam_epargne_tags_post_message (+30737+29126)");
 
 var fonctionnaliteCOOKIES = creerBrancheDeFonctionnalite("feat/cookies");
 var tache29478 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/29478_cookies_valorisation");
