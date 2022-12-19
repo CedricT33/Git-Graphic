@@ -22,6 +22,9 @@ integration.commit("start");
 var fonctionnaliteSAMEPARGNE = creerBrancheDeFonctionnalite("feat/sam_epargne");
 var tache29898 = creerBrancheDeTache(fonctionnaliteSAMEPARGNE, "task/28297_sam_epargne_tags_post_message (+30737+29126)");
 
+var fonctionnaliteSAM = creerBrancheDeFonctionnalite("feat/sam");
+var tache30602 = creerBrancheDeTache(fonctionnaliteSAM, "task/30602_eligibilite_contralia");
+
 var fonctionnaliteCOOKIES = creerBrancheDeFonctionnalite("feat/cookies");
 var tache29478 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/29478_cookies_valorisation");
 var tache30198 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/30198-enabler-focus-cookies");
