@@ -32,5 +32,7 @@ var tache30198 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/30198-enabler-
 var fonctionnaliteCASHBACK = creerBrancheDeFonctionnalite("feat/cashback");
 var tache30697 = creerBrancheDeTache(fonctionnaliteCASHBACK, "task/30697_optimisation_QH7");
 
+var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
+
 
 // MERGES --------------------
