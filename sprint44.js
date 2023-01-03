@@ -28,6 +28,7 @@ var tache30602 = creerBrancheDeTache(fonctionnaliteSAM, "task/30602_eligibilite_
 var fonctionnaliteCOOKIES = creerBrancheDeFonctionnalite("feat/cookies");
 var tache29478 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/29478_cookies_valorisation");
 var tache30198 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/30198-enabler-focus-cookies");
+var tache30917 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/30917_valorisaion_cookies_suite");
 
 var fonctionnaliteCASHBACK = creerBrancheDeFonctionnalite("feat/cashback");
 var tache30697 = creerBrancheDeTache(fonctionnaliteCASHBACK, "task/30697_optimisation_QH7");
