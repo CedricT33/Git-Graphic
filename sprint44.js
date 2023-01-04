@@ -47,6 +47,7 @@ creerMerge(fonctionnaliteAPPLEPAY, tache30262);
 creerMerge(fonctionnaliteCASHBACK, tache30697);
 creerMerge(brancheSprint, fonctionnaliteSAMEPARGNE);
 creerMerge(brancheSprint, fonctionnaliteCASHBACK);
+creerMerge(brancheSprint, fonctionnaliteAPPLEPAY);
 
 //-------------------------QH7---------------------------//
 // On instancie le graph dans le conteneur.
