@@ -33,11 +33,16 @@ var tache30917 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/30917_valorisa
 var fonctionnaliteCASHBACK = creerBrancheDeFonctionnalite("feat/cashback");
 var tache30697 = creerBrancheDeTache(fonctionnaliteCASHBACK, "task/30697_optimisation_QH7");
 
+var fonctionnaliteAPPLEPAY = creerBrancheDeFonctionnalite("feat/applePay");
+var tache30262 = creerBrancheDeTache(fonctionnaliteCASHBACK, "task/30262_applePay_cardState");
+
 var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
 
 
 // MERGES --------------------
 creerMerge(fonctionnaliteSAMEPARGNE, tache29898);
+creerMerge(fonctionnaliteAPPLEPAY, tache30262);
 creerMerge(brancheSprint, fonctionnaliteSAMEPARGNE);
+creerMerge(brancheSprint, fonctionnaliteCASHBACK);
 
 
