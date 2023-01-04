@@ -68,6 +68,10 @@ var tache27259 = creerBrancheDeTache(masterQH7, "task/27259-Adherant-Clo");
 
 var tache27261 = creerBrancheDeTache(masterQH7, "task/27261_debranchement_plebicom");
 
+var tache27259merge = creerBrancheDeTache(masterQH7, "task/27261-27259_merge_cashback");
+
+var tache272612 = creerBrancheDeTache(masterQH7, "task/27261");
+
 var brancheSprint = creerBrancheDeTache(masterQH7, "twenty_r05_s01");
 
 
@@ -78,6 +82,8 @@ creerMerge(masterQH7, tache30697);
 creerMerge(masterQH7, support231);
 creerMerge(masterQH7, tache27259);
 creerMerge(masterQH7, tache27261);
+creerMerge(masterQH7, tache27259merge);
+creerMerge(masterQH7, tache272612);
 
 
 
