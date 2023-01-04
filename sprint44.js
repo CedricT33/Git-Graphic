@@ -70,10 +70,6 @@ var tache27261 = creerBrancheDeTache(masterQH7, "task/27261_debranchement_plebic
 
 var tache27259merge = creerBrancheDeTache(masterQH7, "task/27261-27259_merge_cashback");
 
-var tache272612 = creerBrancheDeTache(masterQH7, "task/27261");
-
-var brancheSprint = creerBrancheDeTache(masterQH7, "twenty_r05_s01");
-
 
 // MERGES --------------------
 creerMerge(masterQH7, tache30602);
@@ -83,7 +79,6 @@ creerMerge(masterQH7, support231);
 creerMerge(masterQH7, tache27259);
 creerMerge(masterQH7, tache27261);
 creerMerge(masterQH7, tache27259merge);
-creerMerge(masterQH7, tache272612);
 
 
 
