@@ -44,5 +44,6 @@ creerMerge(fonctionnaliteSAMEPARGNE, tache29898);
 creerMerge(fonctionnaliteAPPLEPAY, tache30262);
 creerMerge(fonctionnaliteCASHBACK, tache30697);
 creerMerge(brancheSprint, fonctionnaliteSAMEPARGNE);
+creerMerge(brancheSprint, fonctionnaliteCASHBACK);
 
 
