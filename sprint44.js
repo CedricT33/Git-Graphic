@@ -42,7 +42,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
 // MERGES --------------------
 creerMerge(fonctionnaliteSAMEPARGNE, tache29898);
 creerMerge(fonctionnaliteAPPLEPAY, tache30262);
-creerMerge(brancheSprint, fonctionnaliteSAMEPARGNE);
 creerMerge(fonctionnaliteCASHBACK, tache30697);
+creerMerge(brancheSprint, fonctionnaliteSAMEPARGNE);
 
 
