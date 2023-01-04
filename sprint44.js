@@ -48,4 +48,36 @@ creerMerge(fonctionnaliteCASHBACK, tache30697);
 creerMerge(brancheSprint, fonctionnaliteSAMEPARGNE);
 creerMerge(brancheSprint, fonctionnaliteCASHBACK);
 
+//-------------------------QH7---------------------------//
+// On instancie le graph dans le conteneur.
+var sprint44b = creerGitGraph("graph-container-44b");
+
+// Branche MASTER
+var masterQH7 = creerBrancheMasterQH7(sprint44b);
+masterQH7.commit("start");
+
+var tache30602 = creerBrancheDeTache(masterQH7, "task/30602_eligibilite_pph_contralia");
+
+var tache30935 = creerBrancheDeTache(masterQH7, "task/30935_SB519");
+
+var tache30697 = creerBrancheDeTache(masterQH7, "task/30697_optimisation_cashback");
+
+var support231 = creerBrancheDeTache(masterQH7, "support/23.01");
+
+var tache27259 = creerBrancheDeTache(masterQH7, "task/27259-Adherant-Clo");
+
+var tache27261 = creerBrancheDeTache(masterQH7, "task/27261_debranchement_plebicom");
+
+var brancheSprint = creerBrancheDeTache(masterQH7, "twenty_r05_s01");
+
+
+// MERGES --------------------
+creerMerge(masterQH7, tache30602);
+creerMerge(masterQH7, tache30935);
+creerMerge(masterQH7, tache30697);
+creerMerge(masterQH7, support231);
+creerMerge(masterQH7, tache27259);
+creerMerge(masterQH7, tache27261);
+
+
 
