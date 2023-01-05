@@ -4,7 +4,7 @@
 //var ano_X = creerBrancheAnomalie(fonctionnaliteX, "fix/X");
 //var brancheSprint = creerBrancheDeSprint("twenty_rXX_sXX");
 //var brancheMerge = creerBrancheDeMerge(integration, "merge_twenty_sX");
-//creerMerge(fonctionnaliteX, tacheX);
+//creerMerge(brancheVersLaquelleOnMerge, brancheQuiVaDansLAutre);
 //integration.commit("V22.02.00.9XX et 9XX"); // tag
 //---------------------------------
 
