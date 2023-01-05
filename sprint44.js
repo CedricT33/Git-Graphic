@@ -50,6 +50,7 @@ creerMerge(brancheSprint, fonctionnaliteSAMEPARGNE);
 creerMerge(brancheSprint, fonctionnaliteCASHBACK);
 creerMerge(brancheSprint, fonctionnaliteAPPLEPAY);
 creerMerge(brancheSprint, fonctionnaliteSAM);
+creerMerge(tache30198, fonctionnaliteSAMEPARGNE);
 
 
 
