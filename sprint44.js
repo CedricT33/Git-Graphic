@@ -17,6 +17,8 @@ var master = creerBrancheMaster(sprint44);
 var integration = master.branch("master (=22.5)");
 integration.commit("start");
 
+//Branche de fusion
+var brancheMerge = creerBrancheDeMerge(integration, "fusion/twenty_r01_S02");
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteSAMEPARGNE = creerBrancheDeFonctionnalite("feat/sam_epargne");
@@ -40,7 +42,6 @@ var fonctionnaliteLBPA = creerBrancheDeFonctionnalite("feat/LBPA");
 var tache30222 = creerBrancheDeTache(integration, "task/30222_lbpa_debranchement_navigateur_finalisation");
 
 var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
-var brancheMerge = creerBrancheDeMerge(integration, "fusion/twenty_r01_S02");
 
 
 // MERGES --------------------
