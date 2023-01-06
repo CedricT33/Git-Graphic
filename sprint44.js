@@ -36,7 +36,7 @@ var tache30697 = creerBrancheDeTache(fonctionnaliteCASHBACK, "task/30697_optimis
 var fonctionnaliteAPPLEPAY = creerBrancheDeFonctionnalite("feat/applePay");
 var tache30262 = creerBrancheDeTache(fonctionnaliteAPPLEPAY, "task/30262_applePay_cardState");
 
-var tache30222 = creerBrancheDeTache(master, "task/30222_lbpa_debranchement_navigateur_finalisation");
+var tache30222 = creerBrancheDeTache(integration, "task/30222_lbpa_debranchement_navigateur_finalisation");
 
 var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
 
@@ -46,6 +46,7 @@ creerMerge(fonctionnaliteSAMEPARGNE, tache29898);
 creerMerge(fonctionnaliteAPPLEPAY, tache30262);
 creerMerge(fonctionnaliteCASHBACK, tache30697);
 creerMerge(fonctionnaliteSAM, tache30602);
+creerMerge(brancheSprint, tache30222);
 creerMerge(brancheSprint, fonctionnaliteSAMEPARGNE);
 creerMerge(brancheSprint, fonctionnaliteCASHBACK);
 creerMerge(brancheSprint, fonctionnaliteAPPLEPAY);
