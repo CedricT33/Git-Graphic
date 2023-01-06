@@ -55,6 +55,13 @@ creerMerge(brancheSprint, fonctionnaliteSAM);
 creerMerge(tache30198, fonctionnaliteSAMEPARGNE);
 creerMerge(fonctionnaliteLBPA, tache30222);
 
+// FUUUUUUUSION -------------------
+creerMerge(integration, fonctionnaliteSAMEPARGNE);
+creerMerge(integration, fonctionnaliteSAM);
+creerMerge(integration, fonctionnaliteCASHBACK);
+creerMerge(integration, fonctionnaliteAPPLEPAY);
+creerMerge(integration, fonctionnaliteLBPA);
+
 
 
 
