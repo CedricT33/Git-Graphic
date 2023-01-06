@@ -40,6 +40,7 @@ var fonctionnaliteLBPA = creerBrancheDeFonctionnalite("feat/LBPA");
 var tache30222 = creerBrancheDeTache(integration, "task/30222_lbpa_debranchement_navigateur_finalisation");
 
 var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
+var brancheMerge = creerBrancheDeMerge(integration, "fusion/twenty_r01_S02");
 
 
 // MERGES --------------------
@@ -56,11 +57,12 @@ creerMerge(tache30198, fonctionnaliteSAMEPARGNE);
 creerMerge(fonctionnaliteLBPA, tache30222);
 
 // FUUUUUUUSION -------------------
-creerMerge(integration, fonctionnaliteSAMEPARGNE);
-creerMerge(integration, fonctionnaliteSAM);
-creerMerge(integration, fonctionnaliteCASHBACK);
-creerMerge(integration, fonctionnaliteAPPLEPAY);
-creerMerge(integration, fonctionnaliteLBPA);
+creerMerge(brancheMerge, fonctionnaliteSAMEPARGNE);
+creerMerge(brancheMerge, fonctionnaliteSAM);
+creerMerge(brancheMerge, fonctionnaliteCASHBACK);
+creerMerge(brancheMerge, fonctionnaliteAPPLEPAY);
+creerMerge(brancheMerge, fonctionnaliteLBPA);
+creerMerge(integration, brancheMerge);
 
 
 
