@@ -23,9 +23,9 @@ integration.commit("start");
 var fonctionnaliteWIZBII = creerBrancheDeFonctionnalite("feat/twenty/wizbee");
 var tache32803 = creerBrancheDeTache(fonctionnaliteWIZBII, "task/32803");
 
+var fonctionnaliteFULLIP = creerBrancheDeFonctionnalite("feat/twenty/Q4Q-31470");
+
 var brancheSprint = creerBrancheDeSprint("DEV/23_1");
-
-
 // MERGES --------------------
 
 
@@ -42,6 +42,8 @@ var sprint47b = creerGitGraph("graph-container-47b");
 // Branche MASTER
 var masterQH7 = creerBrancheMasterQH7(sprint47b);
 masterQH7.commit("start");
+
+var featFraudManager = creerBrancheDeTache(masterQH7, "feat/twenty/Q4Q-29158");
 
 
 
