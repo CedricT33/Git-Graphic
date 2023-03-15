@@ -20,12 +20,12 @@ integration.commit("start");
 //Branche de fusion
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
-var ano32784 = creerBrancheAnomalie(master, " fix/32784_erreur_fraud_manager");
-
 var fonctionnaliteWIZBII = creerBrancheDeFonctionnalite("feat/twenty/wizbee");
 var tache32803 = creerBrancheDeTache(fonctionnaliteWIZBII, "task/32803");
 
 var fonctionnaliteFULLIP = creerBrancheDeFonctionnalite("feat/twenty/Q4Q-31470");
+
+var ano32784 = creerBrancheAnomalie(master, " fix/32784_erreur_fraud_manager");
 
 var brancheReleaseQ4Q = creerBrancheDeSprint("DEV/23_1");
 // MERGES --------------------
