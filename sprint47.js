@@ -20,7 +20,7 @@ integration.commit("start");
 //Branche de fusion
 
 // Branches FONCTIONNALITE, TACHES ET ANOS
-var fonctionnaliteWIZBII = creerBrancheDeFonctionnalite("feat/twenty/wizbee");
+var fonctionnaliteWIZBII = creerBrancheDeFonctionnalite("feat/twenty/wizbii");
 var tache32803 = creerBrancheDeTache(fonctionnaliteWIZBII, "task/32803");
 
 var fonctionnalite31470 = creerBrancheDeFonctionnalite("feat/twenty/Q4Q-31470");
