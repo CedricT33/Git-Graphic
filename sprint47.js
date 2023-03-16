@@ -28,8 +28,11 @@ var fonctionnaliteFULLIP = creerBrancheDeFonctionnalite("feat/twenty/Q4Q-31470")
 var ano32784 = creerBrancheAnomalie(master, " fix/32784_erreur_fraud_manager");
 
 var brancheReleaseQ4Q = creerBrancheDeSprint("DEV/23_1");
+
 // MERGES --------------------
 creerMerge(brancheReleaseQ4Q, ano32784);
+creerMerge(fonctionnaliteWIZBII, tache32803);
+creerMerge(brancheReleaseQ4Q, fonctionnaliteWIZBII);
 
 
 // FUUUUUUUSION -------------------
