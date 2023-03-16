@@ -23,7 +23,7 @@ integration.commit("start");
 var fonctionnaliteWIZBII = creerBrancheDeFonctionnalite("feat/twenty/wizbee");
 var tache32803 = creerBrancheDeTache(fonctionnaliteWIZBII, "task/32803");
 
-var fonctionnaliteFULLIP = creerBrancheDeFonctionnalite("feat/twenty/Q4Q-31470");
+var fonctionnalite31470 = creerBrancheDeFonctionnalite("feat/twenty/Q4Q-31470");
 
 var ano32784 = creerBrancheAnomalie(master, " fix/32784_erreur_fraud_manager");
 
@@ -33,6 +33,7 @@ var brancheReleaseQ4Q = creerBrancheDeSprint("DEV/23_1");
 creerMerge(brancheReleaseQ4Q, ano32784);
 creerMerge(fonctionnaliteWIZBII, tache32803);
 creerMerge(brancheReleaseQ4Q, fonctionnaliteWIZBII);
+creerMerge(brancheReleaseQ4Q, fonctionnalite31470);
 
 
 // FUUUUUUUSION -------------------
