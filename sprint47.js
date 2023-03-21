@@ -25,7 +25,26 @@ var tache32803 = creerBrancheDeTache(fonctionnaliteWIZBII, "task/32803");
 
 var fonctionnalite31470 = creerBrancheDeFonctionnalite("feat/twenty/Q4Q-31470");
 
+var fonctionnaliteXPAY = creerBrancheDeFonctionnalite("feat/twenty/xpay");
+var tache28868 = creerBrancheDeTache(fonctionnaliteXPAY, "task/28868-xpay-harmonisation");
+
+var fonctionnaliteCOOKIES = creerBrancheDeFonctionnalite("feat/cookies");
+var tache30198 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/30198-enabler-focus-cookies");
+var tache32770 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/32770-cookies-js-11.02");
+
+var fonctionnaliteAccesRapide = creerBrancheDeFonctionnalite("feat/accesRapides");
+
+var fonctionnaliteInfosTechnique = creerBrancheDeFonctionnalite("feat/infos_techniques");
+var tache29787 = creerBrancheDeTache(fonctionnaliteInfosTechnique, "task/29787_ajout_version_sdkta");
+
+var fonctionnaliteDashboard = creerBrancheDeFonctionnalite("feat/twenty/dashboardASV");
+
+var fonctionnalite31470 = creerBrancheDeFonctionnalite("feat/twenty/Q4Q-31470");
+
 var ano32784 = creerBrancheAnomalie(master, " fix/32784_erreur_fraud_manager");
+var ano32736 = creerBrancheAnomalie(master, " fix/32736-gerer-absence-du-nom-empreite");
+var ano30079 = creerBrancheAnomalie(master, " Fix/30079-accessibilite-cartes-boutons");
+var ano32722 = creerBrancheAnomalie(master, " fix/32722_vignette_mes_comptes");
 
 var brancheReleaseQ4Q = creerBrancheDeSprint("DEV/23_1");
 
@@ -34,6 +53,10 @@ creerMerge(brancheReleaseQ4Q, ano32784);
 creerMerge(fonctionnaliteWIZBII, tache32803);
 creerMerge(brancheReleaseQ4Q, fonctionnaliteWIZBII);
 creerMerge(brancheReleaseQ4Q, fonctionnalite31470);
+creerMerge(brancheReleaseQ4Q, ano32722);
+creerMerge(brancheReleaseQ4Q, fonctionnaliteAccesRapide);
+creerMerge(brancheReleaseQ4Q, fonctionnaliteInfosTechnique);
+creerMerge(fonctionnaliteInfosTechnique, tache29787);
 
 
 // FUUUUUUUSION -------------------
