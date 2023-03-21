@@ -45,9 +45,10 @@ var ano32784 = creerBrancheAnomalie(master, " fix/32784_erreur_fraud_manager");
 var ano32736 = creerBrancheAnomalie(master, " fix/32736-gerer-absence-du-nom-empreite");
 var ano30079 = creerBrancheAnomalie(master, " Fix/30079-accessibilite-cartes-boutons");
 var ano32722 = creerBrancheAnomalie(master, " fix/32722_vignette_mes_comptes");
-
+var ano33137 = creerBrancheAnomalie(master, " fix/33137");
+var ano32823 = creerBrancheAnomalie(master, " fix/32823");
 var brancheReleaseQ4Q = creerBrancheDeSprint("DEV/23_1");
-
+var brancheReleaseQ4Q23_2 = creerBrancheDeSprint("DEV/23_2");
 // MERGES --------------------
 creerMerge(brancheReleaseQ4Q, ano32784);
 creerMerge(fonctionnaliteWIZBII, tache32803);
@@ -57,7 +58,8 @@ creerMerge(brancheReleaseQ4Q, ano32722);
 creerMerge(brancheReleaseQ4Q, fonctionnaliteAccesRapide);
 creerMerge(brancheReleaseQ4Q, fonctionnaliteInfosTechnique);
 creerMerge(fonctionnaliteInfosTechnique, tache29787);
-
+creerMerge(brancheReleaseQ4Q23_2, ano32823);
+creerMerge(brancheReleaseQ4Q, ano33137);
 
 // FUUUUUUUSION -------------------
 
