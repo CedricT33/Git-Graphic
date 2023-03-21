@@ -22,7 +22,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE, TACHES ET ANOS
 var fonctionnaliteWIZBII = creerBrancheDeFonctionnalite("feat/twenty/wizbii");
 var tache32803 = creerBrancheDeTache(fonctionnaliteWIZBII, "task/32803");
-
+var tache32710 = creerBrancheDeTache(fonctionnaliteWIZBII, "task/32710");
 var fonctionnalite31470 = creerBrancheDeFonctionnalite("feat/twenty/Q4Q-31470");
 
 var fonctionnaliteXPAY = creerBrancheDeFonctionnalite("feat/twenty/xpay");
@@ -52,6 +52,8 @@ var brancheReleaseQ4Q23_2 = creerBrancheDeSprint("DEV/23_2");
 // MERGES --------------------
 creerMerge(brancheReleaseQ4Q, ano32784);
 creerMerge(fonctionnaliteWIZBII, tache32803);
+creerMerge(brancheReleaseQ4Q, fonctionnaliteWIZBII);
+creerMerge(fonctionnaliteWIZBII, tache32710);
 creerMerge(brancheReleaseQ4Q, fonctionnaliteWIZBII);
 creerMerge(brancheReleaseQ4Q, fonctionnalite31470);
 creerMerge(brancheReleaseQ4Q, ano32722);
