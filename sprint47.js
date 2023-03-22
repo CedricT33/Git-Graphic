@@ -31,6 +31,7 @@ var tache28868 = creerBrancheDeTache(fonctionnaliteXPAY, "task/28868-xpay-harmon
 var fonctionnaliteCOOKIES = creerBrancheDeFonctionnalite("feat/cookies");
 var tache30198 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/30198-enabler-focus-cookies");
 var tache32770 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/32770-cookies-js-11.02");
+var tache30917 = creerBrancheDeTache(fonctionnaliteCOOKIES, "task/30917_valorisaion_cookies_suite");
 
 var fonctionnaliteAccesRapide = creerBrancheDeFonctionnalite("feat/accesRapides");
 
@@ -41,12 +42,13 @@ var fonctionnaliteDashboard = creerBrancheDeFonctionnalite("feat/twenty/dashboar
 
 var fonctionnalite31470 = creerBrancheDeFonctionnalite("feat/twenty/Q4Q-31470");
 
-var ano32784 = creerBrancheAnomalie(master, " fix/32784_erreur_fraud_manager");
-var ano32736 = creerBrancheAnomalie(master, " fix/32736-gerer-absence-du-nom-empreite");
-var ano30079 = creerBrancheAnomalie(master, " Fix/30079-accessibilite-cartes-boutons");
-var ano32722 = creerBrancheAnomalie(master, " fix/32722_vignette_mes_comptes");
-var ano33137 = creerBrancheAnomalie(master, " fix/33137");
-var ano32823 = creerBrancheAnomalie(master, " fix/32823");
+var ano32784 = creerBrancheAnomalie(master, "fix/32784_erreur_fraud_manager");
+var ano32736 = creerBrancheAnomalie(master, "fix/32736-gerer-absence-du-nom-empreite");
+var ano30079 = creerBrancheAnomalie(master, "Fix/30079-accessibilite-cartes-boutons");
+var ano32722 = creerBrancheAnomalie(master, "fix/32722_vignette_mes_comptes");
+var ano33137 = creerBrancheAnomalie(master, "fix/33137");
+var ano32823 = creerBrancheAnomalie(master, "fix/32823");
+var ano32177 = creerBrancheAnomalie(master, "fix/32177_typologie_virement");
 var brancheReleaseQ4Q = creerBrancheDeSprint("DEV/23_1");
 var brancheReleaseQ4Q23_2 = creerBrancheDeSprint("DEV/23_2");
 // MERGES --------------------
