@@ -64,6 +64,7 @@ creerMerge(brancheReleaseQ4Q, fonctionnaliteInfosTechnique);
 creerMerge(fonctionnaliteInfosTechnique, tache29787);
 creerMerge(brancheReleaseQ4Q23_2, ano32823);
 creerMerge(brancheReleaseQ4Q, ano33137);
+creerMerge(brancheReleaseQ4Q, ano32177);
 
 // FUUUUUUUSION -------------------
 
