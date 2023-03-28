@@ -52,6 +52,8 @@ var ano32177 = creerBrancheAnomalie(master, "fix/32177_typologie_virement");
 var brancheReleaseQ4Q = creerBrancheDeSprint("DEV/23_1");
 var brancheReleaseQ4Q23_2 = creerBrancheDeSprint("DEV/23_2");
 // MERGES --------------------
+creerMerge(brancheReleaseQ4Q, ano32736);
+creerMerge(brancheReleaseQ4Q, ano30079);
 creerMerge(brancheReleaseQ4Q, ano32784);
 creerMerge(fonctionnaliteWIZBII, tache32803);
 creerMerge(brancheReleaseQ4Q, fonctionnaliteWIZBII);
